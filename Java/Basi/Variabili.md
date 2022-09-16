@@ -1,0 +1,2 @@
+- variabile o Metodo - cammelCase (prima lettera minuscola)
+- variabile - deve iniziare con una lettera dell’alfabeto o underscore
