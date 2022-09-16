@@ -1,0 +1,10 @@
+- Bracket Pair Colorized 2 - v.0.2.1  -  by CoenraadS  -  colora le parentesi colorandole
+- CSS Peek - v.4.2.0  -  by Pranay Ptakash  -  partendo dal codice html che utilizza una regola di stile, mostra la parte del codice dei fogli di stile in cui è contenuta quella regola (evitando di aprire il file)
+- ESLint - v.2.2.0  -  by Microsoft  -  Controllore a livello sintattico 
+- Highlight Matching Tag - v.0.10.1  -  by vincaslt  -  evidenzia i tag che si corrispondono i apertura e chiusura
+- HTML CSS Support - v.1.10.2  -  by ecmel  -  potenzia supporto per html e css
+- IntelliSense for CSS class... - v...  -  by Zignd  -  
+- Iit-html - v.1.11.1  -  by Matt Bierner  -  migliora evidenziazione a livello sintattico
+- Material Icon Theme - v.4.11.0  -  by Philipp Kief  -  raccolta di icone (stile material design)
+- Tabnine - Code Faster with the All-Lan - v....  -  by TabNine -  no plus uktra usando "tecniche di inteligenza artificiale"
+- VS Color Picket - v.1.0.0  -  by lihui  -  scelta di colori da tavolozza ed incolla codifica numerica del colore
