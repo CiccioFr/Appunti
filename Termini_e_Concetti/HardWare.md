@@ -1,4 +1,5 @@
-## tabella di partizione
+# HardDisk
+## Tabella di partizione
 - MBR   Master Boot Record
 - GPT  
 
