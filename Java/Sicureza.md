@@ -1,2 +1,0 @@
-[Gestione della sicurezza con il JDK 1.2](http://www.di-srv.unisa.it/~ads/corso-security/www/CORSO-9900/java/mirror/mokabyte/sicurezza.htm)  
-
