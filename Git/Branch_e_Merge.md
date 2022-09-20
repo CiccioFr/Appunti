@@ -6,19 +6,20 @@
 - tutti i futuri comandi che eseguiremo saranno relativi proprio a quel ramo
 
 ---
+  
+> `git branch nomeBranch`
+- **creazione** nuovo Branch
+
+> `git branch -d nomeBranch`
+- **cancella** il ramo nomeBranch  
 
 > `git branch`
 - visualizza la lista dei branch esistenti
 
 > `git branch --no-merged`
 - visualizza branch non fusi nel ramo attuale
-  
-> `git branch nomeBranch`
-- creazione nuovo Branch
 
-> `git branch -d nomeBranch`
-- cancella il ramo nomeBranch  
-
+    `git help branch`
 ---
 
 > `git checkout master`  

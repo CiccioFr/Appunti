@@ -47,7 +47,8 @@ Comandi Base:
 - git init      -> Inizializza un repository git: crea la directory iniziale .git in un progetto nuovo o esistente.
                 Esempio:    git init  -->  Initialized empty Git repository in /home/customer/GIT/.git/
 
-- git add       -> Aggiunge le modifiche ai file nella directory di lavoro all’indice.
+- git add       -> Aggiunge i file all'area di staging  
+                   Aggiunge i file nella directory di lavoro all’indice.
                 Esempio:    git add .
 
 - git rm        -> Rimuove i file dall’indice e dalla directory di lavoro in modo che non vengano tracciati (inverso dell'add).
@@ -56,7 +57,7 @@ Comandi Base:
 
 - git commit    -> Accetta tutte le modifiche scritte nell’indice, crea un nuovo oggetto commit che lo punta e imposta il ramo in modo che punti a quel nuovo commit.
                 Esempi:     git commit -m 'committing added changes'
-                            git commit -a -m ‘committing all changes, equals to git add and git commit’
+                            git commit -a -m 'committing all changes, equals to git add and git commit'
 // ------       in caso di editor cli 
                     tasto   i
                     tasto   esc     //  q
@@ -71,7 +72,7 @@ ________________________________________________________________________________
                 Esempio:    git clone git@github.com:user/test.git
                             git clone https://github.com/cristiancarrino/bootstrap-lesson.git
 
-|||- Fork: Il processo di copia del codice altrui dal suo repository al proprio.
+|||- Fork: Il processo di copia del codice altrui, dal suo repository al nostro.
 
 - git pull      -> Scaricare nuovi dati dal repository remoto e li unisce a quello locale. (allinea con la versione remota)
                 Esempio:    git pull origin
