@@ -1,8 +1,20 @@
-# [Garbage Collector](http://www.di-srv.unisa.it/~ads/corso-security/www/CORSO-9900/java/mirror/mokabyte/garbagecollector.htm)
+# Garbage Collector
 
+da un lato fanno risparmiare tempo ed errori in fase di sviluppo dei programmi, dall'altro consumano memoria e tempo di CPU in fase di esecuzione del programma finito.  
+
+Solleva lo sviluppatore dall'aritmetica dei puntatori, ovvero dall'onere della gestione della memoria, affidando al **`Gargbage Collection`** l'automatismo di allocare e rilasciare memoria a seconda delle esigenze del programma.  
+
+La JVM fornisce attualmente quattro diversi **Garbage Collector**, tutti generazionali, ciascuno progettato per soddisfare requisiti diversi. Java SE seleziona il Garbage Collector più appropriato in base alla classe del computer su cui viene eseguita l'applicazione.  
+Il **Garbage Collector** (**GC**) gestisce automaticamente le richieste di allocazione di memoria dinamica dell'applicazione. (è la tecnologia)  
+La **Garbage Collection** automatica **è un processo** di osservazione della memoria Heap, che identifica o meglio “marchia” (si parla infatti di marking process) gli oggetti irraggiungibili li distrugge e compatta la memoria liberata per un uso successivo più efficiente.  
+metodologia denominata Garbage Collection Generazionale.  
+http://losviluppatore.it/java-la-garbage-collection/  
+https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html  
+
+## [UniSa](http://www.di-srv.unisa.it/~ads/corso-security/www/CORSO-9900/java/mirror/mokabyte/garbagecollector.htm)  
 Il garbage collector è un meccanismo che tiene traccia delle locazioni di memoria utilizzate e le libera solo quando non sono effettivamente più necessarie. Java non permette a un programmatore di accedere ad una qualsiasi locazione di memoria come avviene in altri linguaggi.  In Java non esistono puntatori con le stesse caratteristiche di quelli del C/C++. I puntatori in Java sono solo dei riferimenti ad oggetti allocati dinamicamente su uno heap e distrutti attraverso un meccanismo automatico di garbage collection. Le specifiche della Java Virtual Machine (JVM) non danno informazioni particolareggiate sul procedimento di garbage collection che viene utilizzato. In questo articolo, pertanto, verranno analizzate le più comuni tecniche usate nelle fasi principali di determinazione degli oggetti da eliminare, e nella conseguente operazione di compattamento dell'heap.
 
-Cos'è il garbage collector
+### Cos'è il garbage collector  
 Nei linguaggi object-oriented la creazione di un oggetto consiste di due fasi principali: allocazione ed inizializzazione della memoria. In Java esistono due categorie di tipi di dato e l'allocazione della memoria è gestita in modo diverso per ognuna di esse. Una classe è quella dei tipi primitivi come char, int, boolean, float, byte, short, long, double. Essi sono allocati direttamente sullo stack o in un'istanza. Tutti gli altri tipi di dati sono sottoclassi di java.lang.Object allocati dinamicamente all'interno del programma per mezzo dell'operatore new. Quando la JVM incontra un'istruzione new alloca la memoria e richiama il costruttore per inizializzarla. La zona di memoria che contiene gli oggetti si chiama Java heap e sarà il campo di azione del garbage collector.
 
 Per costruzione Java non offre al programmatore la possibilità di deallocare gli oggetti in modo esplicito. Quando un oggetto non è più referenziato, ovvero quando non ci sono più oggetti che lo utilizzano, può essere distrutto. Il garbage collector è una speciale routine di sistema che scandisce il Java Heap liberando la memoria occupata dagli oggetti non più referenziati.

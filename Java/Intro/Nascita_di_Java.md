@@ -22,7 +22,6 @@ Acquisito successivamente dalla **`Oracle Corporation`**
 - **Multipiattaforma**, ovvero esecuzione indipendente dalla piattaforma
 - Sicurezza grazie alla **sandbox**
 - Dotato di **`Garbage Collector`**: modalità automatica di gestione della memoria  
-    Solleva lo sviluppatore dall'aritmetica dei puntatori, ovvero dall'onere della gestione della memoria, affidando al **`Gargbage Collection`** l'automatismo di allocare e rilasciare memoria a seconda delle esigenze del programma
 - sollevato dall'ereditarietà multipla delle classi _(ma questa so che è possibile.. devo fare ricerche)_:
 - in Java2 - riscrittura del sistema di event handling (aggiunta dell'Event Listner)
 - in Java2 - introduzione del **`JIT`** (**`Just In Time compiler`**)
@@ -31,12 +30,6 @@ Acquisito successivamente dalla **`Oracle Corporation`**
     - **J2ME** (Java 2 Micro Edition), destinata allo sviluppo si dispositivi mobile ed embedded
     - e per enfatizzarne la nascita la distribuzione "classicà" fu rinominata **J2SE** (Java 2 Standard Edition). 
 
----
-## Convenzioni
-- cammelCase
-- Nome Classi con iniziale Maiuscola
-- nome metodi e variabili con iniziale minuscola
-- uso dell'underscore "_" per variabili.. (di sistema??)
 
 ---
 maggiori dettagli:  

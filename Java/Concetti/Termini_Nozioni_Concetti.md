@@ -1,6 +1,12 @@
 # Termini Nozioni e Concetti
 **`Identificatore`** > Nome assegnato variabile/metodo/classe
 
+---
+## Convenzioni
+- cammelCase
+- Nome Classi con iniziale Maiuscola
+- nome metodi e variabili con iniziale minuscola
+- uso dell'underscore "_" per variabili.. (di sistema??)
 
 **`Easy Evaluation`** - Valutazione pigra: "primo && secondo" valuta il primo, se falso non considera il secondo, ecc..
 
@@ -12,8 +18,8 @@ Sono Metodi le .
 [throws Eccezione1, Eccezione2, ...] {
     // blocco di codice appartenente al metodo
 return var; }
- - variabili formali: parametro1, ..., parametroN
- - parametri attuali (alias valori attuali): I valori che inseriamo al momento della chiamata del metodo:
+- variabili formali: parametro1, ..., parametroN
+- parametri attuali (alias valori attuali): I valori che inseriamo al momento della chiamata del metodo:
     - valori attuali: es. String txt = Classe.metodo("valore attuale");
 
 [link](https://www.html.it/pag/50139/i-metodi-in-java/)
