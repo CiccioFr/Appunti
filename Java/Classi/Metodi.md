@@ -1,4 +1,9 @@
-- Metodo - deve iniziare con una lettera dell’alfabeto o _
+## **`metodi`**  
+Tutti i linguaggi di programmazione forniscono la possibilità di definire, sotto un solo nome (**`identificatore`**), interi gruppi di istruzioni o insiemi di linee di codice o blocchi di espressioni (**`statements`**), che dir si voglia.  
+Questi aggregati, a seconda del linguaggio, si chiamano funzioni, procedure, subroutines o sottoprogrammi. In Java questi blocchi di codice prendono il nome di **`metodi`**.  
+Convenzione: iniziare i nomi dei metodi con un _carattere minuscolo_ e proseguire con il consueto camelcase.
+
+- deve iniziare con una lettera dell’alfabeto o _
 
 **`String[] args`** del metodo main è un parametro che viene inizializzato all'avvio del programma con ciò che viene inserito da terminale dopo "java [nomedelprogramma]".
 

@@ -1,14 +1,9 @@
-## **`metodi`**  
-Tutti i linguaggi di programmazione forniscono la possibilità di definire, sotto un solo nome (**`identificatore`**), interi gruppi di istruzioni o insiemi di linee di codice o blocchi di espressioni (**`statements`**), che dir si voglia.  
-Questi aggregati, a seconda del linguaggio, si chiamano funzioni, procedure, subroutines o sottoprogrammi. In Java questi blocchi di codice prendono il nome di **`metodi`**.  
-Vige la convenzione di far iniziare i nomi dei metodi con un _carattere minuscolo_ e proseguire con il consueto camelcase.
-
----
 ## `Signature`, la `firma dei metodi`
 In Java un metodo è univocamente determinato (oltre che dalla classe a cui appartiene naturalmente) dal suo identificatore e dalla lista dei tipi dei parametri che riceve in input. Tutto questo definisce la signature del metodo (la firma).  
 In questo modo possiamo sovraccaricare un identificatore di metodo con diverse definizioni ed effettuare il cosiddetto **`overloading`**.  
 
 ```java
+// METODO
 [public|protected|private] [static] [final] Tipo
 	identificatore([Tipo1 parametro1, ..., TipoN parametroN])
 	[throws Eccezione1, Eccezzione2, ...] {
@@ -19,8 +14,7 @@ In questo modo possiamo sovraccaricare un identificatore di metodo con diverse d
 ```
 
 ---
-## Modificatori di visibilità
-o Access Modifiers - modificatori d'accesso  
+## Modificatori di visibilità / accesso
 o qualificatori del metodo:  
 - **`public`** visibile dovunque
 - **`private`** visibilità locale - limita la visibilità solo nella classe stessa
@@ -30,11 +24,17 @@ o qualificatori del metodo:
 
 
 ---
-## Il qualificatore **`final`**
-Il qualificatore **`final`** serve, nel caso dei metodi, per rendere un metodo non ridefinibile dalle sottoclassi: se un metodo viene contrassegnato come final le sottoclassi lo potranno utilizzare e lo erediteranno (quindi lo avranno disponibile) ma non potranno modificarlo (o come si dice comunemente: non potranno fare override del metodo).  
+# I Qualificatori
 
-## Static
-
+## Per attributi e metodi
+Qualificatore | Descrizione
+--- | --- 
+final       | 	Attributi e metodi non possono essere sovrascritti (overridden) o modificati
+static      | 	Attributes and methods belongs to the class, rather than an object
+abstract    | 	Can only be used in an abstract class, and can only be used on methods. The method does not have a body, for example abstract void run();. The body is provided by the subclass (inherited from). You will learn more about inheritance and abstraction in the Inheritance and Abstraction chapters
+transient   | 	Attributes and methods are skipped when serializing the object containing them
+synchronized    | 	Methods can only be accessed by one thread at a time
+volatile    | 	The value of an attribute is not cached thread-locally, and is always read from the "main memory"
 
 ---
 ## Parametri

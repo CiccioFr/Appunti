@@ -3,6 +3,7 @@
 - [Guide del web.md](./Guide_del_web.md)
 - [una SuperGuida Java ??](https://ita.myservername.com/java-tutorial-beginners) - WebLink
 - http://losviluppatore.it/category/java/
+- http://www.acosani.it/java/java001.html
 
 ### Introduzione
 1. [La nascita di Java e sue caratteristiche](./Intro/Nascita_di_Java.md)
@@ -54,6 +55,7 @@
 1. [Eccezioni](./Eccezioni.md)
 8. [Sicurezza](./Sicurezza.md)
 1. [Asserzioni](./Avanzato/Asserzioni.md)
+1. [Iterator](./Avanzato/Iterator.md)
 
 https://docs.oracle.com/en/java/javase/index.html  
 
@@ -64,6 +66,7 @@ Link:
 1. [Dipendenze](./Dipendenze/Dipendenze.md)
 
 ### Framework
+1. [Collections](./Framework/Collections.md)
 1. [Spring](./Framework/Spring.md)
 
 ### Connessioni con Angular
