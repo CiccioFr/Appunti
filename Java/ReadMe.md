@@ -14,7 +14,7 @@
 ### Concetti
 1. [Termini - Nozioni - Concetti](./Concetti/Termini_Nozioni_Concetti.md)
 1. [da sistemare](./Concetti/da%20sistemare.md)
-1. [OOP - Peculiarità](./Concetti/OOP.md)
+1. [OOP - Peculiarità](./../OOP/OOP.md)
 1. [Qualificatori](./Concetti/Qualificatori.md)
 1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
 
@@ -51,9 +51,9 @@
 
 ### Avanzato
 
-1. [Garbage Collector](./Garbage_Collector.md)
+1. [Garbage Collector](./../Java/Avanzato/Garbage_Collector.md)
 1. [Eccezioni](./Eccezioni.md)
-8. [Sicurezza](./Sicurezza.md)
+8. [Sicurezza](./../Java/Avanzato/Sicurezza.md)
 1. [Asserzioni](./Avanzato/Asserzioni.md)
 1. [Iterator](./Avanzato/Iterator.md)
 

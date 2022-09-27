@@ -13,3 +13,6 @@ tipi di metodi:     -- metodo di istanza (pg 337)
  - metodo di istanza - senza static // chiamata di un metodo NON static (prima devo fare inizializzare Scanner)
      - Scanner tastiera = new Scanner(System.in);
      - String a = tastiera.nextLine();
+
+Metodo `toString()` -> ritorna una stringa che rappresenta un oggetto  
+Metodo `equals()` -> 
