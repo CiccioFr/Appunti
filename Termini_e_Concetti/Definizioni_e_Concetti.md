@@ -118,11 +118,11 @@ software commerciale proprietario per la gestione di spazi di web hosting. [Wiki
 - MongoDB
 
 
-## non conosco
+## altri DataBase
 - FileMaker Pro, 
 - Oracle Database 
 - dBASE
-- Microsoft Access, 
+- Microsoft Access
 
 ---
 ---
