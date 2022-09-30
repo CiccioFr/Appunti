@@ -1,12 +1,17 @@
-## Elenco programmini:
+# Utility
 
+## Utility per Windows
+winmerge compara cartelle
+
+## Testare API
 - [postman](https://www.postman.com/)  
 da terminale si avvia -> ./postman
-- dd
 
-## OnLine
-[heroku.com](https://www.heroku.com/) -> [SERVER](./Server.md) per appoggiare codice
-
+## Server
+- **Plesk** (Parallels Plesk Panel)  
+    software commerciale proprietario per la gestione di spazi di web hosting.  
+    Linguaggio di programmazione: PHP  
+    [Wikipedia](https://it.wikipedia.org/wiki/Plesk)
 
 ---
 
@@ -14,5 +19,7 @@ google dns dig tool
 cdn
 https://tools.pingdom.com/
 
-
-**Plesk** (Parallels Plesk Panel): software commerciale proprietario per la gestione di spazi di web hosting. [Wikipedia](https://it.wikipedia.org/wiki/Plesk)
+## SERVER per Deploy
+- [heroku.com](https://www.heroku.com/)  
+    percorso -> products -> Heroku Platform  
+    ogni 30 min lo spegne (altrimenti paghi)  

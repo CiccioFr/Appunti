@@ -1,0 +1,2 @@
+[$wp taxonomies woocommerce programmatically](https://www.google.com/search?q=%24wp+taxonomies+woocommerce+programmatically&client=firefox-b-d&sxsrf=ALiCzsaqPj4IMnGW4oWVPbi30ZbOBTEvaQ%3A1652269338263&ei=GqF7Yu3VD76Gxc8PqKyEiAo&ved=0ahUKEwjtyuv3rtf3AhU-Q_EDHSgWAaEQ4dUDCA0&uact=5&oq=%24wp+taxonomies+woocommerce+programmatically&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6CAgAEBYQChAeOgYIABAWEB46BQghEKABOggIIRAWEB0QHjoECCEQFToHCCEQChCgAUoECEEYAEoECEYYAFDeBViKJWDwLWgBcAF4AIABiwGIAZINkgEEMTEuNpgBAKABAcgBCMABAQ&sclient=gws-wiz)
+

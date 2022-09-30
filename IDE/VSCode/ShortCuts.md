@@ -30,3 +30,9 @@ Ctrl  + Shift + i    ->  indentazione Ubuntu
 ---
 ### ???  
 Ctrl + E + W	=> a Capo automatico attiva/disattiva  
+
+---
+## HTML - Scrivere codice velocemente:
+    table>thead>tr>th*2>    + tab
+    tbody>tr*2>td*2         + tab
+    tfoot>tr>td*2>          + tab

@@ -5,6 +5,11 @@
 
 `HTTP` (Hyper Text Transfer Protocol: protocollo di trasferimento degli ipertesti)
 
+### `URL-encoding`
+Lista di caratteri ASCII in formato "URL-encoding" (formato esadecimale).  
+I valori esadecimali possono essere utilizzati per visualizzare, all'interno di Browser o Plug-in, le lettere e i caratteri non standard.  
+ [WebLink](https://www.bettiolo.com/custom/1/tools/Utilit%C3%A0%20per%20il%20programmatore%20Web/URL%20Encoding%20-%20Lista%20caratteri.asp)  
+
 [Google Search Console](https://www.google.com/webmasters/tools/home) tool di Google per verificare se è presente qualche errore 404 nel blog
 
 `Visual content` contenuto visuale: scritti e immagini sono uno strumento di comunicazione potente ed efficace
@@ -26,7 +31,8 @@ Grazie al file .htaccess è possibile:
 è necessario **verificare che la configurazione di Apache** ammetta l'override delle dirtettive centrali. Per il dominio utilizzato, la direttiva del web-server non deve diventare:
 > `AllowOverride None` -> `AllowOverride All`
 
-`Docker` è un progetto open-source che automatizza il processo di `deployment` di applicazioni all'interno di contenitori software
+## `Docker`
+è un progetto open-source che automatizza il processo di `deployment` di applicazioni all'interno di contenitori software
 
 > [`Transpilazione`](https://it.quora.com/Qual-%C3%A8-la-differenza-tra-la-transpilazione-e-la-compilazione-nella-programmazione-per-computer)  
 
@@ -36,11 +42,12 @@ Nella transpilazione un linguaggio di programmazione di alto livello viene trado
 Scripting:  deve essere ospitato in un ambiente di esecuzione  
 Un linguaggio di scripting, in informatica, è un linguaggio di programmazione interpretato destinato in genere a compiti di automazione del sistema operativo (batch) o delle applicazioni (macro), o a essere usato nella programmazione web all'interno delle pagine web.
 
-Concetto di **Pattern**: come soluzione a un problema ricorrente  
+## **`Pattern`**: soluzione a un problema ricorrente  
 Un **design pattern** descrive una soluzione generale a un problema di progettazione ricorrente, gli attribuisce un nome, astrae e identifica gli aspetti principali della struttura utilizzata per la soluzione del problema, identifica le classi e le istanze partecipanti e la distribuzione delle responsabilità, descrive quando e come può essere applicato. In breve definisce un problema, i contesti tipici in cui si trova e la soluzione ottimale allo stato dell'arte.  
 **design pattern** (schema progettuale, schema di progettazione, o schema architetturale), in informatica e specialmente nell'ambito dell'ingegneria del software, è un concetto che può essere definito "una soluzione progettuale generale ad un problema ricorrente  
 
-**CORS** (Cross-Origin Resource Sharing) è un sistema di sicurezza che consente di richiedere delle risorse da una pagina web ad un altro dominio esterno rispetto al richiedente  
+## **CORS** (Cross-Origin Resource Sharing)
+Sistema di sicurezza che consente di richiedere delle risorse da una pagina web ad un altro dominio esterno rispetto al richiedente  
 I browser moderni utilizzano la stessa politica di origine (**SOP**) per impostazione predefinita. Questo significa che il recupero di risorse da altre origini non è consentito. Tuttavia, in alcuni casi, tali operazioni sono necessarie.  
 CORS è stato progettato per affrontare simili circostanze utilizzando le intestazioni di risposta HTTP, che includono Access-Control-Allow-Origin [link](https://www.coretech.it/it/service/articoli/articoli.php?ID=1425)
 

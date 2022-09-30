@@ -1,0 +1,1 @@
+[guida custom post](https://frammentidicodice.com/custom-post-type/)
