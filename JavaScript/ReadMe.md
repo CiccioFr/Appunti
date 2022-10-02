@@ -11,3 +11,7 @@
 9. [](./)
 
 [EventListener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+
+---
+## Guide dal Web
+- https://it.javascript.info/

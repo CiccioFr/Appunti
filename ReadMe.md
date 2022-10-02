@@ -11,6 +11,7 @@
 1. [C#](./C%23/ReadMe.md)
 1. [PHP](./PHP/ReadMe.md)
 1. [C/C++](./C%2B%2B/ReadMe.md)
+1. [NodeJs](./NodeJs/ReadMe.md)
 
 - ### [DataBase](./DataBase/ReadMe.md)
 
@@ -20,6 +21,7 @@
 1. [TypeScript](./TypeScript/ReadMe.md)
 1. [jQuery](./jQuery/ReadMe.md)
 1. [Angular](./Angular/ReadMe.md)
+1. [React](./React/ReadMe.md)
 
 ---
 1. [HTML](./HTML/ReadMe.md)
@@ -38,6 +40,8 @@
 ---
 ### 
 1. [Git](./Git/ReadMe.md)
+1. [NPM](./NPM/ReadMe.md)
+1. [PowerShell](./PowerShell/ReadMe.md) 
 1. [Pattern](./Pattern/ReadMe.md)
 1. [UML](./UML/ReadMe.md)
 1. [Chiave SSH](./Chiave_SSH/Chiave%20per%20GitHub.md)
