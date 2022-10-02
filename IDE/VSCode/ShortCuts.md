@@ -13,11 +13,11 @@ Ctrl  +  f           ->  ricerca testo
 Ctrl  +  h           ->  sostituisce testo  
 Ctrl  +  F2          ->  Seleziona tutte le occorenze  
 
-Ctrl + K + C	=> Commenta la Selezione  
-Ctrl + K + U	=> Decommenta  
-Ctrl + K + D	=> Indenta Tutto il codice  
-Ctrl + K + F	=> Indenta le righe Selezionate   
-Ctrl + K + K	=> Segnalibro attiva/disattiva  
+Ctrl + K + C	    => Commenta la Selezione  
+Ctrl + K + U	    => Decommenta  
+Ctrl + K + D	    => Indenta Tutto il codice  
+Ctrl + K + F	    => Indenta le righe Selezionate   
+Ctrl + K + K	    => Segnalibro attiva/disattiva  
 Ctrl + tab +tab	// il doppio tab estende alla stringa del comnado  
 
 
