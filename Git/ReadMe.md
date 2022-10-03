@@ -1,11 +1,12 @@
 ## Git e GitHub
 0. [Vademecum](./GitHub%20Vademecum.txt) - File di Testo
 1. [GitHub info](./GitHub_info.md)
-2. [appunti](Appunti.md)
-3. [creare chiave SSH.txt](creare_chiave_SSH.txt) - File di Testo
-4. [Creazione Token GitHub](Creazione_Token_GitHub.md)
-5. [GitHub comandi](GitHub_comandi.md)
-6. [Branch e Merge](Branch_e_Merge.md)
+2. [appunti](./Appunti.md)
+3. [creare chiave SSH.txt](./creare_chiave_SSH.txt) - File di Testo
+4. [Creazione Token GitHub](./Creazione_Token_GitHub.md)
+5. [GitHub comandi](./GitHub_comandi.md)
+6. [Branch e Merge](./Branch_e_Merge.md)
+6. [il file `.gitignore`](./file_gitignore.md)
 7. [Spostare dei commit su un nuovo ramo in Git](https://devdev.it/spostare-dei-commit-su-un-nuovo-ramo-in-git-703/) - webLink  
 
 [git - la guida tascabile](https://rogerdudler.github.io/git-guide/index.it.html)  
