@@ -56,7 +56,7 @@ Ambiente di Sviluppo Integrato
 1. [Visual Studio Community](./IDE/VisualStudioCommunity/ReadMe.md)
 1. [IntelliJ IDEA](./IDE/IntelliJ_IDEA/ReadMe.md)
 1. [Eclipse](./IDE/Eclipse/ReadMe.md)
-1. [NetBeans](./NetBeans/ReadMe.md)
+1. [NetBeans](./IDE/NetBeans/ReadMe.md)
 
 ---
 ### Editor di Codice Sorgente
