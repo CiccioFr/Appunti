@@ -1,5 +1,5 @@
 # Visual Studio Code
-## Visual Studio Code è un editor di codice sorgente 
+## Visual Studio Code è un Editor di Codice Sorgente 
 
 [ShortCuts](./ShortCuts.md)  
 [Emmet](./Emmet.md)  

@@ -1,4 +1,7 @@
-IntelliJ IDEA keyboard shortcuts
+# IntelliJ_IDEA
+della JetBrains che supporta il linguaggio Java e numerosi altri linguaggi
+
+## keyboard shortcuts
 
 ctrl + alt + i  -> Indenta intenta riga
 
@@ -25,5 +28,5 @@ Shift+F2        -> Passa all'errore evidenziato precedente o successivo
 Alt+F7          -> Trova usi
                     Mostra tutti i punti in cui un elemento di codice viene utilizzato nel tuo progetto.
 
------------ Java --------
+----------- Java --------  
 sout + tab      -> System.out.println();
