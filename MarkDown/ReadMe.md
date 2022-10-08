@@ -2,6 +2,14 @@
 
 - [ ] `- [ ]` - Quadratino di flag
 - [x] `- [x]` - Quadratino flaggato
+
+---
+## codice
+```js
+console.log("I'm a code block!");
+```
+
+---
 ## Tabella:
 
 Column | Column | Column
@@ -20,31 +28,32 @@ simboli | Descr. / rappresentazione  | dimesione
 
 ---
 
-`$ f(x+y) $` - Formule matematiche in line: $ \bullet  f(x+y) $
+<details> <summary>Spoiler warning - Cliccami per aprire</summary>
 
-`$$ f(x+y) $$` - Formule matematiche cento pagina $$ f(x+y) $$
-altri simboli $ f(x,\ast) f(x,\star) f(x,\cdot) f(x,\bullet)  $
+`<details open> <summary>Spoiler warning</summary>`  
+riga vuota!!  
+> contenuto  
 
-<details>
-  <summary>Spoiler warning</summary>
-
-Spoiler text. Note that it's important to have a space after the summary tag.   
-You should be able to write any markdown you want inside the `<details>` tag...  
-just make sure you close `<details>` afterward.
-```javascript
-console.log("I'm a code block!");
-```
-
+`</details>`
 </details>
 
+---
 ![img](https://fakeimg.pl/100)
 
+---
 [URL-encoding](https://www.bettiolo.com/custom/1/tools/Utilit%C3%A0%20per%20il%20programmatore%20Web/URL%20Encoding%20-%20Lista%20caratteri.asp)  
 Lista di caratteri ASCII in formato "URL-encoding" (formato esadecimale).  
 I valori esadecimali possono essere utilizzati per visualizzare, all'interno di Browser o Plug-in, le lettere e i caratteri non standard.  
 
+---
 [Pandoc (vocabolo)](../Utility/ReadMe.md/#Pandoc)
 
+---
+## Formule matematiche "NON FUNGE SU GitHub!!"
+`$ f(x+y) $` - Formule matematiche in line: $ \bullet  f(x+y) $
+
+`$$ f(x+y) $$` - Formule matematiche cento pagina $$ f(x+y) $$
+altri simboli $ f(x,\ast) f(x,\star) f(x,\cdot) f(x,\bullet)  $
 
 ---
 ## Guide on-line
