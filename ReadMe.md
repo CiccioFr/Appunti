@@ -2,6 +2,7 @@
 
 ## Un pò di [Termini e Concetti](./Termini_e_Concetti/ReadMe.md)
 
+* [ ] prova
 ---
 ## Linguaggi di Programmazione
 1. [OOP](./OOP/OOP.md)
@@ -13,10 +14,8 @@
 1. [C/C++](./C%2B%2B/ReadMe.md)
 1. [NodeJs](./NodeJs/ReadMe.md)
 
----
 - ### [DataBase](./DataBase/ReadMe.md)
 
----
 ### FrontEnd
 1. [JavaScript](./JavaScript/ReadMe.md)
 1. [TypeScript](./TypeScript/ReadMe.md)
@@ -25,6 +24,7 @@
 1. [React](./React/ReadMe.md)
 
 ---
+### MarkDown
 1. [HTML](./HTML/ReadMe.md)
 1. Formattazione di HTML
     - [CSS](./CSS/ReadMe.md)
@@ -34,8 +34,7 @@
 
 ---
 1. [MarkDown](./MarkDown/ReadMe.md)
-1. Latec
-1. Pandoc
+1. [Latec](./LaTeX/ReadMe.md)
 
 ---
 ### CMS - Content Management System

@@ -67,9 +67,9 @@ Pacchetti di software che contengono tutti gli elementi necessari (librerie, str
 Kubernetes?  
 
 ---
-### [`Transpilazione`](https://it.quora.com/Qual-%C3%A8-la-differenza-tra-la-transpilazione-e-la-compilazione-nella-programmazione-per-computer)  
-
-Nella transpilazione un linguaggio di programmazione di alto livello viene tradotto automaticamente da un transpiler (che è un programma) in un altro linguaggio di programmazione di alto livello. Quest’ultimo poi può essere compilato o interpretato per essere eseguito come al solito.
+### `Transpilazione`
+Nella transpilazione un linguaggio di programmazione di alto livello viene tradotto automaticamente da un transpiler (che è un programma) in un altro linguaggio di programmazione di alto livello. Quest’ultimo poi può essere compilato o interpretato per essere eseguito come al solito.  
+[link sul web](https://it.quora.com/Qual-%C3%A8-la-differenza-tra-la-transpilazione-e-la-compilazione-nella-programmazione-per-computer)  
 
 ---
 ### Scripting

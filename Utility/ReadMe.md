@@ -23,3 +23,8 @@ https://tools.pingdom.com/
 - [heroku.com](https://www.heroku.com/)  
     percorso -> products -> Heroku Platform  
     ogni 30 min lo spegne (altrimenti paghi)  
+
+---
+## Pandoc
+convertitore di documenti software gratuito  
+ampiamente utilizzato come strumento di scrittura e come base per i flussi di lavoro di pubblicazione
