@@ -2,7 +2,7 @@
 
 ## Un pò di [Termini e Concetti](./Termini_e_Concetti/ReadMe.md)
 
-* [ ] prova
+- [ ] prova
 ---
 ## Linguaggi di Programmazione
 1. [OOP](./OOP/OOP.md)
@@ -34,7 +34,7 @@
 
 ---
 1. [MarkDown](./MarkDown/ReadMe.md)
-1. [Latec](./LaTeX/ReadMe.md)
+1. [LaTeX](./LaTeX/ReadMe.md)
 
 ---
 ### CMS - Content Management System
