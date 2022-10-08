@@ -1,3 +1,7 @@
+### `ReGex` - `regular expression` (Espressione Regolare)
+Sequenza di simboli scritta con sintassi specifica che identifica un insieme di stringhe  
+[link google](https://support.google.com/a/answer/1371415?hl=it)
+
 ### `Snippet`  
 frammento di codice sorgente
 
