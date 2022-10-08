@@ -1,7 +1,7 @@
 # MarkDown
 
-`- [ ]` - [ ] - Quadratino di flag
-`- [x]` - [x] - Quadratino di flaggato
+- [ ] - [ ] - Quadratino di flag
+- [x] - [x] - Quadratino di flaggato
 ## Tabella:
 
 Column | Column | Column
