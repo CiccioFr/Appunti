@@ -27,7 +27,8 @@
 1. [React](./React/ReadMe.md)
 
 ---
-### MarkDown
+## MarkUp
+linguaggio di marcatura o linguaggio di formattazione
 1. [HTML](./HTML/ReadMe.md)
 1. Formattazione di HTML
     - [CSS](./CSS/ReadMe.md)
@@ -47,7 +48,7 @@
 
 ---
 ### 
-1. [Git](./Git/ReadMe.md)
+1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
 1. [NPM](./NPM/ReadMe.md)
 1. [PowerShell](./PowerShell/ReadMe.md) 
 1. [Pattern](./Pattern/ReadMe.md)
@@ -57,7 +58,7 @@
 1. [Browser](./Browser/ReadMe.md)
 
 ---
-### [IDE](./IDE/ReadMe.md) - Integrated Development Environment
+### IDE - Integrated Development Environment
 Ambiente di Sviluppo Integrato
 
 1. [Visual Studio Community](./IDE/VisualStudioCommunity/ReadMe.md)
