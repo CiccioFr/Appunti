@@ -3,6 +3,10 @@
 ## Un pò di [Termini e Concetti](./Termini_e_Concetti/ReadMe.md)
 
 ---
+## O.S.
+1. [Linux](./Linux/ReadMe.md)
+
+---
 ## Linguaggi di Programmazione
 1. [OOP](./OOP/OOP.md)
 

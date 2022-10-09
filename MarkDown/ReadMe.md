@@ -46,6 +46,8 @@ Lista di caratteri ASCII in formato "URL-encoding" (formato esadecimale).
 I valori esadecimali possono essere utilizzati per visualizzare, all'interno di Browser o Plug-in, le lettere e i caratteri non standard.  
 
 ---
+## Correlati
+[LaTeX](../LaTeX/ReadMe.md)  
 [Pandoc (vocabolo)](../Utility/ReadMe.md/#Pandoc)
 
 ---
