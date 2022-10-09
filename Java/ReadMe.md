@@ -34,7 +34,7 @@
 1. [La Firma](./Classi/La_Firma.md)
 1. [Get e Set](./Classi/Get_e_Set.md)
 1. [Class Loader](./Classi/Class_Loader.md)
-1. [Classi Predefinite di Java](./Classi/Classi_Predefinite_Java.md)
+1. [Classi Predefinite di Java](./Classi/Classi.md#Principali)
 
 ### L'inizio del Codice
 1. [Creazione Progetto Java](./Creazione_Progetto_Java.md)
