@@ -2,7 +2,7 @@
 1. [Generali](./Definizioni_e_Concetti.md)
 1. [Programmazione](./Programmazione.md)
 1. [HardWare](./HardWare.md)
-    - [HardDisk](./HardWare.md/#harddisk)
+
 
 
 ### Numeri di Fibonacci
