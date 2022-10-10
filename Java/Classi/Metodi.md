@@ -55,3 +55,5 @@ public class Quadrato implements Cloneable {
        
 }
 ```
+
+## [Comparazione e ordinamento degli oggetti in Java](https://www.iprogrammatori.it/articoli/java/art_comparazione-e-ordinamento-degli-oggetti-in-java_1659.aspx)

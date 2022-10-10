@@ -35,3 +35,6 @@ I costrutti di controllo di un linguaggio di programmazione strutturata sono que
 - **Costrutti di Selezione**  
     Costrutti di selezione in C, C++ e Java sono rappresentativi di quelli generalmente disponibili in qualsiasi linguaggio di programmazione di alto livello. Possiamo distinguere due tipi fondamentali di costrutto di selezione: 
     `if-else`, `switch`
+
+# algoritmo di ordinamento
+giusto per citarne alcuni: Bubble sort, Heap sort, Merge sort, Quicksort, Shell sort 
