@@ -25,3 +25,7 @@ Arrays.fill(array, 0); //immagazina in tutti gli elementi dell'arrey il 2° valo
 
 Arrays.fill(array, indexInizio, indexFine, valore);
 - array, inizio index, fine index, valore da immetere
+
+
+https://it.wikipedia.org/wiki/Hash_table
+https://it.wikipedia.org/wiki/Funzione_di_hash

@@ -10,8 +10,10 @@ I tipi ammessi in un programma Java sono i seguenti:
     - float,
     - double.
 - **Reference Type** (classi, interfacce e tipi array);
-- il **nulltype**;
+- il **nulltype**; - Il simbolo null rappresenta un valore che non è il reference di alcun oggetto.  
 - il tipo degenere **void**.
+
+[Tipi_di_dato - link Wikipedia](https://it.wikibooks.org/wiki/Java/Tipi_di_dato)
 
 ---
 - il programma accede a un oggetto sempre e solo tramite "**reference**", che svolge un ruolo analogo a quello del **puntatore** del C.  
@@ -30,3 +32,6 @@ CONVENZIONI:
 classe wrapper (es Integer) : ogni tipo primitivo ha una classe omonima con dei metodi, java riesce a convertire di default i valori
 
 - [Array](./Tipi_di_Dati/Array.md)
+
+
+https://it.wikipedia.org/wiki/IEEE_754
