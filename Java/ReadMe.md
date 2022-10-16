@@ -12,9 +12,9 @@
 1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
 
 ### Le Basi
+1. [Lessico](./Basi/Variabili.md)
 1. [Tipi di Dati](./Basi/Tipi_di_Dati.md)
 1. [Gli Operatori](./Basi/Operatori.md)
-1. [Le Variabili](./Basi/Variabili.md)
 1. [Costrutti Condizionali](./Basi/Costrutti_Condizionali.md)
 1. [Costrutti Iterativi](./Basi/Costrutti_Iterativi.md)
 
@@ -27,7 +27,7 @@
 1. [La Firma](./../OOP/La_Firma.md)
 1. [Get e Set](./Classi/Get_e_Set.md)
 1. [Class Loader](./Classi/Class_Loader.md)
-1. [Classi Predefinite di Java](./Classi/Classi.md#Principali)
+1. [Classi Predefinite di Java](./Classi/Classi.md)
 
 ### L'inizio del Codice
 1. [Creazione Progetto Java](./Creazione_Progetto_Java.md)

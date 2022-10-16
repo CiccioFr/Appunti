@@ -7,7 +7,7 @@ L'oggetto è l'istanza della classe.
 ```java
 Tipo nomeOggetto = new Classe (parametri)
 ```
-
+parola chiave this (pg 342 libro) rappresenta l'oggetto stesso // è obbligatorio se i nomi delle variabili sono uguali, altrimenti omissibile
 
 Il Costruttore DEVE avere lo stesso nome della classe.  
 Può ricevere zero o più parametri.  
