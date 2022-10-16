@@ -1,6 +1,6 @@
 # Appunti informatici
 
-## Un pò di [Termini e Concetti](./Termini_e_Concetti/ReadMe.md)
+## [Termini e Concetti](./Termini_e_Concetti/ReadMe.md)
 
 ---
 ## O.S.
@@ -8,7 +8,7 @@
 
 ---
 ## Linguaggi di Programmazione
-1. [OOP](./OOP/OOP.md)
+1. [OOP](./OOP/ReadMe.md)
 
 ### BackEnd
 1. [Java](./Java/ReadMe.md/#Java)

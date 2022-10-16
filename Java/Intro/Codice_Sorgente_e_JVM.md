@@ -13,8 +13,8 @@ Il codice sorgente viene "compilato" dal JCC, generando una sorta di codice "int
 ## JVM - Java Virtual Machine - l'Interprete
 - Componente software della piattaforma Java che esegue i programmi già tradotti in ByteCode (la prima fase di compilazione)
 - la JVM interagisce con l'O.S., e tramite esso con l'hardware, ciò permette l'indipendenza dalla piattaforma hardware di esecuzione
-- Le prime implementazioni della JVM erano interpreti puri.
-- Nelle recenti implementazioni di JVM, per esigenze di maggiori prestazioni, è stato incorporato un **compilatore just-in-time** (**JIT compiler**), che al momento del lancio "al volo" genera codice nativo nel linguaggio macchina del computer ospite
+- Le prime implementazioni della JVM erano interpreti puri.  
+    Nelle recenti implementazioni di JVM, per esigenze di maggiori prestazioni, è stato incorporato un **compilatore just-in-time** (**JIT compiler**), che al momento del lancio "al volo" genera codice nativo nel linguaggio macchina del computer ospite
 - in alternativa, per ulteriori esigenze prestazionali, un hardware dedicato all'esecuzione in hardware del ByteCode
 - è il concetto **WORA**: "Write Once, Run Anywhere" (Scrivi una volta ed esegui ovunque).  
 - la virtual machine inizia l'esecuzione partendo dal metodo main

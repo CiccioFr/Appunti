@@ -1,15 +1,17 @@
 # Array
 
-`int[] unArray = new int[n];`
-
-`String[] colori ={"bianco","nero","giallo","blu"};`
+```java
+int[] unArray = new int[n];
+int[] array = {0, 1, 2, 3};
+int arrayLength = array.length;
+```
 
 ## la classe Arrays
 ### Arrays.sort(array);      
 - Array.sort è diabolico, se l'array non è ordinato, restituisce un valore fallace
 System.out.println(Arrays.toString(array));
 
-### Array.binarySearch(array, valore);
+### Arrays.binarySearch(array, valore);
 `int posizione = Arrays.binarySearch(array, 4); // DEVE essere prima Ordinato`
 - è diabolico, se l'array non è ordinato, restituisce un valore fallace
 

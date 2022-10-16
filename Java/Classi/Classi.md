@@ -6,6 +6,9 @@ deve iniziare con una lettera dell’alfabeto Maiuscola (UpperCammelCase)
 
 # Tipi di Classi
 
+Ereditarietà:   Superclasse (classe padre)  ->  Sottoclasse (classe Figlia)
+                    Sottoclasse extends Superclasse
+
 [Link](https://ita.myservername.com/types-classes-java#Class_Types_In_Java_8211_Introduction)
 
 - Static
@@ -53,3 +56,4 @@ ArrayList<Integer> myNumbers = new ArrayList<Integer>();
 [Java Wrapper Classes - w3schools.com](https://www.w3schools.com/java/java_wrapper_classes.asp)
 
 
+-   ho un pò di confusione nel confronto tra classi estese e classi importate

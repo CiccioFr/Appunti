@@ -5,20 +5,25 @@ Convenzione: iniziare i nomi dei metodi con un _carattere minuscolo_ e proseguir
 
 - deve iniziare con una lettera dell’alfabeto o _
 
+## il Metodo Main
 **`String[] args`** argomento del metodo main  
-parametro che viene inizializzato all'avvio del programma con ciò che viene inserito da terminale dopo "`java nomedelprogramma`".
+parametro che viene inizializzato all'avvio del programma con ciò che viene inserito da terminale dopo "`java nomedelprogramma`".  
 
-tipi di metodi:     -- metodo di istanza (pg 337)
- - metodo di classe - static // chiamata di un metodo static
-     - System.out.println("Ciao");
- - metodo di istanza - senza static // chiamata di un metodo NON static (prima devo fare inizializzare Scanner)
+## super
+il metodo speciale che richiama il (metodo) costruttore della SuperClasse (padre)  
+
+## tipi di metodi:
+- metodo di istanza (pg 337)
+   - System.out.println("Ciao");
+- metodo di classe - static // chiamata di un metodo static
+- metodo di istanza - senza static // chiamata di un metodo NON static (prima devo fare inizializzare Scanner)
      - Scanner tastiera = new Scanner(System.in);
      - String a = tastiera.nextLine();
 
-Metodo `toString()` -> ritorna una stringa che rappresenta un oggetto  
-Metodo `equals()` -> 
+## Metodo `toString()` -> ritorna una stringa che rappresenta un oggetto  
+## Metodo `equals()` -> 
 
-[`Metodo clone()`](http://informatica.abaluth.com/programmazione/java/java-metodo-clone/)  
+## [`Metodo clone()`](http://informatica.abaluth.com/programmazione/java/java-metodo-clone/)  
 Il metodo clone() restituisce un nuovo oggetto il cui stato iniziale è una copia dell’oggetto su cui viene invocato.
 
 Se si vuole che sia possibile copiare gli oggetti di una classe, la classe deve implementare l’interfaccia Cloneable.

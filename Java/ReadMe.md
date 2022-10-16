@@ -1,20 +1,13 @@
 # Java
-- [Java - w3schools.com](https://www.w3schools.com/java/default.asp)
-- [Guide del web.md](./dal_web.md)
-- [una SuperGuida Java ??](https://ita.myservername.com/java-tutorial-beginners) - WebLink
-- http://losviluppatore.it/category/java/
-- http://www.acosani.it/java/java001.html
 
-### Introduzione
 1. [La nascita di Java e sue caratteristiche](./Intro/Nascita_di_Java.md)
 1. [il Codice Sorgente e JVM - JRE - JDK](./Intro/Codice_Sorgente_e_JVM.md)
 1. [Installare Java su Linux](./Intro/Installare_Java.md)
-1. [IDE - l'Ambiente di Sviluppo](./Intro/Ambiente_di_Sviluppo_Java.md)
 
 ### Concetti
 1. [Termini - Nozioni - Concetti](./Concetti/Termini_Nozioni_Concetti.md)
 1. [da sistemare](./Concetti/da%20sistemare.md)
-1. [OOP - Peculiarità](./../OOP/OOP.md)
+1. [OOP - Peculiarità](./../OOP/ReadMe.md)
 1. [Qualificatori](./Concetti/Qualificatori.md)
 1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
 
@@ -22,7 +15,6 @@
 1. [Tipi di Dati](./Basi/Tipi_di_Dati.md)
 1. [Gli Operatori](./Basi/Operatori.md)
 1. [Le Variabili](./Basi/Variabili.md)
-1. [Array](./Basi/Array.md)
 1. [Costrutti Condizionali](./Basi/Costrutti_Condizionali.md)
 1. [Costrutti Iterativi](./Basi/Costrutti_Iterativi.md)
 
@@ -31,7 +23,8 @@
 1. [Gli Oggetti](./Classi/Oggetti.md)
 1. [I Metodi](./Classi/Metodi.md)
 1. [il Costruttore](./Classi/Costruttore.md)
-1. [La Firma](./Classi/La_Firma.md)
+1. [le Eccezioni](./Classi/Eccezioni.md)
+1. [La Firma](./../OOP/La_Firma.md)
 1. [Get e Set](./Classi/Get_e_Set.md)
 1. [Class Loader](./Classi/Class_Loader.md)
 1. [Classi Predefinite di Java](./Classi/Classi.md#Principali)
@@ -74,3 +67,10 @@ Link:
 
 ### Esempi
 1. [Esempi](./Esempi/Esempi.md)
+
+### Dal Web
+- [Java - w3schools.com](https://www.w3schools.com/java/default.asp)
+- [Guide del web.md](./dal_web.md)
+- [una SuperGuida Java ??](https://ita.myservername.com/java-tutorial-beginners) - WebLink
+- http://losviluppatore.it/category/java/
+- http://www.acosani.it/java/java001.html

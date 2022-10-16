@@ -9,3 +9,5 @@ https://en.wikipedia.org/wiki/Java_collections_framework
 
 le principali classi concrete che permettono di gestire al meglio le collezioni di oggetti
 
+HashMap -> HashTable -> Load Factor (fattore di carico) = nr item/nr slot  
+[link](https://www.youtube.com/watch?v=1AYnE4MdsCc)
