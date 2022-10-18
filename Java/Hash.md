@@ -1,0 +1,1 @@
+La funzione di hash o funzione hash produce una sequenza di bit, detta digest, (o una stringa)

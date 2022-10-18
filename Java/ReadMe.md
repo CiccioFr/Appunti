@@ -12,7 +12,6 @@
 1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
 
 ### Le Basi
-1. [Lessico](./Basi/Variabili.md)
 1. [Tipi di Dati](./Basi/Tipi_di_Dati.md)
 1. [Gli Operatori](./Basi/Operatori.md)
 1. [Costrutti Condizionali](./Basi/Costrutti_Condizionali.md)
@@ -35,6 +34,8 @@
 1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
 1. [Librerie](./Concetti/Librerie.md)
 1. [Build System](./Intro/Build_System.md)
+1. [Jar](./jar.md)
+1. [Hash](./Hash.md)
 
 ### ccc
 1. [Varargs - Variable Arguments](Varargs-Variable_Arguments.md)
