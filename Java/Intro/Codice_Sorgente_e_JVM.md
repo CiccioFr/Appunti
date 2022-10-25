@@ -5,8 +5,8 @@ Il codice sorgente viene "compilato" dal JCC, generando una sorta di codice "int
 
 ---
 ## JCC - Java Class Compiler
-- Esegue la compilazione del Codice Sorgente (Alto livello), file con estensione .java;
-- genera file **ByteCode** con estensione .class
+- Esegue la compilazione del Codice Sorgente (file con estensione .java)
+- genera il **ByteCode** (file con estensione .class) detto **programma oggetto** o **file oggetto**
 - il file ByteCode è molto più veloce da eseguire, essendo più simile ad un codice macchina
 
 ---
