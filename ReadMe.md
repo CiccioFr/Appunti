@@ -62,21 +62,22 @@ Ambiente di Sviluppo Integrato
 ---
 ## Supporti alla Programmazione
 1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
-1. [NPM](./NPM/ReadMe.md) - Node Package Manager
-1. [Pattern](./Pattern/ReadMe.md)
-1. [UML](./UML/ReadMe.md)
-1. [Chiave SSH](./Chiave_SSH/Chiave%20per%20GitHub.md)
-1. [PowerShell](./PowerShell/ReadMe.md) 
-1. [Protocolli](./Protocolli/Protocolli.md)
-1. [Browser](./Browser/ReadMe.md)
+1. [NPM](./Supporti/NPM/ReadMe.md) - Node Package Manager
+1. [Pattern](./Supporti/Pattern/ReadMe.md)
+1. [RegEx](./Supporti/RegEx/ReadMe.md)
+1. [UML](./Supporti/UML/ReadMe.md)
+1. [Chiave SSH](./Supporti/Chiave_SSH/Chiave%20per%20GitHub.md)
+1. [PowerShell](./Supporti/PowerShell/ReadMe.md) 
+1. [Protocolli](./Supporti/Protocolli/Protocolli.md)
+1. [Browser](./Supporti/Browser/ReadMe.md)
 
 ---
 ## [Utility](./Supporti/Utility/ReadMe.md)
 
 ---
-## [Tips](./Tips/ReadMe.md)
+## [Tips](./Supporti/Tips/ReadMe.md)
 
 ---
-## [Link a video e guide](./Link/ReadMe.md)
+## [Link a video e guide](./Supporti/Link/ReadMe.md)
 
 ---
