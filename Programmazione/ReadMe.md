@@ -1,7 +1,7 @@
 # Programmare da soddisfazione ;)
 
 
-## [Web Link](./WebLink.md)
+## Link web a guide e video YouTube
 - ### [F. Camuso](./WebLink.md/#f-camuso)
--  [Java](./../Java/dal_web.md)
+-  [Java - Link web a guide e video YouTube](./../Java/dal_web.md)
 -  [C/C++](../C%2B%2B/ReadMe.md)

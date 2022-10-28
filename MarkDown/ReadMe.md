@@ -48,7 +48,7 @@ I valori esadecimali possono essere utilizzati per visualizzare, all'interno di 
 ---
 ## Correlati
 [LaTeX](../LaTeX/ReadMe.md)  
-[Pandoc (vocabolo)](../Utility/ReadMe.md/#Pandoc)
+[Pandoc (vocabolo)](./../Supporti/Utility/ReadMe.md#Pandoc)
 
 ---
 ## Formule matematiche "NON FUNGE SU GitHub!!"
