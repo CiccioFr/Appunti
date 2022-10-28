@@ -41,24 +41,13 @@ linguaggio di marcatura o linguaggio di formattazione
 1. [LaTeX](./LaTeX/ReadMe.md)
 
 ---
-### CMS - Content Management System
+## CMS - Content Management System
 1. [WordPress](./CMS/WordPress/ReadMe.md)
 1. [Magento](./CMS/Magento/Magento.md)
 1. [Drupal](./CMS/Drupal/ReadMe.md) 
 
 ---
-### 
-1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
-1. [NPM](./NPM/ReadMe.md)
-1. [PowerShell](./PowerShell/ReadMe.md) 
-1. [Pattern](./Pattern/ReadMe.md)
-1. [UML](./UML/ReadMe.md)
-1. [Chiave SSH](./Chiave_SSH/Chiave%20per%20GitHub.md)
-1. [Protocolli](./Protocolli/Protocolli.md)
-1. [Browser](./Browser/ReadMe.md)
-
----
-### IDE - Integrated Development Environment
+## IDE - Integrated Development Environment
 Ambiente di Sviluppo Integrato
 
 1. [Visual Studio Community](./IDE/VisualStudioCommunity/ReadMe.md)
@@ -67,17 +56,27 @@ Ambiente di Sviluppo Integrato
 1. [Eclipse](./IDE/Eclipse/ReadMe.md)
 
 ---
-### Editor di Codice Sorgente
+## Editor di Codice Sorgente
 1. [VSCode](./IDE/VSCode/ReadMe.md)
 
 ---
 ## Supporti alla Programmazione
-### [Utility](./Supporti/Utility/ReadMe.md)
+1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
+1. [NPM](./NPM/ReadMe.md) - Node Package Manager
+1. [Pattern](./Pattern/ReadMe.md)
+1. [UML](./UML/ReadMe.md)
+1. [Chiave SSH](./Chiave_SSH/Chiave%20per%20GitHub.md)
+1. [PowerShell](./PowerShell/ReadMe.md) 
+1. [Protocolli](./Protocolli/Protocolli.md)
+1. [Browser](./Browser/ReadMe.md)
 
 ---
-### [Tips](./Tips/ReadMe.md)
+## [Utility](./Supporti/Utility/ReadMe.md)
 
 ---
-## [Programmazione](./Programmazione/ReadMe.md)
+## [Tips](./Tips/ReadMe.md)
+
+---
+## [Link a video e guide](./Link/ReadMe.md)
 
 ---
