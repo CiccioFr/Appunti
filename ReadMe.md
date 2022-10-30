@@ -50,8 +50,8 @@ linguaggio di marcatura o linguaggio di formattazione
 1. [Drupal](./CMS/Drupal/ReadMe.md) 
 
 ---
-## Delloy
-1. [Docker](./Docker.ReadMe.md)
+## Deploy
+1. [Docker](./Docker/ReadMe.md)
 
 ---
 ## IDE - Integrated Development Environment
