@@ -26,8 +26,8 @@
 1. [Angular](./Angular/ReadMe.md)
 1. [React](./React/ReadMe.md)
 
-### [.NET](./NET/ReadMe.md)
-1. [WPF](./NET/WPF.md) - Windows Presentation Foundation
+### [.NET](./dotNET/ReadMe.md)
+1. [WPF](./dotNET/WPF.md) - Windows Presentation Foundation
 
 ---
 ## MarkUp
@@ -88,3 +88,4 @@ Ambiente di Sviluppo Integrato
 ## [Link a video e guide](./Supporti/Link/ReadMe.md)
 
 ---
+[da sistemare](./Struttura.md)
