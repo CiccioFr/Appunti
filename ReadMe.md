@@ -87,6 +87,5 @@ Ambiente di Sviluppo Integrato
 ---
 ## [Link a video e guide](./Supporti/Link/ReadMe.md)
 
-
 ---
 [da sistemare](./Struttura.md)
