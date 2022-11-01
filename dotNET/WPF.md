@@ -1,8 +1,8 @@
 # C# WPF - Windows Presentation Foundation
 
 - nome in codice `Avalon`
-- libreria di classi del Framework [.NET](../ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
-- WPF usa il linguaggio `XAML` (`Extensible Application Markup Language`, e pronunciata "Zammel") per offrire un modello dichiarativo per la programmazione di applicazioni (permette la costruzione di GUI per app Desktop).  
+- libreria di classi del Framework [.NET](ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
+- WPF usa il linguaggio `XAML` (Extensible Application Markup Language) 
  
 
 ---

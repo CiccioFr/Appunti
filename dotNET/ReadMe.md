@@ -1,28 +1,26 @@
 # .NET
 
+### .NET è un framework software gratuito e open source per i sistemi operativi Microsoft Windows, MacOS e Linux.
 
-- [Glossario .NET](https://learn.microsoft.com/it-it/dotnet/standard/glossary)
-- [Che cos'è .NET?](https://learn.microsoft.com/it-it/dotnet/core/introduction)  
-    - [link wiki .NET](https://it.wikipedia.org/wiki/.NET)  
-    - [link wiki .NET_Framework](https://it.wikipedia.org/wiki/.NET_Framework)  
-- .NET è un framework software gratuito e open source per i sistemi operativi Microsoft Windows, MacOS e Linux. È costituito da:
-    - `CoreCLR`, un'implementazione runtime completa di CLR,
-    - la `macchina virtuale` che gestisce l'esecuzione di programmi .NET.
-    CoreCLR viene fornito con un compilatore just-in-time ottimizzato, chiamato RyuJIT.  
-
-- Le app .NET (scritte in un linguaggio di alto livello come C#) vengono compilate in un linguaggio intermedio (IL). `IL` è un formato di codice compatto che può essere supportato in qualsiasi sistema operativo o architettura.
-
-- `CLR` (`Common Language Runtime`)  
-    l'**ambiente di esecuzione** del CLI (macchina virtuale e librerie standard della piattaforma .NET)  
-    ![Schema CLR](./Schema_CLR.png)  
-    Schema del CLR come convertitore del Common Intermediate Language (CIL) in codice nativo
-- `CLS` (`Common Language Specification`), "specifica del linguaggio comune", descrive un sottoinsieme della CLR che i compilatori devono supportare per permettere l'interoperabilità tra i diversi linguaggi di programmazione.  
-    - `Mono` piattaforma di sviluppo (è una implementazione multi-piattaforma del CLS), seppur ancora incompleto, per sistemi Unix e Linux
-
-- `CIL` (`Common Intermediate Language`)  
-    è il linguaggio di programmazione di livello più basso previsto dalla piattaforma .NET e dal `Common Language Infrastructure`.  
-    (un compilatore traduce il codice sorgente in istruzioni `IL`, che quindi risulta avere lo stesso ruolo che il bytecode ha nel mondo Java.)  
-    Il CIL è un linguaggio assembly orientato agli oggetti, ed è completamente basato su stack. Esso viene poi compilato in codice macchina al volo da un Jit (compilatore just-in-time) e poi eseguito; questo avviene al primo avvio del programma, dopodiché la piattaforma .Net immagazzinerà l'eseguibile già compilato in una cartella apposita per velocizzare i futuri avvii.  
-    CIL supporta l'orientazione agli oggetti, i tipi primitivi dotati di metodi, l'istanziamento di array e oggetti con poche istruzioni e il supporto all'uso delle costanti che l'assembly x86 non supporta, come gli oggetti, le stringhe e altri tipi primitivi. 
+## [.NET](./dotNET.md)
+link: [.NET vs. .NET Framework](https://learn.microsoft.com/it-it/dotnet/standard/choosing-core-framework-server) - Microsoft  
+    [.Net Core vs .Net Framework](https://it.education-wiki.com/2427394-.net-core-vs-.net-framework) - education-wiki.com
 
 ---
+
+- [XAML](./XAML.md) - Extensible Application Markup Language, e pronunciata "Zammel"  
+    Offre un modello dichiarativo per la programmazione di applicazioni (permette la costruzione di GUI per app Desktop).
+- [WPF](./WPF.md) - Windows Presentation Foundation  
+    libreria di classi del Framework [.NET](ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
+
+- **WinForms** (Windows Forms)  
+    free and open-source graphical (GUI)  
+    Libreria di classi inclusa come parte di Microsoft .NET, .NET Framework or Mono Framework,  
+    nome dato alla parte di GUI del framework Microsoft.NET, forneisce una piattaforma per scrivere applicazioni client per PC desktop, laptop e tablet  
+    link: [Guida Microsoft](https://learn.microsoft.com/it-it/dotnet/desktop/winforms/overview/?view=netdesktop-6.0) - [Documentazione Microsoft](https://learn.microsoft.com/it-it/dotnet/desktop/winforms/?view=netdesktop-6.0) - [Wikipedia](https://it.wikipedia.org/wiki/Windows_Forms) - [html.it](https://www.html.it/pag/15452/windows-form/)
+- **UWP** (Universal Windows Platform)  
+    La piattaforma universale di Windows è un'architettura/piattaforma applicativa omogenea creata da Microsoft e introdotta per la prima volta in Windows 10.  
+    Ha lo scopo di aiutare a sviluppare applicazioni universali eseguibili su Windows 10, Windows 10 Mobile, Xbox One e Hololens senza la necessità di essere riscritta per ciascuno.  
+    link: [Microsoft](https://learn.microsoft.com/it-it/windows/uwp/get-started/universal-application-platform-guide) - [Wikipedia](https://it.wikipedia.org/wiki/Universal_Windows_Platform)
+
+Note: Il 4 dicembre 2018, durante la conferenza Microsoft Connect(); l'azienda ha reso open source **Windows Presentation Foundation**, **Windows Forms** e **WinUI** (Windows UI XAML Library), caricando su GitHub il codice sorgente
