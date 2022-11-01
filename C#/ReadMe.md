@@ -2,6 +2,20 @@
 
 [C# su VS Code](./Cs_su_VSCode.md)
 
+## [Operatori ed espressioni C#](https://learn.microsoft.com/it-it/dotnet/csharp/language-reference/operators/)
+## operatore null-coalescing  
+```c#
+int? a = null;
+int b = a ?? -1;
+Console.WriteLine(b);  // output: -1
+```
+
+## operatore di assegnazione null-coalescing  
+```c#
+int? numbers = null;
+numbers ??= 5;
+Console.WriteLine(numbers);  // output: 5
+```
 
 ---
 
@@ -14,3 +28,4 @@
 - [C#](http://www.carlovecchio.altervista.org/c-.html) - Carlo Vecchio
 - [Ereditarietà - Hiding e Override](http://www.carlovecchio.altervista.org/c----ereditarieta--inheritance-.html) - Carlo Vecchio
 
+---
