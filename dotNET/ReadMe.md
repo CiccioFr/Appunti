@@ -8,15 +8,17 @@ link: [.NET vs. .NET Framework](https://learn.microsoft.com/it-it/dotnet/standar
 
 ---
 
-- [XAML](./XAML.md) - Extensible Application Markup Language, e pronunciata "Zammel"  
+- [XAML](./XAML/XAML.md) - Extensible Application Markup Language, e pronunciata "Zammel"  
     Offre un modello dichiarativo per la programmazione di applicazioni (permette la costruzione di GUI per app Desktop).
-- [WPF](./WPF.md) - Windows Presentation Foundation  
-    libreria di classi del Framework [.NET](ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
+- [WPF](./WPF/WPF.md) - Windows Presentation Foundation  
+    libreria di classi del Framework [.NET](./ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
 
 - **WinForms** (Windows Forms)  
     free and open-source graphical (GUI)  
     Libreria di classi inclusa come parte di Microsoft .NET, .NET Framework or Mono Framework,  
     nome dato alla parte di GUI del framework Microsoft.NET, forneisce una piattaforma per scrivere applicazioni client per PC desktop, laptop e tablet  
+    - ha molti componenti visuali preconfezzionati, ma con pochi margini di personalizzazione (per farlo bisogna smanettare molto)  
+
     link: [Guida Microsoft](https://learn.microsoft.com/it-it/dotnet/desktop/winforms/overview/?view=netdesktop-6.0) - [Documentazione Microsoft](https://learn.microsoft.com/it-it/dotnet/desktop/winforms/?view=netdesktop-6.0) - [Wikipedia](https://it.wikipedia.org/wiki/Windows_Forms) - [html.it](https://www.html.it/pag/15452/windows-form/)
 - **UWP** (Universal Windows Platform)  
     La piattaforma universale di Windows è un'architettura/piattaforma applicativa omogenea creata da Microsoft e introdotta per la prima volta in Windows 10.  

@@ -1,5 +1,14 @@
 # XAML
 
+## Permette la descrizione di interfacce grafiche
+
+- La grafica è definita in modalità vettoriale!
+    L'interfaccia, essendo basata su descrizioni geometriche, potrà essere ridisegnata al meglio della risoluzione possibile su qualunque tipo di dispositivo, qualunque sia la dimensione ed il formato del display
+- è un ponte per app per iOS e Android
+- Data Binding (stile dichiarativo)  
+    Meccanismo che consente di associare e sincronizzare una fonte dati agli elementi dell'interfaccia utente.  
+    In fase di design, grazie a XAML, possiamo descrivere in maniera dichiarativa le relazioni di Binding senza preoccuparci di collegare la fonte dati: senza scrivere codice procedurale, ma descrivendo relazioni che legano una casella di testo con un campo di una tabella di un bd o di una sorgente dati qualunque, poi l'aggiornamento bidirezzionale avverrà in automatico
+
 Un file XAML può essere compilato in un file .BAML (Binary Application Markup Language), che può essere inserito come risorsa in un assembly .NET Framework. In fase di esecuzione, il motore del framework estrae il file .BAML dalle risorse dell'assembly, lo analizza e crea un flusso di lavoro o un albero visivo WPF corrispondente.
 
 ## I principali tipi di contenitori
@@ -11,6 +20,8 @@ Panel   Classe da cui derivano tutti i principali contenitori
 ├── DockPanel
 ├── VirtualizingPanel
 └── Canvas
+// ed anche
+└── Window
 ```
 ### Caretteristiche:
 Il comportamento, come ciascuno di questi gestisce il suo contenuto:
@@ -84,6 +95,8 @@ Il comportamento, come ciascuno di questi gestisce il suo contenuto:
     ```
     </details>
 
+// ed anche
+- `Window`: contenitore di altri controlli **NE PUO' CONTENERE 1 SOLO**
 
 Combinando tra loro questi container è possibile comporre interfacce molto complesse.  
 Altri tipici controlli come bordi, bottoni, etichette, ecc, possono essere a loro volta usati come contenitori, pur di un solo singolo elemento, però se il singolo elemento fosse un grid, a quel punto si potrebbe poi mettere di tutto.  

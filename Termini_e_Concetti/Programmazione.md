@@ -24,6 +24,10 @@ Esempi di runtime system sono:
 Anche gli interpreti di codice e le macchine virtuali possono essere considerati runtime system, mentre servizi attivi in processi concorrenti sono considerati come middleware.  
 [Wikipedia](https://it.wikipedia.org/wiki/Run-time_system)
 
+## `Data Binding`
+Meccanismo che consente di associare e sincronizzare una fonte dati agli elementi dell'interfaccia utente.  
+In fase di design, grazie a XAML, possiamo descrivere in maniera dichiarativa le relazioni di Binding senza preoccuparci di collegare la fonte dati: senza scrivere codice procedurale ma descrivendo relazioni che legano una casella di testo con un campo di una tabella di un bd o di una sorgente dati qualunque, poi l'aggiornamento bidirezzionale avverrà in automatico
+
 ## [Costrutti di Controllo](http://www.dacrema.com/Informatica/Costrutti_controllo.htm)  
 I costrutti di controllo di un linguaggio di programmazione strutturata sono quei dispositivi sintattici che permettono di combinare tra loro istruzioni elementari creando cosi istruzioni complesse o blocchi di istruzioni, controllando il flusso della loro esecuzione. I costrutti di controllo fondamentali si possono classificare in:  
 ![](asset/Costrutti_mini.png)
