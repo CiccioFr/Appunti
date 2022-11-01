@@ -27,7 +27,7 @@
 1. [React](./React/ReadMe.md)
 
 ### [.NET](./dotNET/ReadMe.md)
-1. [WPF](./dotNET/WPF.md) - Windows Presentation Foundation
+1. [WPF](./dotNET/WPF/WPF.md) - Windows Presentation Foundation
 
 ---
 ## MarkUp

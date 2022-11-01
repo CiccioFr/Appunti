@@ -30,3 +30,15 @@ Git
 ---
 Editor b8nari:
 - Witched
+
+---
+```dos
+Root
+├── primo
+├── secondo
+│   └── sub
+├── terzo
+│   ├── sub
+│   └── sub
+└── end
+```
