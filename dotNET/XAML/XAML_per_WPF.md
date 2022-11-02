@@ -14,8 +14,8 @@
     Secondo attributo:  xmlns 
         link - vi sono le regole per documenti da considerarsi ben formati (correnti) 
     Terzo attributo:    xmlns:x
-        link - con il significato da attribuire (la semantica delle varie parti)
-    Quarto attributo:   xmlns:local     ??
+        link - contiene il significato da attribuire agli elementi/attributi (la semantica delle varie parti)
+    Quarto attributo:   xmlns:local  
     Quinto attributo:   StartupUri
         è la view, cioè la finestra che per prima sarà presentata a video una volta che l'applicativo saràmandato in esecuzione    --> 
     <Application.Resources>
@@ -36,8 +36,8 @@ La vista a livello di codice corrisponde ad una certa classe all'interno del nam
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="600">
     <!-- Primo Attributo: x:Class
-        x:          - è una abbreviaviazione che fa riferimento allo spazio dei simboli definiti in documenti di cui sotto troviamo i link (xmlns)
-        WpfApp1     - indica il namespace
+        x:          - come sopra
+        WpfApp1     - il namespace
         MainWindow  - nome della classe (C#) che corrisponde alla finestra    --> 
     <Grid>
     </Grid>
