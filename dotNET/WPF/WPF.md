@@ -4,9 +4,9 @@
 - libreria di classi del Framework [.NET](../ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
 - WPF usa il linguaggio `XAML` (Extensible Application Markup Language)  
     quale linguaggio per descrivere le interfacce grafiche
-- in abbinamento con il Pattern Architetturale MVVM  
+- in abbinamento con il **Pattern Architetturale `MVVM`**  
     prevede una netta separazione tra gli aspetti di presentazione (GUI), il codice che rappresenta la logica di funzionamento e di elaborazione, e la sorgente dati (Model)
-    - Data Binding (stile dichiarativo)  
+    - **`Data Binding`** (stile dichiarativo)  
         Meccanismo che consente di associare e sincronizzare una fonte dati agli elementi dell'interfaccia utente.  
         In fase di design, grazie a XAML, possiamo descrivere in maniera dichiarativa le relazioni di Binding senza preoccuparci di collegare la fonte dati: senza scrivere codice procedurale ma descrivendo relazioni che legano una casella di testo con un campo di una tabella di un bd o di una sorgente dati qualunque, poi l'aggiornamento bidirezzionale avverrà in automatico
 
@@ -16,7 +16,10 @@
 ---
 ## Funzionamento
 Creazione di un progetto:
-- in partenza 2 unità di codice: - App - MainWindows  
+- in partenza 2 unità di codice:
+    - App
+    - MainWindows   
+
     Entrambe splittate:
     - nella parte di interfaccia (o solo di configurazione): il file con estensione `.xaml`
     - la parte del così detto `code behind`, cioè il codice C# delle classi associate al quel file .xaml

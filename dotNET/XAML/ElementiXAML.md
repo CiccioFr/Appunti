@@ -1,9 +1,10 @@
+# Elementi di XAML
 
 `x:Name="identificatoreElemento"` riferimento con i quali i comandi C# potranno interagire con gli elementi, e dotarli di funzionalità  
 `x:` il riferimento abbreviato al namespace
 ```xml
 <StackPanel Orientation="Horizontal" >
-    <Border> <!-- StackPanel non ha Padding, si può pvviare con un Border -->
+    <Border> <!-- StackPanel non ha Padding, si può ovviare con un Border -->
         <StackPanel Margin="20" Width="Auto">
             <TextBlock Text="Ciao" Margin="10,20,0,5" Padding="5,20" 
                 Background="red" Width="15" Height="55"/> <!-- Etichetta -->
