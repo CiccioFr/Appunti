@@ -6,8 +6,13 @@
 <StackPanel Orientation="Horizontal" >
     <Border> <!-- StackPanel non ha Padding, si può ovviare con un Border -->
         <StackPanel Margin="20" Width="Auto">
+            <!-- Etichetta -->
             <TextBlock Text="Ciao" Margin="10,20,0,5" Padding="5,20" 
-                Background="red" Width="15" Height="55"/> <!-- Etichetta -->
+                Background="red" Width="15" Height="55"
+                x:FieldModifier="private"/>
+                <!-- l'attributo x:FieldModifier="private" 
+                impedisce la modifica dell'elemento 
+                da un metodo esterno (di un'altra classe) -->
             <TextBlock Margin="10"> testo alternativo </TextBlock>
 
             <Label Content="Testo della Label" Margin="10,15" Background="Orange"
