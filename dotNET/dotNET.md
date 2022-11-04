@@ -25,3 +25,4 @@
     CIL supporta l'orientazione agli oggetti, i tipi primitivi dotati di metodi, l'istanziamento di array e oggetti con poche istruzioni e il supporto all'uso delle costanti che l'assembly x86 non supporta, come gli oggetti, le stringhe e altri tipi primitivi. 
 
 ---
+[Download .NET](https://dotnet.microsoft.com/en-us/download)

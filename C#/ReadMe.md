@@ -29,3 +29,6 @@ Console.WriteLine(numbers);  // output: 5
 - [Ereditarietà - Hiding e Override](http://www.carlovecchio.altervista.org/c----ereditarieta--inheritance-.html) - Carlo Vecchio
 
 ---
+[C# Keywords](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/) - en  
+[C# Keywords](https://learn.microsoft.com/it-it/dotnet/csharp/language-reference/keywords/) - it
+
