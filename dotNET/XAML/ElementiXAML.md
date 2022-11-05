@@ -4,7 +4,8 @@
 `x:` il riferimento abbreviato al namespace
 ```xml
 <StackPanel Orientation="Horizontal" >
-    <Border> <!-- StackPanel non ha Padding, si può ovviare con un Border -->
+    <Border Background="LightBlue" BorderBrush="Black" BorderThickness="2"
+    CornerRadius="45" Padding="25"> <!-- StackPanel non ha Padding, si può ovviare con un Border, Border può avere un solo figlio -->
         <StackPanel Margin="20" Width="Auto">
             <!-- Etichetta -->
             <TextBlock Text="Ciao" Margin="10,20,0,5" Padding="5,20" 
@@ -34,3 +35,11 @@
     </Border>
 <StackPanel>
 ```
+---
+# System.Windows.Controls [Spazio dei nomi](https://learn.microsoft.com/it-it/dotnet/api/system.windows.controls?view=windowsdesktop-6.0)
+
+La versione en differisce da ita: offrono diverse "soluzioni"
+
+- [Border](https://learn.microsoft.com/it-it/dotnet/api/system.windows.controls.border?view=windowsdesktop-6.0)
+- [Calendar](https://learn.microsoft.com/it-it/dotnet/api/system.windows.controls.calendar?view=windowsdesktop-6.0) - ita
+- [CalendarView](https://learn.microsoft.com/en-us/uwp/api/windows.ui.xaml.controls.calendarview?view=winrt-22621) - en
