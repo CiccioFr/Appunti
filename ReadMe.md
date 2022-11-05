@@ -85,7 +85,9 @@ Ambiente di Sviluppo Integrato
 ## [Tips](./Supporti/Tips/ReadMe.md)
 
 ---
+### [in evidenza](./Evidenza.md)
+
+---
 ## [Link a video e guide](./Supporti/Link/ReadMe.md)
 
 ---
-[da sistemare](./Struttura.md)
