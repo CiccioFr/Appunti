@@ -1,4 +1,19 @@
-## `ReGex` - `regular expression` (Espressione Regolare)
+# Termini Concetti e Definizioni in Programmazione
+
+## `Funzione lambda` o funzione anonima
+funzione definita, e possibilmente chiamata, senza essere legata ad un identificatore.  
+Da usare nei casi in cui serve definire una breve funzione che ha poche linee di codice e che verrà utilizzata una sola volta (non può essere richiamata essendo priva di identificatore)  
+Esempio in Js:  
+1. `function(a, b) { return a + b; }`
+2. `(a, b) => a + b;` *
+    - \* wrappare con le graffe { } per eseguire più istruzioni
+
+In Java le funzioni anonime sono state inserite nella versione 8 (rilasciata nel 2014)
+
+## Sintassi 
+CamelCase, snake_case, kebab-case… 
+
+## `ReGex` - `Regular Expression` (Espressione Regolare)
 Sequenza di simboli scritta con sintassi specifica che identifica un insieme di stringhe  
 [link google](https://support.google.com/a/answer/1371415?hl=it)
 
