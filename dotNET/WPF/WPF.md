@@ -66,5 +66,6 @@ Fornisce diverse importanti classi di elementi di base di Windows Presentation F
 - [Progettare XAML in Visual Studio](https://learn.microsoft.com/it-it/visualstudio/xaml-tools/designing-xaml-in-visual-studio?view=vs-2022)
 
 ---
-XAML   Elemento - Attibuto   
-C#     ___ - Proprietà ([proprietà di dipendenza](https://learn.microsoft.com/it-it/dotnet/desktop/wpf/properties/dependency-properties-overview?view=netdesktop-6.0))
+XAML   Attibuto dell'Elemento  
+C#     Proprietà dell'Oggetto  
+link ([proprietà di dipendenza](https://learn.microsoft.com/it-it/dotnet/desktop/wpf/properties/dependency-properties-overview?view=netdesktop-6.0))
