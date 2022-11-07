@@ -2,7 +2,7 @@
 
 - nome in codice `Avalon`
 - libreria di classi del Framework [.NET](../ReadMe.md) per lo sviluppo dell'interfaccia grafica utente che crea applicazioni client desktop.
-- WPF usa il linguaggio `XAML` (Extensible Application Markup Language)  
+- `WPF` usa il linguaggio [`XAML`](../XAML/XAML.md) (Extensible Application Markup Language)  
     quale linguaggio per descrivere le interfacce grafiche
 - in abbinamento con il **Pattern Architetturale `MVVM`**  
     prevede una netta separazione tra gli aspetti di presentazione (GUI), il codice che rappresenta la logica di funzionamento e di elaborazione, e la sorgente dati (Model)
@@ -11,28 +11,25 @@
         In fase di design, grazie a XAML, possiamo descrivere in maniera dichiarativa le relazioni di Binding senza preoccuparci di collegare la fonte dati: senza scrivere codice procedurale ma descrivendo relazioni che legano una casella di testo con un campo di una tabella di un bd o di una sorgente dati qualunque, poi l'aggiornamento bidirezzionale avverrà in automatico
 
 ---
-### vedi -> [XAML](../XAML/XAML.md)
-
----
-## Funzionamento
-Creazione di un progetto:
+## Un progetto WPF
 - in partenza 2 unità di codice:
     - App
     - MainWindows   
 
-    Entrambe splittate:
-    - nella parte di interfaccia (o solo di configurazione): il file con estensione `.xaml`
-    - la parte del così detto `code behind`, cioè il codice C# delle classi associate al quel file .xaml
+    Entrambe splittate in:
+    - la parte di interfaccia: file `*.xaml`
+    - la parte del così detto `code behind`: file `*.xaml.cs`  
+    cioè il codice C# delle classi associate al quel file .xaml
 
 In fase di compilazione:
 - la parte .xaml verrà letta ed interpretata e farà da guida alla generazione di altro codice C# che andrà ad integrare quello già presente
 
-Struttura
+Struttura iniziale di un [progetto WPF](./ProgInizialeWPF.md):
 - App  
     è di fatto la classe che corrisponde all'intera applicazione
     - nel file .xaml  
         evidenzia che il codice descrive l'applicazione nella sua globalità per la presenza del blocco `<Application ..> ... </Application>`  
-        [XAML per WPF](../XAML/XAML_per_WPF.md) 
+        
 
 ---
 ## [Elementi](./../XAML/ElementiXAML.md) in XAML
@@ -55,8 +52,12 @@ Un'altra classe chiave che partecipa al sistema di proprietà.
 **DependencyProperty** consente la registrazione delle proprietà di dipendenza nel sistema di proprietà e fornisce identificazione e informazioni su ciascuna proprietà di dipendenza, mentre **DependencyObject** come classe base consente agli oggetti di utilizzare le proprietà di dipendenza.
 
 ---
-## [System.Windows Namespace](https://learn.microsoft.com/en-us/dotnet/api/system.windows?view=windowsdesktop-6.0)
-Fornisce diverse importanti classi di elementi di base di Windows Presentation Foundation (WPF), varie classi che supportano il sistema di proprietà WPF e la logica degli eventi e altri tipi utilizzati in modo più ampio da WPF core e WPF framework.
+## [Browser API .NET](https://learn.microsoft.com/it-it/dotnet/api/?view=windowsdesktop-6.0)
+## [System.Windows Namespace eng](https://learn.microsoft.com/en-us/dotnet/api/system.windows?view=windowsdesktop-6.0)
+## [System.Windows Namespace ita](https://learn.microsoft.com/it-it/dotnet/api/system.windows?view=windowsdesktop-6.0)
+Fornisce diverse importanti classi di elementi di base di `WPF`, che supportano il sistema di proprietà WPF e la logica degli eventi e altri tipi utilizzati in modo più ampio da WPF core e WPF framework.
+
+## System.Windows.Controls [Spazio dei nomi](https://learn.microsoft.com/it-it/dotnet/api/system.windows.controls?view=windowsdesktop-6.0)
 
 ---
 ### Link esterni

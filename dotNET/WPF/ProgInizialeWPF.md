@@ -1,5 +1,7 @@
 # XAML per WPF
 
+## i File alla creazione di un progetto WPF
+- App.xaml
 ```xml
 <!-- IL FILE  App.xaml -->
 <Application x:Class="WpfApp1.App"
@@ -24,9 +26,10 @@
 </Application>
 ```
 
+- MainWindow.xaml
 ```xml
 <!-- IL FILE  MainWindow.xaml con schermo splittato con anteprima di GUI 
-La vista a livello di codice corrisponde ad una certa classe all'interno del namespace (indicato nel'Attributo x:Class ) -->
+La vista, a livello di codice, corrisponde alla classe all'interno del namespace (indicato nel'Attributo x:Class ) -->
 <Window x:Class="WpfApp1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -44,9 +47,9 @@ La vista a livello di codice corrisponde ad una certa classe all'interno del nam
 </Window> <!-- contenitore può contenere 1 SOLO controllo -->
 ```
 
+- MainWindow.xaml.cs
 ```c#
 // Il file MainWindow.xaml.cs
-// La classe MainWindow
 namespace WpfApp1
 {
     /// <summary>
