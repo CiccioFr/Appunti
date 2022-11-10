@@ -6,7 +6,7 @@ using System;   // Direttiva di using
 
 - [Modificatori di accesso](./Modificatori.md)
 
-- [cast](https://codicepragmatico.it/coding/c/casting-in-c/)
+- [Cast](./Cast.md)
 
 - [Operatori](./Operatori.md)
 

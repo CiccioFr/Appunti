@@ -30,6 +30,9 @@
 1. [WPF](./dotNET/WPF/WPF.md) - Windows Presentation Foundation
 
 ---
+[Altri..](./altri.md)
+
+---
 ## MarkUp
 linguaggio di marcatura o linguaggio di formattazione
 1. [HTML](./HTML/ReadMe.md)

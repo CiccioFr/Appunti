@@ -18,7 +18,7 @@
 
     Entrambe splittate in:
     - la parte di interfaccia: file `*.xaml`
-    - la parte del così detto `code behind`: file `*.xaml.cs`  
+    - la parte del così detto `code behind` (che sta dietro): file `*.xaml.cs`  
     cioè il codice C# delle classi associate al quel file .xaml
 
 In fase di compilazione:

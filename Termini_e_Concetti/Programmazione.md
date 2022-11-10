@@ -1,5 +1,7 @@
 # Termini Concetti e Definizioni in Programmazione
 
+## CamelCase, snake_case, kebab-case… 
+
 ## `Funzione lambda` o funzione anonima
 funzione definita, e possibilmente chiamata, senza essere legata ad un identificatore.  
 Da usare nei casi in cui serve definire una breve funzione che ha poche linee di codice e che verrà utilizzata una sola volta (non può essere richiamata essendo priva di identificatore)  
@@ -10,8 +12,19 @@ Esempio in Js:
 
 In Java le funzioni anonime sono state inserite nella versione 8 (rilasciata nel 2014)
 
-## Sintassi 
-CamelCase, snake_case, kebab-case… 
+## `Code Smell` 
+espressione usata per indicare una serie di caratteristiche che il codice sorgente può avere e che sono generalmente riconosciute come probabili indicazioni di un difetto di programmazione.
+
+## `KISS` (principio)
+acronimo usato in progettazione, che sta per `Keep It Simple, Stupid`, ossia "`rimani sul semplice, stupido`". In riferimento al codice sorgente di un programma significa non occuparsi delle ottimizzazioni fin dall'inizio, ma cercare invece di mantenere uno stile di programmazione semplice e lineare, demandando le ottimizzazioni al compilatore o a successive fasi dello sviluppo.  
+Altre varianti dello stesso acronimo includono: `Keep It Sweet and Simple`, `Keep It Short and Simple` e `Keep It Simply Smart`. 
+[link wiki](https://it.wikipedia.org/wiki/KISS_(principio))
+
+
+## `Extreme programming`
+Metodologia di sviluppo del software che enfatizza la scrittura di codice di qualità e la rapidità di risposta ai cambiamenti di requisiti.  
+Appartiene alla famiglia delle metodologie agili, e come tale prescrive lo sviluppo iterativo e incrementale strutturato in brevi cicli di sviluppo. Altri elementi chiave dell'XP sono il pair programming, l'uso sistematico di unit testing e refactoring, il divieto ai programmatori di sviluppare codice non strettamente necessario, l'enfasi sulla chiarezza e la semplicità del codice, la preferenza per strutture gestionali non gerarchiche, e l'importanza data alla comunicazione diretta e frequente fra sviluppatori e cliente e fra gli sviluppatori stessi.  
+[link wiki](https://it.wikipedia.org/wiki/Extreme_programming)
 
 ## `ReGex` - `Regular Expression` (Espressione Regolare)
 Sequenza di simboli scritta con sintassi specifica che identifica un insieme di stringhe  

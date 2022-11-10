@@ -10,7 +10,7 @@ link:
 - `internal`: l'accesso è limitato all'assembly corrente.
 - `protected internal`: l'accesso è limitato all'assembly corrente o ai tipi derivati dalla classe che li contiene.
 - `private`: l'accesso è limitato al tipo contenitore.
-- `private` protected: l'accesso è limitato alla classe o ai tipi derivati dalla classe che li contiene all'interno dell'assembly corrente.
+- `private protected`: l'accesso è limitato alla classe o ai tipi derivati dalla classe che li contiene all'interno dell'assembly corrente.
 - `file`: il tipo dichiarato è visibile solo nel file di origine corrente. I tipi con ambito file vengono in genere usati per i generatori di origine.
 - default:
 ```c#

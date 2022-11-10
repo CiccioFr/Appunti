@@ -11,7 +11,7 @@
              StartupUri="MainWindow.xaml">
     <!-- Primo Attributo: x:Class
         x:       - è una abbreviaviazione che fa riferimento allo spazio dei simboli definiti in documenti di cui sotto troviamo i link (xmlns)
-        WpfApp1  - indica il namespace del progetto
+        WpfApp1  - namespace del progetto
         App      - nome della classe che corrisponde all'applicazione in funzione (codice c#) 
     Secondo attributo:  xmlns 
         link - vi sono le regole per documenti da considerarsi ben formati (correnti) 
@@ -19,7 +19,7 @@
         link - contiene il significato da attribuire agli elementi/attributi (la semantica delle varie parti)
     Quarto attributo:   xmlns:local  
     Quinto attributo:   StartupUri
-        è la view, cioè la finestra che per prima sarà presentata a video una volta che l'applicativo saràmandato in esecuzione    --> 
+        è la view, cioè la finestra che per prima sarà presentata a video una volta che l'applicativo saràmandato in esecuzione, che di default è MainWindows.xaml    --> 
     <Application.Resources>
          
     </Application.Resources>
@@ -44,7 +44,7 @@ La vista, a livello di codice, corrisponde alla classe all'interno del namespace
         MainWindow  - nome della classe (C#) che corrisponde alla finestra    --> 
     <Grid>
     </Grid>
-</Window> <!-- contenitore può contenere 1 SOLO controllo -->
+</Window> <!-- contenitore Window può contenere 1 SOLO controllo -->
 ```
 
 - MainWindow.xaml.cs
