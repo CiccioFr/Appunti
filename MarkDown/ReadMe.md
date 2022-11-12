@@ -28,7 +28,7 @@ simboli | Descr. / rappresentazione  | dimesione
 
 ---
 
-<details> <summary>Spoiler warning - Cliccami per aprire</summary>
+<details open> <summary>Spoiler warning - Cliccami per aprire</summary>
 
 `<details open> <summary>Spoiler warning</summary>`  
 riga vuota!!  
@@ -38,7 +38,7 @@ riga vuota!!
 </details>
 
 ---
-![img](https://fakeimg.pl/100)
+![Testo alternativo ad immagine non trovata](https://fakeimg.pl/100)
 
 ---
 [URL-encoding](https://www.bettiolo.com/custom/1/tools/Utilit%C3%A0%20per%20il%20programmatore%20Web/URL%20Encoding%20-%20Lista%20caratteri.asp)  

@@ -1,21 +1,27 @@
 # [Operatori ed espressioni C#](https://learn.microsoft.com/it-it/dotnet/csharp/language-reference/operators/)
 
-## Operatore **null-coalescing** `??` 
+## Operatore **null-coalescing** `??`
+Verifica il valore della variabile a sinistra,  
+nel caso sia null, considera quello a destra
 ```c#
-int? a = null;
-int b = a ?? -1;
-Console.WriteLine(b);  // output: -1
+int? nullo = null;
+int? num = nullo ?? -12;
+Console.WriteLine(num);  // output: -12
 ```
 
-## Operatore di **assegnazione null-coalescing** `??=` 
+## Operatore di **assegnazione null-coalescing** `??=`
+Evita l'assegnazione di un valore null
 ```c#
-int? numbers = null;
-numbers ??= 5;
-Console.WriteLine(numbers);  // output: 5
+int? nullo = null;
+int? num = 77;
+num ??= nullo;
+Console.WriteLine(num);  // output: 77
 ```
 
 ## Operatore **Null-conditional** (**Elvis** operator) `?.` in  C#
-Prima di utilizzare un riferimento ad un oggetto, l'operatore Elvis verifica che non sia null, per non usarlo nel caso lo fosse, ed incappare in una eccezione
+Prima di utilizzare un riferimento ad un oggetto,  
+l'**operatore Elvis verifica che non sia null**,  
+per non usarlo nel caso lo fosse, ed incappare in una eccezione
 ```c#
 Oggetto ogg = null;
 ogg?.metodo();  // NON lo esegue

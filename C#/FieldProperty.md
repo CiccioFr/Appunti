@@ -1,5 +1,6 @@
-## Field (campi) e Property (proprietà) di una classe/oggetto
+# Field (campi) e Property (proprietà)
 
+## uso di Setter e Getter sulle Property
 ```c#
 class Assegn {              // membri interni
     private byte _n = 1;        // field
@@ -32,7 +33,7 @@ Nota: La presenza dei field sono estremamente utili per la Reflection, l'assenza
 ```c#
 class Assegn {
     // field  
-    private byte n = 1;        // field praticamente readonly
+    private byte n = 1;        // field
     public int N {             // Property readonly con private al set
         get => n;
         private set => n = value;   // <--
@@ -47,9 +48,10 @@ Nota: indicate private il Setter, renderebbe la Property Readonly
 ## Property readonly di fatto
 ```c#
 class Assegn {
+    private const int IVA = 4;
     private double costoSenzaIva = 12.0;
-    private int IVA = 4;
-    public double CostoIvaInclusa => costoSenzaIav * (1 + IVA / 100)  // <--
+    public double CostoSenzaIva { get => costoSenzaIva; set => costoSenzaIva = value; }
+    public double CostoIvaInclusa => CostoSenzaIva * (1 + IVA / 100);  // <--
 }
 ```
 

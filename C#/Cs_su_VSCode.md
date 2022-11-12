@@ -1,4 +1,4 @@
-🍩   
+# 🍩 🍩 🍩 🍩 🍩 🍩 🍩 🍩 🍩 🍩 
 Estensione C#  
 Installare SDK  
 A Terminale, nella root del progetto  

@@ -29,7 +29,7 @@
 - crea e si sposta sul nuovo Branch (Per default baserà il nuovo branch sull'attuale HEAD)
 
 > `git checkout -b nomeBranch branchEsistente`
-- crea e si sposta sul nuovo Branch **basando il nuovo ramo su quello esistente** branchEsistente anziché sull'attuale HEAD
+- crea e si sposta sul nuovo Branch nomeBranch **basando il nuovo ramo su branchEsistente** anziché sull'attuale HEAD
 
 ---
 
