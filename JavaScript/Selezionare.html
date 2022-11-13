@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>ciao</h3>
+
+    <form action=""> <!-- Non aveendo specificato la action, 
+    al click sul button di submit, ricaticherà la pagina stessa-->
+        <label for="">nome: </label>
+        <input type="text" name="" id="" width="" value="Default"> <br>
+        <button type="submit" onclick="" onmouseover="">ok</button>
+    </form>
+    <script>
+
+        document.querySelector("button").addEventListener("click", function () {
+            alert(document.querySelector("input[type='text']").value);
+        })
+
+
+
+
+
+        document.getElementById();
+        document.getElementByClassName();
+        document.getElementByName();
+        document.getElementByTagName();
+        document.querySelector();
+
+        
+        // # Selezione per Attributi HTML
+        if (document.querySelector("img").alt === "") {
+            document.querySelector("img").title = "Testo ...";
+        }
+        
+        // # Selezione per Property CSS
+        // ## querySelector - prende il primo elemento
+        document.querySelector("#perID").style.border = "solid 2px blue";
+        document.querySelector("p").style.border = "dashed 5px yellow";
+        document.querySelector(".perClass").style.border = "solid 3px green";
+        // uso di stringa di selezione
+        // seleziona il tag "img" che ha attributo "src = 'immagine.jpg", ed imposta ...
+        document.querySelector("img[src='immagine.jpg']").style.width = "100px";
+        document.querySelector("img[src='immagine.jpg']").style.height = "80px";
+        
+        
+        // ## selettore di gruppi di elementi
+        document.getElementsByClassName();
+        document.getElementsByName();
+        document.getElementsByTagName();
+        document.querySelectorAll();
+
+        let botts = document.querySelectorAll("botton");    // return: Node-List
+        for (const bott of botts)
+            bott.style.backgroundColor = "purple";
+
+        const bottoni = document.getElementsByTagName("button");    // return: html-Collection (collezione di elementi)
+        for (const bottone of bottoni) {
+            bottone.style.backgroundColor = "yellow";
+        }
+        const spans = document.getElementsByClassName("classeComune");  // return: html-Collection (collezione di elementi)
+        for (const span of spans) {
+            span.style.border = "dashed 2px yellow";
+        }
+
+        // aggiungere o togliere una singola classe a moltepplpici tag HTML
+        // lavorando con la property ClassList
+        document.getElementById("idTag").classList.add("classeTag");
+        document.getElementById("idTag").classList.remove("classeTag");
+
+// lettura o impostazione di attributo
+
+
+// un button di submit, senza aver specificato al Action, ricarica la pagina, per un meccanismo tipico del browser, non per comandi Js
+    </script>
+</body>
+
+</html>
