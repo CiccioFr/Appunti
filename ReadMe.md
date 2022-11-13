@@ -57,7 +57,7 @@ linguaggio di marcatura o linguaggio di formattazione
 1. [Docker](./Docker/ReadMe.md)
 
 ---
-## IDE - Integrated Development Environment
+# IDE - Integrated Development Environment
 Ambiente di Sviluppo Integrato
 
 1. [Visual Studio Community](./IDE/VisualStudioCommunity/ReadMe.md)
@@ -70,7 +70,7 @@ Ambiente di Sviluppo Integrato
 1. [VSCode](./IDE/VSCode/ReadMe.md)
 
 ---
-## Supporti alla Programmazione
+# Supporti alla Programmazione
 1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
 1. [NPM](./Supporti/NPM/ReadMe.md) - Node Package Manager
 1. [Pattern](./Supporti/Pattern/ReadMe.md)
