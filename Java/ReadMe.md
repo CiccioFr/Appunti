@@ -19,14 +19,14 @@
 
 ### Le Classi
 1. [Le Classi](./Classi/Classi.md)
-1. [Gli Oggetti](./Classi/Oggetti.md)
+1. [creare Oggetti - Getter e Setter](./Classi/Oggetti.md)
 1. [I Metodi](./Classi/Metodi.md)
 1. [il Costruttore](./Classi/Costruttore.md)
 1. [le Eccezioni](./Classi/Eccezioni.md)
 1. [La Firma](./../OOP/La_Firma.md)
-1. [Get e Set](./Classi/Get_e_Set.md)
 1. [Class Loader](./Classi/Class_Loader.md)
-1. [Classi Predefinite di Java](./Classi/Classi.md)
+1. [Classi Predefinite di Java](./Classi/ClassiPredefinite.md)
+1. [Pojo vs Bean](./PojoVsBean.md) - Tutti i JavaBean sono POJO, ma non viceversa
 
 ### L'inizio del Codice
 1. [Creazione Progetto Java](./Creazione_Progetto_Java.md)
@@ -70,8 +70,10 @@ Link:
 1. [Esempi](./Esempi/Esempi.md)
 
 ### Dal Web
+- [Guide del web](./dal_web.md) - HTML.it - F. Camuso
+- [YouTube - Riku TheFuffs](https://www.youtube.com/playlist?list=PLDv0BhS-vEuut7R-jd9SX9LY1nxaZhmym) 
+- https://www.boncoddo.it/corso
 - [Java - w3schools.com](https://www.w3schools.com/java/default.asp)
-- [Guide del web](./dal_web.md)
-- [una SuperGuida Java ??](https://ita.myservername.com/java-tutorial-beginners) - WebLink
+- [una SuperGuida Java ?? - ita.myservername.com](https://ita.myservername.com/java-tutorial-beginners) - WebLink
 - http://losviluppatore.it/category/java/
 - http://www.acosani.it/java/java001.html
