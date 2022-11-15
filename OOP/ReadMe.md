@@ -8,15 +8,17 @@
 
 - **`ereditarietà`** - attributi e metodi vengono ereditate dalle Classe figlie  
 
-- **`polimorfismo`** -  è la capacità di oggetti diversi di adattarsi ed apparire nella stessa forma in un determinato contesto; fornisce al programmatore dei mezzi per evitare di dover scrivere metodi distinti.  
+- **`polimorfismo`** - capacità di oggetti diversi di adattarsi ed apparire nella stessa forma in un determinato contesto;  
 ```java
 // Java
-List<String> stringList = new ArrayList<>();
+List<String> stringList = new ArrayList();
     // questo è polimorfismo
 ```
 Approfondimento: [scheda](./Polimorfismo.md) - [link web](http://www.dacrema.com/Informatica/Polimorfismo.htm)
 
-- **`Incapsulamento`** - (quando si settano a private le variabili - uso get set)  
+- **`Incapsulamento`** - (information hiding) meccanismo atto a limitare l'accesso diretto agli elementi dell'oggetto;  
+capacità di un oggetto di nascondere la sua implementazione interna rispetto al resto del codice.  
+(quando si settano a private le variabili - uso get set)  
 
 ---
 ## Caratteristiche:
