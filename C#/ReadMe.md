@@ -1,5 +1,7 @@
 # C#
 
+una classe figlia, denominata **classe derivata**, condivide caratteristiche e funzionamento della classe padre detta **classe base**.
+
 ```c#
 using System;   // Direttiva di using
 ```
@@ -23,13 +25,12 @@ using System;   // Direttiva di using
 - [Thread](./Thread.md)
 
 ### Link Web
-- [Documentazione di C#](https://learn.microsoft.com/it-it/dotnet/csharp/) - Microsoft
-- [Guida C#](https://www.html.it/guide/guida-c1/) - html.it
-- Da `C# 9` a `C# 10` (.NET 6) - F. Camuso  
-    global using, miglioramenti al pattern matching e altro - [link youtube](https://www.youtube.com/watch?v=KvJja_WiiTQ&list=PL0qAPtx8YtJeX-qXWVo59IY7IfzeUToPZ)
 
 - [C#](http://www.carlovecchio.altervista.org/c-.html) - Carlo Vecchio
-- [Ereditarietà - Hiding e Override](http://www.carlovecchio.altervista.org/c----ereditarieta--inheritance-.html) - Carlo Vecchio
+- Da `C# 9` a `C# 10` (.NET 6) - F. Camuso  
+    global using, miglioramenti al pattern matching e altro - [link youtube](https://www.youtube.com/watch?v=KvJja_WiiTQ&list=PL0qAPtx8YtJeX-qXWVo59IY7IfzeUToPZ)
+- [Documentazione di C#](https://learn.microsoft.com/it-it/dotnet/csharp/) - Microsoft
+- [Guida C#](https://www.html.it/guide/guida-c1/) - html.it
 
 ---
 [C# KeyWords](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/) - en  

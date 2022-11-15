@@ -1,4 +1,4 @@
-# Modificatori di accesso
+# Modificatori di accesso in C#
 link:
 - [Modificatori di accesso (Riferimenti per C#)](https://learn.microsoft.com/it-it/dotnet/csharp/language-reference/keywords/access-modifiers)
 - [Modificatori di accesso (Guida per programmatori C#)](https://learn.microsoft.com/it-it/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)
@@ -20,7 +20,7 @@ namespace MyCompany {
         class Inner {}
     }
 }
-// questa è equivalente a
+// è equivalente a
 namespace MyCompany {
     internal class Outer {
         private void Foo() {}
@@ -28,6 +28,10 @@ namespace MyCompany {
     }
 }
 ```
+- Un membro di una classe base può essere ```virtual```, cioè può essere sovrascritto da una classe derivata (quindi la classe derivata ne fa una diversa implementazione).
+- Una classe base può essere ``abstract``; una classe astratta non può essere istanziata direttamente ma solo tramite una classe derivata.
+- Una classe `sealed` è invece una classe che non può essere derivata.
+
 - [`delegate`](https://learn.microsoft.com/it-it/dotnet/csharp/programming-guide/delegates/)
 
 [Aggiungere modificatori di accessibilità](https://learn.microsoft.com/it-it/dotnet/fundamentals/code-analysis/style-rules/ide0040)
