@@ -1,26 +1,54 @@
 # Le Classi in Java
 
-deve iniziare con una lettera dell’alfabeto Maiuscola (UpperCammelCase)
+Segue nomenclatura `UpperCammelCase`
 
 **`class`** istruzione per dichiarare una classe
 
 # Tipi di Classi
 
-## `Interface`
+## `Interface` - il contratto con lo Sviluppatore
+- utilizza i comportamenti e non l'esistenza
+- risponde alla domanda "HA UN COMPORTAMENTO?"
+- di default è `public`, si può usare solo public
+- i metodi non hanno corpo
+- gli attributi per definizione sono `public static final` e DEVONO essere inizializzati
 ```java
-public interface IInterface {
-    const int;
-    public void faQualcosa() {}
+[public] interface IInterface {
+    String TXT = null;
+    public static final int NR = 5;
+
+    public void faQualcosa(char n);
 }
 ```
-## `Abstract`
-## `Concrete`
 
+## `Abstract`
+- Ha almeno un metodo astratto (e senza corpo)
+- Non si può istanziare
 ```java
-class Sottoclasse implements IInterface extends Superclasse1, Superclasse2 {
+abstract class AbstractClass {
+    public abstract void animalSound();
+
+    public void sleep() {
+        System.out.println("Zzz");
+    }
+}
+```
+
+## `Concrete`
+```java
+class SottoClasse extends AbstractClass implements IInterface, IInterface2 {
+    @Override
+    public void faQualcosa(char n) {
+        // codice.. 
+    }
+    @Override
+    public void sleep() {
+        System.out.println("Notte");
+    }
     // codice.. 
 }
 ```
+Tip: l'ereditarietà rappresenta una relazione di esistenza!
 
 [Link](https://ita.myservername.com/types-classes-java#Class_Types_In_Java_8211_Introduction)
 
@@ -50,7 +78,6 @@ enumerazione è un tipo di dato
 `tipo effettivo`: tipo di dato che appare nello heap (quello assegnato)
 
 parola chiave this (pg 342 libro) rappresenta l'oggetto stesso // è obbligatorio se i nomi delle variabili sono uguali, altrimenti omissibile
-
 
 ---
 Modificatore | Classe | Costruttore | Attributo | Metodo

@@ -1,0 +1,3 @@
+variabile transiente
+
+- transient 
