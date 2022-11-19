@@ -13,7 +13,7 @@ Segue nomenclatura `UpperCammelCase`
 - i metodi non hanno corpo
 - gli attributi per definizione sono `public static final` e DEVONO essere inizializzati
 ```java
-[public] interface IInterface {
+[public] interface IInterface extends Int1, Int2 {
     String TXT = null;
     public static final int NR = 5;
 
@@ -25,7 +25,7 @@ Segue nomenclatura `UpperCammelCase`
 - Ha almeno un metodo astratto (e senza corpo)
 - Non si può istanziare
 ```java
-abstract class AbstractClass {
+abstract class AbstractClass extends Abstr implements Int1, Int2 {
     public abstract void animalSound();
 
     public void sleep() {

@@ -12,12 +12,12 @@
 1. [Heap e Stack](./Concetti/Heap_e_Stack.md)
 
 ### Le Basi
-1. [Gli Operatori](./Basi/Operatori.md)
+1. [Operatori](./Basi/Operatori.md)
 1. [Tipi di Dati](./Basi/Tipi_di_Dati.md)
 1. [Array](./Basi/Array.md)
 1. [Costrutti Condizionali e Iterativi](./Basi/CostruttiCondizionaliIterativi.md)
 ------
-1. [Classi](./Classi/Classi.md)
+1. [Tipi di Classi](./Classi/Classi.md)
 1. [il Costruttore](./Classi/Costruttore.md)
 1. [Metodi](./Classi/Metodi.md)
 1. [Signature - La Firma del metodo](./../OOP/La_Firma.md)
@@ -25,7 +25,7 @@
 1. [Parametro Formale / Attuale](./Parametri.md)
 1. [Classi Predefinite di Java](./Classi/ClassiPredefinite.md)
 1. [Pojo vs Bean](./PojoVsBean.md) - Tutti i JavaBean sono POJO, ma non viceversa
-1. Collection
+1. [Collection Framework](./Collection.md)
 1. [Eccezioni](./Classi/Eccezioni.md)
 1. [Class Loader](./Classi/Class_Loader.md)
 
