@@ -1,8 +1,21 @@
-ordini di precedenza: not and or
+# Operatori in Java
 
-operatori matematici
-operatori booleani && || !
-operatori di comparazione   //ordini di precedenza: not end or
-operatori unari     new è un operatore unario   (pg 336 libro)
-operatori binari
-operatore ternario o di selezione   var ? n1 : n2   // se var == true -> n1; false -> n2
+## "punto" (.)  
+per l'accesso a campi e metodi di classi e oggetti. 
+
+
+## matematici  
+### + - * / %  
+\* divisione tra interi ritorna un valore intero.
+## incremento e decremento
+## booleani && || !  
+ordini di precedenza: `not` - `and` - `or`
+## di comparazione  
+## unari     
+- new    (pg 336)  
+## binari  
+## Bitwise
+binari orientati ai bit
+- operazioni logiche confrontando i bit degli operandi:
+## ternario o di selezione
+- var ? n1 : n2   // se var == true -> n1; false -> n2
