@@ -30,7 +30,7 @@
 1. [WPF](./dotNET/WPF/WPF.md) - Windows Presentation Foundation
 
 ---
-[Altri..](./altri.md)
+[Altri Linguaggi e Tecnologie](./AltriLinguaggi.md)
 
 ---
 ## MarkUp

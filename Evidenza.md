@@ -46,5 +46,23 @@ Root
 
 ---
 [Agile Epic](https://it.education-wiki.com/4109185-agile-epic)
+https://www.youtube.com/watch?v=k8xf6bZGq20
+https://tinyurl.com/56kxct5k
+https://www.linkedin.com/in/marcocaressa/
 
 ---
+## Struttura di un progetto
+- https://www.youtube.com/watch?v=aFlHqeG7gls
+
+---
+Sito di progetti in svariati linguaggi
+- https://www.kashipara.com/
+
+---
+eng
+- https://www.youtube.com/watch?v=WRV_QTypizA
+- https://www.facebook.com/reel/597694505388389?s=chYV2B&fs=e
+
+---
+# Enti formatori
+- https://www.fortechance.it/
