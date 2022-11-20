@@ -1,4 +1,6 @@
-Struttura Progetto:
+# Progetto MVC Java
+
+## Struttura Progetto:
 - model  
 connessione al DB
     - repository  
