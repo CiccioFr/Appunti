@@ -39,8 +39,12 @@
 1. [Garbage Collector](./../Java/Avanzato/Garbage_Collector.md)  
 [Garbage Collector Link losviluppatore.it](http://losviluppatore.it/java-la-garbage-collection)
 
+### Web
+1. [Wicket](./Wicket.md)
+
 ### L'inizio del Codice
-1. [Progetto MVC Java](./Progetto_MVC_Java.md)
+1. [Progetto MVC Java](./Prog_MVC_Java.md)
+1. [Progetto Hibernate Java](./Prog_Hibernate_Java.md)
 1. [Build System](./Intro/Build_System.md)
 1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
 1. [Jar](./jar.md)
@@ -56,8 +60,9 @@ https://docs.oracle.com/en/java/javase/index.html
 ## Pattern in Java
 1. [MVC in Java](./Pattern/MVC_in_Java.md)
 
-### Le Dipendenze
-1. [Dipendenze](./Dipendenze/Dipendenze.md)
+### Le Dipendenze Maven
+1. [Maven](./Maven/Maven.md)
+1. [Creazione Progetto Hibernate](./Maven/CreazioneProgettoHibernate.md)
 
 
 ### Connessioni con Angular
