@@ -7,9 +7,6 @@ connessione al DB
 - controller  
 - constant  
 - file  
-- ff  
-- ss  
-
 
 ---
 # Hassan:
