@@ -66,3 +66,8 @@ eng
 ---
 # Enti formatori
 - https://www.fortechance.it/
+
+---
+static final boolean COMPACT_STRINGS => [Compact Strings in Java 9](https://www.baeldung.com/java-9-compact-string)
+
+---
