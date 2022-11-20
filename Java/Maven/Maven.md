@@ -1,5 +1,7 @@
-# Maven - Dipendenze 
+# Maven - Dipendenze
 Aggiungere la giusta dipendenza nel pom.xml
+
+C:\Program Files\NetBeans-15\netbeans\java\maven\lib  
 
 ## [MySQL Connector Java](https://mvnrepository.com/artifact/mysql/mysql-connector-java)
 ```xml
