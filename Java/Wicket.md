@@ -12,25 +12,26 @@ altri progetti:
 ### Framework di applicazioni Web basato su componenti per il linguaggio di programmazione Java
 ver 9 al 16/11/2022
 
-è uno dei framework nato nel 2004 dopo i grandi del web di oggi (Angular)
-è uno dei pochi progetti che continua ad essere aggiornato e con una cerca community alle spalle
+È uno dei framework nato nel 2004 dopo i grandi del web di oggi (Angular)
+È uno dei pochi progetti che continua ad essere aggiornato e con una cerca community alle spalle
 Libreria grafica per interfacciarsi con l'utente (La View)
 orientato ai componenti
 da una astrazione della pagina
 non si risponde a richiesta http, ma si scrivono classi che rispondono a richiesta http
 
 ---
-QuickStar: per creare applicazione - https://wicket.apache.org/start/quickstart.html
+## `QuickStar`: Creare applicazione Wicket
+- https://wicket.apache.org/start/quickstart.html  
 Genera uno scheletro di progetto
 
-- Server to deploy on
-    Node non serve server, ne ha uno suo sw server interno
-    Java necessita si sw che gli faccia da server: contenitore dell'applicazione
-    qualunque libreria da per scontata che ci sia una applicazione server che la contenga e la gestisca
-    - Tomcat: è community driver
-        Wild Fly: NO ha qualcosa di incompatibile.. ha delle configurazioniparticolari da impostare
+- Server to deploy on  
+  Node non serve server, ne ha uno suo sw server interno
+  Java necessita si sw che gli faccia da server: contenitore dell'applicazione
+  qualunque libreria da per scontata che ci sia una applicazione server che la contenga e la gestisca
+  - Tomcat: è community driver
+    Wild Fly: NO - ha qualcosa di incompatibile.. ha delle configurazioni particolari da impostare
 
-il server usato è descritto in WEB-INF\web.xml (Toncat)
+il server usato è descritto in WEB-INF\web.xml (Tomcat)
 
 Come si programma una app web
 - avvio:
@@ -40,12 +41,12 @@ Come si programma una app web
   - \<!--  <user username="tomcat" password="<must-be-changed>" roles="tomcat"/> diventa: -->
   \<user username="tomcat" password="<password>" roles="tomcat, manager-gui, manager-script"/>
   - in scheda startUp: spunta pu selezionare file "catalina_start.bat"
-  - 
+    - https://www.exefiles.com/it/bat/catalina-start-bat/
 
 ---
 ## wicket repeatingview
 
-## è in html
+## È in html
 - entity html
   - &egrave
   - https://unicode-table.com/en/html-entities/
