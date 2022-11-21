@@ -4,13 +4,13 @@
 `\` carattere di escape.  
 `#` commenti e vengono ignorate  
 
-- Se inizia con una barra, directory e file solo **nella root** del repository  
+- Se inizia con una slash, directory e file solo **nella root** del repository  
   `/DirectoryInRoot`  
   `/FileInRoot.txt`  
-- Se **non** inizia con una barra, si riferisce a directory e file in **qualsiasi directory** o sottodirectory  
+- Se **non** inizia con una slash, si riferisce a directory e file in **qualsiasi directory** o sottodirectory  
   `FileOvunque.txt`  
   `DirectoryOvunque`
-- Se **termina** con una barra, corrisponde **solo** a directory  
+- Se **termina** con una slash, corrisponde **solo** a directory  
   `SoloDirectory/`  
   (si consideri Linux ove i file possono non avere estensione)  
 
@@ -37,3 +37,10 @@ Se si desidera rimuovere il file sia dall'indice che dal filesystem locale, omet
 `git rm -r -n directory`
 
 Quando si eliminano i file in modo ricorsivo, utilizzare l'opzione -n che eseguirà un "ciclo di prova" e mostrerà quali file verranno eliminati
+
+## "Untrack files in .gitignore"
+```console
+git rm --cached -r target/
+git rm -r --cached .
+git add .
+```
