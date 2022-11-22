@@ -40,6 +40,7 @@ Quando si eliminano i file in modo ricorsivo, utilizzare l'opzione -n che esegui
 
 ## "Untrack files in .gitignore"
 ```console
+git rm --cached -r *.class
 git rm --cached -r target/
 git rm -r --cached .
 git add .
