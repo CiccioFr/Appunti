@@ -1,5 +1,22 @@
 # MarkDown
 
+## Dialetti di Markdown
+
+Ad oggi, coesistono diverse implementazioni della sintassi di Markdown. Le più importanti sono:
+- `MultiMarkdown`: Amplifica la sintassi iniziale per aggiungere le note a piè di pagina, le tabelle, e alcuni dati aggiuntivi (metadata).
+- `Markdown Extra`: Di nuovo, aggiunte alla sintassi iniziale.
+- `GitHub Flavoured Markdown`: Questa è una variante di Markdown creata dalla piattaforma di hosting GitHub (sulla quale è ospitato anche Zettlr!) ed è attualmente uno dei dialetti più diffusi.
+- `Pandoc Markdown`: Il Markdown Pandoc è un sovrainsieme del GitHub flavoured Markdown e supporta ancora più elementi.
+- `CommonMark`: Tenta di implementare tutti gli elementi impossibili senza ambiguità. Da notare che CommonMark non supporta ancora nessuna specifica per le note a piè di pagina.
+
+## Testo
+- *corsivo* | _corsivo_
+- **grassetto** | __grassetto__
+- ~~cancellato~~
+- <u>sottolineato</u>
+
+## Flag
+
 - [ ] `- [ ]` - Quadratino di flag
 - [x] `- [x]` - Quadratino flaggato
 
@@ -41,7 +58,7 @@ riga vuota!!
 ![Testo alternativo ad immagine non trovata](https://fakeimg.pl/100)
 
 ---
-[URL-encoding](https://www.bettiolo.com/custom/1/tools/Utilit%C3%A0%20per%20il%20programmatore%20Web/URL%20Encoding%20-%20Lista%20caratteri.asp)  
+## [`URL-encoding`](https://www.bettiolo.com/custom/1/tools/Utilit%C3%A0%20per%20il%20programmatore%20Web/URL%20Encoding%20-%20Lista%20caratteri.asp)  
 Lista di caratteri ASCII in formato "URL-encoding" (formato esadecimale).  
 I valori esadecimali possono essere utilizzati per visualizzare, all'interno di Browser o Plug-in, le lettere e i caratteri non standard.  
 
