@@ -7,7 +7,7 @@ sito : https://git-scm.com/
 4. [Creazione Token GitHub](./Creazione_Token_GitHub.md)
 5. [GitHub comandi](./GitHub_comandi.md)
 6. [Branch e Merge](./Branch_e_Merge.md)
-6. [il file `.gitignore`](./file_gitignore.md)
+6. [il File `.gitignore`](./File_gitignore.md)
 7. [Spostare dei commit su un nuovo ramo in Git](https://devdev.it/spostare-dei-commit-su-un-nuovo-ramo-in-git-703/) - webLink  
 
 [git - la guida tascabile](https://rogerdudler.github.io/git-guide/index.it.html)  
