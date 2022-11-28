@@ -21,10 +21,14 @@ Esempio in Js:
 In Java le funzioni anonime sono state inserite nella versione 8 (rilasciata nel 2014)
 
 ## `serializzazione` -> persistenza del dato
-**La serializzazione è il processo che rende persistente lo stato dell'oggetto**. Ciò significa che lo stato dell'oggetto viene convertito in un flusso di byte da utilizzare per la persistenza (ad esempio la memorizzazione di byte in un file) o il trasferimento (ad esempio l'invio di byte attraverso una rete).  
+**La serializzazione è il processo che rende persistente lo stato dell'oggetto**.  
+Ciò significa che <u>***lo stato dell'oggetto viene convertito in un flusso di byte***</u> da utilizzare per la persistenza (ad esempio la memorizzazione di byte in un file) o il trasferimento (ad esempio l'invio di byte attraverso una rete).  
 Allo stesso modo, possiamo usare la deserializzazione per riportare lo stato dell'oggetto dai byte. Questo è uno dei concetti importanti nella programmazione Java perché la serializzazione è utilizzata principalmente nella programmazione di rete.  
-Gli oggetti che devono essere trasmessi attraverso la rete devono essere convertiti in byte. A tale scopo, in Java, ogni classe o interfaccia deve implementare l'interfaccia Serializable. È un'interfaccia marker senza alcun metodo.
-
+Gli oggetti che devono essere trasmessi attraverso la rete devono essere convertiti in byte.  
+- in Java  
+    A tale scopo, ogni classe o interfaccia deve implementare l'interfaccia `Serializable`. È un'interfaccia marker senza alcun metodo.
+    Per impostazione predefinita, tutte le variabili dell'oggetto vengono convertite in uno **stato persistente**.  
+    `transient` indica che un campo deve essere escluso dal **processo di serializzazione**.  
 
 ## `Code Smell` 
 espressione usata per indicare una serie di caratteristiche che il codice sorgente può avere e che sono generalmente riconosciute come probabili indicazioni di un difetto di programmazione.
