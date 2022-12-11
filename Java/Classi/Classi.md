@@ -1,8 +1,11 @@
 # Le Classi in Java
 
-Segue nomenclatura `UpperCammelCase`
+- Segue nomenclatura `PascalCase`
+- `class` istruzione per dichiarare una classe
+- `final` indica che la classe **non può essere estesa**  
+    Se una classe è dichiarata final il compilatore genera chiamate di metodi più efficienti.  
+    Sono dichiarate final per esempio la classi System, Math e String.
 
-**`class`** istruzione per dichiarare una classe
 
 # Tipi di Classi
 
@@ -20,6 +23,13 @@ Segue nomenclatura `UpperCammelCase`
     public void faQualcosa(char n);
 }
 ```
+## Interfaccia Funzionale (functional interface)
+Interfacce che definiscono **un solo metodo astratto** (SAM, Single Abstract Method) e zero o più metodi di default o metodi statici. Grazie a questa particolarità **possono essere implementate tramite un'espressione lambda**.  
+Sono generalmente marcate con l’annotazione `@FunctionalInterface`, anche se non è obbligatorio.  
+Le lambda sono usate con le funcional interface.  
+- https://www.html.it/pag/68110/le-interfacce-funzionali-in-java/
+- https://italiancoders.it/java-8-parte-1-optional-interfacce-funzionali/
+
 
 ## `Abstract`
 - Ha almeno un metodo astratto (e senza corpo)
@@ -55,20 +65,19 @@ Tip: l'ereditarietà rappresenta una relazione di esistenza!
 # Modificatori di Accesso delle Classi
 ## `Static`
 ## `Final`
-- Classe che non può essere ereditata 
+- Classe che non può essere estesa/ereditata 
 ## `Inner`
 ## `POJO`
-## Classe annidata / Classe interna
-viene utilizzata per migliorare l'incapsulamento.  
-è una classe racchiusa all'interno di un'altra classe.
-- native (perché sfrutta la tecnologia JNI che rende Java dipendente dal sistema operativo).
-- synchronized (riguarda i processi in Java).
-- transient (riguarda i processi in Java).
-- volatile (riguarda i processi in Java).
----
+## Classe interna
+- viene utilizzata per *migliorare l'incapsulamento*.  
+- è una classe racchiusa all'interno di un'altra classe.
 
-overloading con firma diversa       //si ha sulla stessa classe
-overrider devo mantenere la firma (perché dedo mantenere il tipo //si ha sulle classi figlie
+---
+- `native` (perché sfrutta la tecnologia JNI che rende Java dipendente dal sistema operativo).
+- `synchronized` (riguarda i processi in Java).
+- `transient` (riguarda i processi in Java).
+- `volatile` (riguarda i processi in Java).
+---
 
 enumerazione è un tipo di dato
 
@@ -76,18 +85,8 @@ enumerazione è un tipo di dato
 - posso chiamare solo i metodi del tipo apparente e le interfacce, // col (cast) anche del tipo  
 
 `tipo effettivo`: tipo di dato che appare nello heap (quello assegnato)
+```java
+List lista = new ArrayList();
+```
 
 parola chiave this (pg 342 libro) rappresenta l'oggetto stesso // è obbligatorio se i nomi delle variabili sono uguali, altrimenti omissibile
-
----
-Modificatore | Classe | Costruttore | Attributo | Metodo
---|--|--|--|--
-public | Si | Si | Si | Si
-protected | No | Si | Si | Si
-(default) | Si | Si | Si | Si
-private | No | Si | Si | Si
-abstract | Si | No | No | Si
-final | Si | No | Si | Si
-static | Si | No | Si | Si
-strictfp* | Si | No | No | Si
-\* Deprecato
