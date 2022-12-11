@@ -3,7 +3,7 @@
 2. Dipendenze
     - [GlideJs](./Dipendenze/GlideJs.md)
 3. [Class_Loader](./Dati%20numerici%20reali%20(floating%20point)%20IEEE754.png)
-4. [](./)
+4. [Let Var e Const](./TipiJs.md)
 5. [](./)
 6. [](./)
 7. [](./)
