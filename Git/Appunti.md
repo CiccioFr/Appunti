@@ -14,3 +14,9 @@ git pull --relase !!
 
 ---
 carattere backtick ` (accento grave)
+
+
+---
+Per il primo commit (su GitHub), loggarsi sul sito e creare una nuova Repository!!  
+git remote add origin https://github.com/Nome/progetto.git  
+git push -u origin master (o nome del brach)  
