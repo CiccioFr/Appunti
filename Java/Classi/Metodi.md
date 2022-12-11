@@ -61,4 +61,16 @@ public class Quadrato implements Cloneable {
 }
 ```
 
+## Overriding e overloading
+### Overriding
+Ridefinire un metodo con lo stesso nome e stesso numero e tipo di parametri della superclasse; serve per sovrascrivere il metodo, cambiandone il comportamento all’interno della sottoclasse.  
+Non si possono cambiare il numero, l’ordine e il tipo dei parametri.  
+I metodi ridefiniti hanno propri modificatori di accesso; si può cambiare il tipo di accesso ma solo se lo si amplia (quindi per esempio non si può sovrascrivere un metodo pubblico per renderlo privato).
+La clausola throws nel metodo ridefinito può essere omessa perché viene assegnata automaticamente quella del metodo originale; nel caso sia presente, può contenere solo le eccezioni della dichiarazione originale o sottoclassi di queste; in pratica il metodo ridefinito può lanciare solo le eccezioni dell’elenco originario o eccezioni derivate da queste.
+- Tipo di `ritorno covariante`  
+   Il tipo di ritorno può essere una sottoclasse del tipo di ritorno del metodo originale; si parla di tipo di ritorno covariante.  
+   Ciò è possibile a partire dalla versione 5.  
+   
+http://informatica.abaluth.com/programmazione/java/java-ereditarieta-sottoclassi-o-classi-derivate/
+
 ## [Comparazione e ordinamento degli oggetti in Java](https://www.iprogrammatori.it/articoli/java/art_comparazione-e-ordinamento-degli-oggetti-in-java_1659.aspx)
