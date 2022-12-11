@@ -24,11 +24,6 @@ Maven necessita del settaggio della Java-Home (variabile d'ambiente)
 `mvn` è l'eseguibile Maven
 
 ---
-Git
-- stash 
-- rebase
-
----
 Editor binari:
 - Witched
 
@@ -71,3 +66,6 @@ eng
 static final boolean COMPACT_STRINGS => [Compact Strings in Java 9](https://www.baeldung.com/java-9-compact-string)
 
 ---
+NullPointerException
+
+code snippet - frammento o un esempio di codice sorgente

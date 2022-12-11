@@ -10,7 +10,7 @@
 - `kebab-case`  
     utilizzato negli URL
 
-## `Funzione lambda` o funzione anonima
+## `Funzione Lambda` o funzione anonima
 funzione definita, e possibilmente chiamata, senza essere legata ad un identificatore.  
 Da usare nei casi in cui serve definire una breve funzione che ha poche linee di codice e che verrà utilizzata una sola volta (non può essere richiamata essendo priva di identificatore)  
 Esempio in Js:  

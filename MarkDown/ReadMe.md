@@ -64,6 +64,7 @@ I valori esadecimali possono essere utilizzati per visualizzare, all'interno di 
 
 ---
 ## Correlati
+[GitHub Flavored Markdown Spec](https://github.github.com/gfm)  
 [LaTeX](../LaTeX/ReadMe.md)  
 [Pandoc (vocabolo)](./../Supporti/Utility/ReadMe.md#Pandoc)
 
@@ -81,3 +82,5 @@ altri simboli $ f(x,\ast) f(x,\star) f(x,\cdot) f(x,\bullet)  $
 - [Guida MarkDown](https://learntutorials.net/it/markdown/topic/529/iniziare-con-markdown)
 - [guida markdown](https://www.qownnotes.org/it/getting-started/markdown.html)  
 - [altra interessante](https://experienceleague.adobe.com/docs/contributor/contributor-guide/writing-essentials/markdown.html?lang=it) con riferimenti a [GitHub Flavored Markdown (GFM)](https://docs.github.com/en/get-started/writing-on-github)
+
+https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/markdown-editor/
