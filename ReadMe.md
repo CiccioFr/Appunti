@@ -10,16 +10,27 @@
 ## Linguaggi di Programmazione
 1. [OOP](./OOP/ReadMe.md)
 
-### BackEnd
+## BackEnd
 1. [Java](./Java/ReadMe.md/#Java)
 1. [C#](./C%23/ReadMe.md)
 1. [PHP](./PHP/ReadMe.md)
 1. [C/C++](./C%2B%2B/ReadMe.md)
 1. [NodeJs](./NodeJs/ReadMe.md)
 
-- ### [DataBase](./DataBase/ReadMe.md)
+---
+## DBMS
+- [Modellare Database con UML](./DataBase/ClassDiagramUML.md)
+### [SQL](./DataBase/sql.md) - Structured Query Language
+- MySQL
+- MariaDB
+- SQL Server (Microsoft),
+- PostgreSQL - DBMS ad oggetti
+### NoSQL - No only SQL
+- MongoDB
+- Cassandra
 
-### FrontEnd
+---
+## FrontEnd
 1. [JavaScript](./JavaScript/ReadMe.md)
 1. [TypeScript](./TypeScript/ReadMe.md)
 1. [jQuery](./jQuery/ReadMe.md)
@@ -28,34 +39,35 @@
 1. [Apache Wicket](./Java/Wicket.md) - vedi Java
 
 ### [.NET](./dotNET/ReadMe.md)
-1. [WPF](./dotNET/WPF/WPF.md) - Windows Presentation Foundation
-
----
-[Altri Linguaggi e Tecnologie](./AltriLinguaggi.md)
+1. [WPF](./dotNET/WPF/WPF.md) - Windows Presentation Foundation ( XAML + C# )
 
 ---
 ## MarkUp
-linguaggio di marcatura o linguaggio di formattazione
+linguaggio di marcatura / formattazione
 1. [HTML](./HTML/ReadMe.md)
 1. Formattazione di HTML
     - [CSS](./CSS/ReadMe.md)
     - SCSS
     - LESS
 1. [Bootstrap](./Bootstrap/ReadMe.md)
-
----
 1. [MarkDown](./MarkDown/ReadMe.md)
-1. [LaTeX](./LaTeX/ReadMe.md)
+    1. [LaTeX](./LaTeX/ReadMe.md)
 
 ---
-## CMS - Content Management System
+### CMS - Content Management System
 1. [WordPress](./CMS/WordPress/ReadMe.md)
 1. [Magento](./CMS/Magento/Magento.md)
 1. [Drupal](./CMS/Drupal/ReadMe.md) 
 
 ---
-## Deploy
+### Deploy e co
 1. [Docker](./Docker/ReadMe.md)
+
+---
+## Altri Linguaggi e Tecnologie
+1. [RUST - youTube Camuso](https://www.youtube.com/watch?v=AEHpTZeIs30)
+1. [Kotlin](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/tutorial-kotlin/)
+1. [WebSocket](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/che-cose-websocket/) - Web Link
 
 ---
 # IDE - Integrated Development Environment
@@ -83,17 +95,17 @@ Ambiente di Sviluppo Integrato
 1. [Browser](./Supporti/Browser/ReadMe.md)
 
 ---
-## [Utility](./Supporti/Utility/ReadMe.md)
+## [🛠️ Utility](./Supporti/Utility/ReadMe.md)
 
 ---
-## [Tips](./Supporti/Tips/ReadMe.md)
+## [💊 Tips](./Supporti/Tips/ReadMe.md)
 
 ---
 ### [in evidenza](./Evidenza.md)
 
 ---
-## [Link a video e guide](./Supporti/Link/ReadMe.md)
+## [📒 Link a video e guide](./Supporti/Link/ReadMe.md)
 
 ---
 
-## [Articoli](./Articoli/ReadMe.md)
+## [📰 Articoli](./Articoli/ReadMe.md)
