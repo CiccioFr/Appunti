@@ -1,5 +1,6 @@
-# Hibernate - Dipendenze Java
-## File `pom.xml`
+# File `pom.xml`
+
+## Dipendenze Java
 
 ```xml
 <dependencies>

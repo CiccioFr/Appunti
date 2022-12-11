@@ -17,7 +17,7 @@ dipendenze:
 1. Spring Boot DevTools
 2. Lombok
 3. spring web
-4. My SQL connection
+4. MySQL connection
 
 creare progetto IDEA
 

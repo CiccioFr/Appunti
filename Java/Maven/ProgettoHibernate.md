@@ -1,19 +1,40 @@
-# Creazione di un progetto con Maven
-Strumento di gestione di progetti software basati su Java e build automation. Per funzionalità è similare ad Apache Ant, ma basato su concetti differenti. Può essere usato anche in progetti scritti in C#, Ruby, Scala e altri linguaggi.  
-Dipendenze Maven da: [mvnrepository.com](https://mvnrepository.com)
+# Progetto Hibernate con Maven
 
----
-Pre-Requisito: Aver già creato un DB !!!
+1. Pre-Requisito: Aver già creato un DB !!!
 
-## Aggiungere Dipendenze Maven nel file `pom.xml`
-- [hibernate-core](https://mvnrepository.com/artifact/org.hibernate/hibernate-core)
-- [hibernate-c3p0](https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-c3p0)
-- [hibernate-entitymanager](https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager)
-- [mariadb-java-client](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client)
-- [commons-beanutils](https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils)
+1. ## creaz Prog con Maven
 
+1. ## Aggiungere Dipendenze nel file `pom.xml`
+- [mvnrepository.com](https://mvnrepository.com)
+    - [hibernate-core](https://mvnrepository.com/artifact/org.hibernate/hibernate-core)
+    - [hibernate-c3p0](https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-c3p0)
+    - [hibernate-entitymanager](https://mvnrepository.com/artifact/org.hibernate/hibernate-entitymanager)
+    - [mariadb-java-client](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client)
+    - [commons-beanutils](https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils)
 
-<details> <summary> spoiler file pom.xml </summary>
+### file `pom.xml`
+<details> <summary> spoiler Sintesi file pom.xml </summary>
+
+- org.hibernate
+    - hibernate-core
+    - hibernate-c3p0
+    - hibernate-entitymanager
+- org.mariadb.jdbc
+    - mariadb-java-client
+- commons-beanutils
+    - commons-beanutils
+- org.eclipse.persistence
+    - org.eclipse.persistence.core
+    - org.eclipse.persistence.asm
+    - org.eclipse.persistence.antlr
+    - org.eclipse.persistence.jpa
+    - org.eclipse.persistence.jpa.jpql
+    - org.eclipse.persistence.moxy
+    - jakarta.persistence
+    - org.eclipse.persistence.jpa.modelgen.processor
+</details> 
+
+<details> <summary> spoiler Dettagli file pom.xml </summary>
 
 ```xml
 <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
@@ -50,15 +71,16 @@ Pre-Requisito: Aver già creato un DB !!!
 </details> 
 
 ---
-## Creare le Classi di interfacciamento col DB
+4. ## Creare le Classi di interfacciamento col DB
 
 ### `Persistence`: importare driver "DataBase Connection"
-Connessioni database persistenti - Le connessioni persistenti sono collegamenti che non si chiudono al termine dell'esecuzione dello script. Quando viene richiesta una connessione persistente, PHP verifica se esiste già una connessione persistente identica (che è rimasta aperta da prima) e, se esiste, la utilizza. [Web Link](https://www.php.net/manual/en/features.persistent-connections.php)
+Connessioni database persistenti
+- Le connessioni persistenti sono collegamenti che non si chiudono al termine dell'esecuzione dello script. Quando viene richiesta una connessione persistente, PHP verifica se esiste già una connessione persistente identica (che è rimasta aperta da prima) e, se esiste, la utilizza. [Web Link](https://www.php.net/manual/en/features.persistent-connections.php)
 - cercare e scaricare driver java  
     (es. [mariaDB](https://mariadb.com/kb/en/about-mariadb-connector-j) ->
-    https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)
+    https://mariadb.com/downloads/connectors/connectors-data-access/java8-connector)  
+    su google: MariaDB Connector/J
 - click dx su package -> new -> other -> category: Persistence / File Types: Entity Clases from DataBase
-su google: MariaDB Connector/J
 - importa automaticamente nel pom le dipendenze
 
 <details> <summary> spoiler file pom.xml </summary>
