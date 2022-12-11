@@ -1,6 +1,11 @@
-# Termini Nozioni e Concetti
+# Termini Nozioni e Concetti in Java
 - **`Identificatore`** > Nome assegnato variabile/metodo/classe
-- **`Referenza`**: l’indirizzo di memoria della variabile è utilizzato come puntatore 
+- **`reference`**: similmente al puntatore, indica l’indirizzo di allocazione nella memoria della variabile
+classe derivata
+- `SuperClasse`: classe che viene estesa (padre)
+- `SottoClasse`: classe che estende (figlia)
+- Gli **attributi** sono le variabili della classe. Definiscono le **proprietà** della classe.
+- `modificatori` di accesso permettono di stabilire il livello di protezione package
 
 ---
 ## Convenzioni
