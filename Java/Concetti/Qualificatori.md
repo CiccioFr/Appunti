@@ -1,17 +1,45 @@
 # Modificatori / Qualificatori
 
-## di Accesso
+Modificatore | Classe | Costruttore | Attributo | Metodo
+--|--|--|--|--
+public | Si | Si | Si | Si
+protected | No | Si | Si | Si
+(default) | Si | Si | Si | Si
+private | No | Si | Si | Si
+abstract | Si | No | No | Si
+final | Si | No | Si | Si
+static | Si | No | Si | Si
+strictfp* | Si | No | No | Si
+\* Deprecato
 
-## di Non Accesso
+---
+## Modificatori di Accesso
+stabiliscono il livello di visibilità da altre classi  
 
-## `transient`
-- Esclude il valore dal processo di serializzazione, che rende persistente lo stato dell'oggetto  
+`static` rende l’attributo o il metodo di classe
 
-Per impostazione predefinita, tutte le variabili dell'oggetto vengono convertite in uno **stato persistente**.  
-`transient` indica che un campo non dovrebbe far parte del **processo di serializzazione**.  
-**La serializzazione è il processo che rende persistente lo stato dell'oggetto**. Ciò significa che lo stato dell'oggetto viene convertito in un flusso di byte da utilizzare per la persistenza (ad esempio la memorizzazione di byte in un file) o il trasferimento (ad esempio l'invio di byte attraverso una rete).  
-Allo stesso modo, possiamo usare la deserializzazione per riportare lo stato dell'oggetto dai byte. Questo è uno dei concetti importanti nella programmazione Java perché la serializzazione è utilizzata principalmente nella programmazione di rete.  
-Gli oggetti che devono essere trasmessi attraverso la rete devono essere convertiti in byte. A tale scopo, ogni classe o interfaccia deve implementare l'interfaccia Serializable. È un'interfaccia marker senza alcun metodo.
+`final`
+- ad un attributo: definisce una costante
+- sd un metodo: non può essere ridefinito nelle sottoclassi.
+
+---
+- default method nelle interfacce
+- static method nelle intefacce
+
+---
+## Modificatori di Non Accesso
+
+### `transient`
+- Esclude il valore dal processo di serializzazione (conversione in un flusso di byte da utilizzare per la persistenza)
+```java
+private transient String password;
+```
+vedi [serializzazione/persistenza](./../../Termini_e_Concetti\Programmazione.md#serializzazione---persistenza-del-dato)  
+Note: - Per impostazione predefinita, tutte le variabili dell'oggetto vengono convertite in uno **stato persistente**.  
+
+<details><summary> Spoiler Codice esempio </summary>
+
+Gli oggetti che devono essere trasmessi attraverso la rete devono essere convertiti in byte. A tale scopo, in Java, ogni classe o interfaccia deve implementare l'interfaccia Serializable. È un'interfaccia marker senza alcun metodo.
 ```java
 class Classe implements Serializable{
     private String userName;
@@ -29,3 +57,7 @@ public class TransientExample{
 // Output: userName: Pippo - password: null
 ```
 fonte [stackoverflow.com](https://stackoverflow.com/questions/910374/why-does-java-have-transient-fields)
+</details>
+
+---
+https://www.youtube.com/watch?v=yqgSaRE9egk
