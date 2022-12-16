@@ -6,7 +6,8 @@
 - Spring in cosa consiste? (prima dei moduli Spring Boot/Web/Security/ecc..)
 - Inizializzazione statica (`static final` .. ) - come si concretizza il suo uso?
 - `task` cos'è
-- socket..
+- JavaBeans vs POJO
+- socket.. connesione diretta?
 
 Git
 - stash 
