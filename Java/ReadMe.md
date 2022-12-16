@@ -59,9 +59,9 @@
 ## FrameWork
 0. [Maven](./Maven/Maven.md)
 1. [Spring ed i suoi moduli](./Framework/Spring.md)
-1. [Hibernate](./Maven/FilePOM.xml.md)
+1. [JPA (Java Persistence API)](./Maven/JPA.md) (MySQL / MariaDB)
+1. [Hibernate](./Maven/FilePOM.xml.md) - ORM
 1. [Connessioni a DB](./DBJava/ReadMe.md)
-1. [Persistence](./Persistence.md) (MySQL / MariaDB)
 
 [Streaming API](http://losviluppatore.it/java-8-la-streaming-api/) - Web Link
 
@@ -82,13 +82,15 @@
 1. [Connessione Java-Angular](./Connessione_Java_Angular.md)
 
 ### Termini..
-- `Apache Tomcat` (o semplicemente Tomcat) è un server web (nella forma di contenitore servlet) 
-- `Servlet` sono oggetti che operano all'interno di un server web (es. Tomcat, Jetty) oppure un application server (es. WildFly, GlassFish) permettendo la **creazione di applicazioni web** (elaborazione lato server). Il nome deriva in contrapposizione alle `Java Applet`.
-- `JSP` (`JavaServer Pages`) tecnologia di programmazione web in Java per lo **sviluppo della logica di presentazione** (tipicamente secondo il pattern MVC) di applicazioni web, fornendo contenuti dinamici in formato HTML o XML.
+- `Apache Tomcat`  
+    server web (nella forma di contenitore servlet) 
+- `Servlet`  
+    oggetti che operano all'interno di un server web (es. Tomcat, Jetty) oppure un application server (es. WildFly, GlassFish) permettendo la **creazione di applicazioni web** (elaborazione lato server). Il nome deriva in contrapposizione alle `Java Applet`.
+- `JSP` (`JavaServer Pages`)  
+    tecnologia di programmazione web in Java per lo **sviluppo della logica di presentazione** (tipicamente secondo il pattern MVC) di applicazioni web, fornendo contenuti dinamici in formato HTML o XML.
     La tecnologia JSP è correlata con quella delle servlet: all'atto della prima invocazione, le pagine JSP vengono infatti tradotte automaticamente da un compilatore JSP in servlet.  
     Una pagina JSP può essere vista come una rappresentazione ad alto livello di un servlet.  
     JSP è una tecnologia alternativa rispetto a numerosi altri approcci alla generazione di pagine web dinamiche, per esempio PHP, o ASP, o CGI.
-- `JPA` (`Java Persistence API`) sono un framework per il linguaggio di programmazione Java che si occupa della **gestione della persistenza dei dati di un DBMS relazionale**
 
 ### Esempi
 1. [Esempi](./Esempi/Esempi.md)
