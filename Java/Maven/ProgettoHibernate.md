@@ -148,3 +148,7 @@ public static EntityManager db() {
 ## Creare le Classi per la connessione ad ogni tabella del DB
 1. Creando una classe di connessione per ogni tabella
 2. Creando una unica classe `CRUD` in cui astraggo la tabella del caso in una variabile 
+
+---
+## Introduction to Hibernate framework
+http://javainsimpleway.com/introduction-to-hibernate-framework/
