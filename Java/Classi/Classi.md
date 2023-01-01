@@ -7,7 +7,18 @@
     Sono dichiarate final per esempio la classi System, Math e String.
 
 
-# Tipi di Classi
+## Tipi di Classi
+- Concreta
+- Astratta
+- Interfaccia
+- Interne
+    - `inner` class" che è una cosa ben diversa da una 
+    - `nested` (nidificata) (static) class.  
+    https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html  
+    https://www.developer.com/design/understanding-java-nested-classes-and-java-inner-classes/
+- Anonime
+- SuperClasse
+- SottoClasse
 
 ## `Interface` - il contratto con lo Sviluppatore
 - utilizza i comportamenti e non l'esistenza
