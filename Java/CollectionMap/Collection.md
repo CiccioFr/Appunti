@@ -1,10 +1,7 @@
-# Java Collection Framework
-Sebbene indicato come un framework, funziona come una libreria. 
+# Java Collection 
+
 ![Java Collection Framework](./Java.util.Collection_hierarchy.jpg)
 
-Buona pratica nella scelta della struttura di raggruppamento è partire dalle interfacce di alto livello che descrivono i tipi base in modo astratto, scegliendo successivamente la classe che implementa il tipo base, attraverso considerazioni che riguardano la velocità di esecuzione e il consumo di memoria. A questi aspetti ci si riferisce con i termini di **costo di tempo e di spazio** di un modulo software.
-
----
 # `java.util.Collection` - Interfaccia
 ```java
 public interface Collection<E> extends Iterable<E> {
@@ -201,10 +198,6 @@ public class Point implements Comparable<Point> {
 ```
 
 ---
-
----
-# Java Collections Framework
-Il framework delle raccolte Java è un insieme di classi e interfacce che implementano strutture di dati di raccolta comunemente riutilizzabili. Sebbene indicato come un framework, funziona come una libreria.
 
 https://www.html.it/articoli/java-collections-framework/
 
