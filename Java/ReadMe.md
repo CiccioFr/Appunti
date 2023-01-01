@@ -66,6 +66,10 @@
 [Streaming API](http://losviluppatore.it/java-8-la-streaming-api/) - Web Link
 
 ---
+## Librerie
+1. [`Lombok`](./Librerie/Lombok.md) - Libreria di tipo `APT` (`Annotation Processing Tool`)  
+
+---
 ## Pattern in Java
 1. [MVC in Java](./Pattern/MVC_in_Java.md)
 
@@ -81,17 +85,22 @@
 ### Connessioni con Angular
 1. [Connessione Java-Angular](./Connessione_Java_Angular.md)
 
+### [Tutorial](./Tutorial.md)
+- [Spring Boot + Spring MVC + Spring Security + MySQL](https://medium.com/@gustavo.ponce.ch/spring-boot-spring-mvc-spring-security-mysql-a5d8545d837d)
+
 ### Termini..
 - `Apache Tomcat`  
     server web (nella forma di contenitore servlet) 
 - `Servlet`  
+    rappresentano delle classi Java, impiegate per ampliare la grandezza dei server, i quali ospitano varie applicazioni a cui è possibile accedere mediante un modello, che è in grado di elaborare le risposte in funzione delle domande.  
     oggetti che operano all'interno di un server web (es. Tomcat, Jetty) oppure un application server (es. WildFly, GlassFish) permettendo la **creazione di applicazioni web** (elaborazione lato server). Il nome deriva in contrapposizione alle `Java Applet`.
 - `JSP` (`JavaServer Pages`)  
     tecnologia di programmazione web in Java per lo **sviluppo della logica di presentazione** (tipicamente secondo il pattern MVC) di applicazioni web, fornendo contenuti dinamici in formato HTML o XML.
     La tecnologia JSP è correlata con quella delle servlet: all'atto della prima invocazione, le pagine JSP vengono infatti tradotte automaticamente da un compilatore JSP in servlet.  
     Una pagina JSP può essere vista come una rappresentazione ad alto livello di un servlet.  
     JSP è una tecnologia alternativa rispetto a numerosi altri approcci alla generazione di pagine web dinamiche, per esempio PHP, o ASP, o CGI.
-
+- DAO vs Repository https://stackoverflow.com/questions/8550124/what-is-the-difference-between-dao-and-repository-patterns
+- http://gochev.blogspot.com/2009/08/hibernate-generic-dao.html
 ### Esempi
 1. [Esempi](./Esempi/Esempi.md)
 

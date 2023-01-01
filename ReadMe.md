@@ -87,7 +87,6 @@ Ambiente di Sviluppo Integrato
 1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
 1. [NPM](./Supporti/NPM/ReadMe.md) - Node Package Manager
 1. [Pattern](./Supporti/Pattern/ReadMe.md)
-1. [Docker](#)
 1. [RegEx](./Supporti/RegEx/ReadMe.md)
 1. [UML](./Supporti/UML/ReadMe.md)
 1. [Chiave SSH](./Supporti/Chiave_SSH/Chiave%20per%20GitHub.md)
