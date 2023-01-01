@@ -58,6 +58,9 @@ Tipi:
 - Enclosing Shortcode  
 [link su wordpress](../CMS/WordPress/ShortCode/ShortCode.md)
 
+## Boilerplate
+Codice ripetuto in molte parti di un’applicazione con poche modifiche
+
 ## `Run-time system` (o runtime system)
 Software che fornisce i servizi necessari all'esecuzione di un programma, pur non facendo parte in senso stretto del sistema operativo.  
 Esempi di runtime system sono:
