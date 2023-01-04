@@ -11,7 +11,7 @@ leggi "[Under the hoodie: why money, power, and ego drive hackers to cybercrime]
 Cos'è l'hacking [link malwarebytes.com](https://it.malwarebytes.com/hacker)  
 
 ## Cracker, o pirata informatico  
-Appassionato di informatica, esperto di programmazione, di sistemi e di sicurezza informatica in grado di introdursi in reti di computer senza autorizzazione allo scopo di danneggiare un sistema informatico; il cui scopo è prettamente violare e danneggiare un sistema.[4], cui si riferisce impropriamente il mondo giornalistico con il termine hacker.  
+Appassionato di informatica, esperto di programmazione, di sistemi e di sicurezza informatica in grado di introdursi in reti di computer senza autorizzazione allo scopo di danneggiare un sistema informatico; il cui scopo è prettamente violare e danneggiare un sistema, cui si riferisce impropriamente il mondo giornalistico con il termine hacker.  
 Non è da confondere con gli hacker i quali sono contraddistinti da una cultura e un'etica legata all'idea del software libero. 
 I cracker possono essere spinti da varie motivazioni (seguendo lo schema del [MOM](https://it.wikipedia.org/wiki/Method,_Opportunity,_and_Motive) - Method, Opportunity and Motive ovvero Metodo, Opportunità e Movente).  
 [link Wikipedia](https://it.wikipedia.org/wiki/Cracker_(informatica))  
@@ -51,7 +51,7 @@ Studio del comportamento di una persona al fine di carpire informazioni utili. E
 
 ---
 ## Computer zombie
-Computer o dispositivo mobile connesso a internet che, all'insaputa dell'utente, è stato compromesso da un cracker o infettato da un virus, in maniera tale da permettere a persone non autorizzate di assumerne in parte o per intero il controllo. Generalmente questo computer diviene parte di una botnet, ossia di una rete composta da numerosi altri computer, tutti infettati, che può venire utilizzata per compiere attacchi verso terze parti, attraverso spam o DDoS, sotto il controllo remoto da parte di malintenzionati[2]. 
+Computer o dispositivo mobile connesso a internet che, all'insaputa dell'utente, è stato compromesso da un cracker o infettato da un virus, in maniera tale da permettere a persone non autorizzate di assumerne in parte o per intero il controllo. Generalmente questo computer diviene parte di una botnet, ossia di una rete composta da numerosi altri computer, tutti infettati, che può venire utilizzata per compiere attacchi verso terze parti, attraverso spam o DDoS, sotto il controllo remoto da parte di malintenzionati. 
 
 ---
 ## Phishing  
