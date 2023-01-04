@@ -89,11 +89,13 @@
 - [Spring Boot + Spring MVC + Spring Security + MySQL](https://medium.com/@gustavo.ponce.ch/spring-boot-spring-mvc-spring-security-mysql-a5d8545d837d)
 
 ### Termini..
+- `Applet`
+    piccoli programmi scritti in Java che si eseguono all'interno del browser dell'utente client (elaborazione lato client). 
 - `Apache Tomcat`  
     server web (nella forma di contenitore servlet) 
 - `Servlet`  
     rappresentano delle classi Java, impiegate per ampliare la grandezza dei server, i quali ospitano varie applicazioni a cui è possibile accedere mediante un modello, che è in grado di elaborare le risposte in funzione delle domande.  
-    oggetti che operano all'interno di un server web (es. Tomcat, Jetty) oppure un application server (es. WildFly, GlassFish) permettendo la **creazione di applicazioni web** (elaborazione lato server). Il nome deriva in contrapposizione alle `Java Applet`.
+    oggetti scritti in linguaggio Java che operano all'interno di un server web (es. Tomcat, Jetty) oppure un server per applicazioni (application server) (es. WildFly, GlassFish) permettendo la **creazione di applicazioni web** (elaborazione lato server). Il nome deriva in contrapposizione alle `Java Applet`.  
 - `JSP` (`JavaServer Pages`)  
     tecnologia di programmazione web in Java per lo **sviluppo della logica di presentazione** (tipicamente secondo il pattern MVC) di applicazioni web, fornendo contenuti dinamici in formato HTML o XML.
     La tecnologia JSP è correlata con quella delle servlet: all'atto della prima invocazione, le pagine JSP vengono infatti tradotte automaticamente da un compilatore JSP in servlet.  
