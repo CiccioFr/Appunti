@@ -1,5 +1,5 @@
 
-// ash dell'ultimo commit, codice univoco del commit e si usa per andare indietro o avanti
+// hash del commit, codice univoco del commit
 
 GitHub: locale più aggiornato: sul dispositivo per tornare indietro di un commit: 
 - git cheout --
@@ -15,8 +15,3 @@ git pull --relase !!
 ---
 carattere backtick ` (accento grave)
 
-
----
-Per il primo commit (su GitHub), loggarsi sul sito e creare una nuova Repository!!  
-git remote add origin https://github.com/Nome/progetto.git  
-git push -u origin master (o nome del brach)  

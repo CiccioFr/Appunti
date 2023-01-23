@@ -238,9 +238,9 @@ git push --set-upstream ciccio1 master
 ---
 ## Modificare i commit generati o annullarli
 
-Se avete apportato modifiche sotto forma di un commit, potete rivedere il contenuto in qualsiasi momento o revocarlo del tutto. Un caso tipico, in cui sono necessari degli aggiornamenti, è ad esempio quello in cui il commit è stato generato troppo presto e sono stati dimenticati alcuni file o modifiche importanti. In tal caso è necessario fornire a posteriori tramite “git add” i file nuovi o adattati e ripetere l’inserimento nel repository principale. Per far questo aggiungete al comando standard l’opzione --amend:
+`git commit --amend` modifica il commit più recente. Consente di unire le modifiche preparate per il commit al commit precedente. La correzione non altera solo il commit più recente, ma lo sostituisce completamente. Git lo interpreterà come un commit nuovo
 
-git commit --amend
+`git commit --amend -m "an updated commit message"` modifica il messaggio di commit precedente senza modificarne la `snapshot`
 
 Se desiderate invece revocare l’ultimo commit generato, potete farlo con il seguente comando Git:
 
