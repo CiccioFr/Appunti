@@ -46,3 +46,9 @@ Tip
 - ### [`XAMPP`](../xampp/ReadMe.md)
     - [Recuperare DB Danneggiato su XAMPP](../xampp/xampp_Recuperare_DB_danneggiato.md)
 - ### `WAMP` - `LAMP` - `MAMP`
+
+---
+---
+## Switch in SQL
+SELECT  CASE  WHEN c.censored = false THEN c.comment  ELSE 'censored Comment'  END, 
+FROM Tabella;
