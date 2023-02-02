@@ -1,8 +1,9 @@
 # Il File `.gitignore`
 [guida](https://noviello.it/come-ignorare-file-e-directory-in-git-con-gitignore/)  
+[guida ufficiale](https://git-scm.com/docs/gitignore)  
 
 `\` carattere di escape.  
-`#` commenti e vengono ignorate  
+`#` commenti  
 
 - Se inizia con una slash, directory e file solo **nella root** del repository  
   `/DirectoryInRoot`  
