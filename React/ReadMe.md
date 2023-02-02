@@ -1,5 +1,5 @@
 # React
-Libreria open-source, front-end, JavaScript per la creazione di interfacce utente ed applicazioni web  
+**Libreria** open-source, front-end, JavaScript per la creazione di interfacce utente ed applicazioni web  
 SPA: Utilizzo di dati che possono cambiare nel tempo, senza ricaricare la pagina.  
 Sviluppata nel 2013 all'interno di Facebook.  
 

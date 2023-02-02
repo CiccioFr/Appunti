@@ -60,10 +60,6 @@ linguaggio di marcatura / formattazione
 1. [Drupal](./CMS/Drupal/ReadMe.md) 
 
 ---
-### Deploy e co
-1. [Docker](./Docker/ReadMe.md)
-
----
 ## Altri Linguaggi e Tecnologie
 1. [RUST - youTube Camuso](https://www.youtube.com/watch?v=AEHpTZeIs30)
 1. [Kotlin](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/tutorial-kotlin/)
@@ -85,22 +81,30 @@ Ambiente di Sviluppo Integrato
 ---
 # Supporti alla Programmazione
 1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
+1. [Maven](./Maven.md)
+1. [Docker](./Docker/ReadMe.md)
 1. [UML](./Supporti/UML/ReadMe.md)
 1. [Pattern](./Supporti/Pattern/ReadMe.md)
-1. [API](./Termini_e_Concetti/API.md)
+1. [API (REST, SOAP e GraphQL) e EndPoint](./Termini_e_Concetti/API.md)
+1. [MicroServizi](./MicroServizi.md)
 1. [RegEx](./Supporti/RegEx/ReadMe.md)
 1. [NPM](./Supporti/NPM/ReadMe.md) - Node Package Manager
 1. [Chiave SSH](./Supporti/Chiave_SSH/Chiave%20per%20GitHub.md)
 1. [PowerShell](./Supporti/PowerShell/ReadMe.md) 
-1. [Protocolli](./Supporti/Protocolli/Protocolli.md)
 1. [Browser](./Supporti/Browser/ReadMe.md)
 
 ---
 ## Protocolli
 1. [HTTP](./Protocolli/HTTP.md)
+1. [Protocolli](./Supporti/Protocolli/Protocolli.md)
 
 ---
 ## [🛠️ Utility](./Supporti/Utility/ReadMe.md)
+1. [JasperReports](./JasperReports.md)
+
+---
+## Siti web
+1. [codeshare.io](https://codeshare.io) - Codice condiviso Real time
 
 ---
 ## [💊 Tips](./Supporti/Tips/ReadMe.md)

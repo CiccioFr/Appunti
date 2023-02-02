@@ -1,5 +1,5 @@
 # HTTP (Hypertext Transfer Protocol)
-è un linguaggio di testo che consente la comunicazione tra client e server attraverso internet.  
+Comunicazione secondo i dettami del protocollo in linguaggio di testo che consente la comunicazione tra client e server attraverso internet.  
 Questa comunicazione avviene tramite una richiesta (`Request`) ed una risposta (`Response`).
 
 # Request

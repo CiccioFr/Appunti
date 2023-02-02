@@ -74,6 +74,11 @@
 1. [MVC in Java](./Pattern/MVC_in_Java.md)
 
 ---
+
+## Comandistica da CLI
+1. [Java da CLI](./Java_CLI.md)
+
+---
 ## L'inizio del Codice
 1. [Progetto MVC](./Prog_MVC_Java.md)
 1. [Progetto Hibernate](./Maven/ProgettoHibernate.md)
