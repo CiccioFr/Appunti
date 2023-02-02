@@ -2,17 +2,16 @@
 - Insieme di procedure atte a risolvere uno specifico problema di comunicazione tra diversi computer o tra diversi software o tra diversi componenti di software
 - è un set di strumenti, definizioni e protocolli che serve a integrare software e servizi applicativi e che consente ai tuoi prodotti e ai servizi di comunicare con altri prodotti e servizi, eliminando la necessità di creare ogni volta nuove infrastrutture per connetterli.
 
-
-## Cosa si intende con API `RESTful` e `SOAP`?
+## `RESTful` e `SOAP`
 hanno consentito di semplificare la progettazione delle `API` e di facilitarne l'implementazione.  
-La differenza tra REST e SOAP è sostanziale: il SOAP è un protocollo, mentre il REST è un tipo di architettura e ciò implica l'assenza di uno standard ufficiale per le API web RESTful.
 
-- `SOAP` (`Simple Object Access Protocol`)  
+## `SOAP` (`Simple Object Access Protocol`)  
 **specifica di protocollo** Ha lo scopo di uniformare le richieste e i formati dei messaggi, agevola la comunicazione tra app di diversi ambienti o scritte con linguaggi differenti.  
 Le API progettate con il protocollo SOAP usano il linguaggio XML come formato del messaggio e ricevono le richieste tramite HTTP o SMTP.  
 
-- `REST` (`Representational State Transfer`)  
-è un **tipo di architettura** fondato su **sei linee guida** che risultano più semplici da seguire rispetto a un protocollo prescritto. Questo influisce sulla maggiore frequenza d'uso delle `API` `RESTful` rispetto ai metodi `SOAP`.  
+## `REST` (`Representational State Transfer`)  
+è un **tipo di architettura** fondato su **sei linee guida** che risultano più semplici da seguire rispetto a un protocollo prescritto. Ciò implica l'assenza di uno standard ufficiale per le API web RESTful.  
+Questo influisce sulla maggiore frequenza d'uso delle `API RESTful` rispetto ai metodi `SOAP`.  
 Le API web che rispettano i vincoli architetturali REST vengono definite API RESTful
 
 le API sono definibili RESTful se rispettano i sei vincoli di un sistema RESTful:
@@ -30,6 +29,8 @@ le API sono definibili RESTful se rispettano i sei vincoli di un sistema RESTful
 Benché sembrino numerosi, questi vincoli sono molto più semplici rispetto a un protocollo prescritto e, proprio per questo, le API RESTful sono molto più diffuse dei metodi SOAP.
 
 ---
+## [api-endpoint](https://kinsta.com/it/knowledgebase/api-endpoint/) VISIONARE!
+https://blog.logrocket.com/graphql-vs-rest-api-why-you-shouldnt-use-graphql/  
 [Cosa sono le `API`](https://www.redhat.com/it/topics/api)  
 [`RESTful`](https://www.redhat.com/it/topics/api/what-are-application-programming-interfaces#api-soap-e-rest)  
 [caching](https://aws.amazon.com/it/caching/)
