@@ -66,6 +66,10 @@ linguaggio di marcatura / formattazione
 1. [WebSocket](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/che-cose-websocket/) - Web Link
 
 ---
+## Cose comuni..
+- [Logging](./Logging.md)
+
+---
 # IDE - Integrated Development Environment
 Ambiente di Sviluppo Integrato
 
