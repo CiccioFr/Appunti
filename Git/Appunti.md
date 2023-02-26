@@ -1,8 +1,6 @@
 
-// hash del commit, codice univoco del commit
 
 GitHub: locale più aggiornato: sul dispositivo per tornare indietro di un commit: 
-- git cheout --
 - git stash, (le modifichje le salva da parte  (le sposta) e torna alla vecchia versione) ->commit, -> poi facendo amstash accoda le modifiche messe da parte
 
 ------------

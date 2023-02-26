@@ -30,7 +30,7 @@ https://about.gitlab.com
 GitLab consente di memorizzare il codice e di usare le funzionalità di controllo di versione di git. Tuttavia, fornisce anche autorizzazioni utente più sfumate e include la Continuous Integration (CI). Questo elimina la necessità delle richieste di pull usate in GitHub.  
 GitLab CI/CD può creare, testare, distribuire e monitorare automaticamente le tue applicazioni utilizzando Auto DevOps.  
 https://docs.gitlab.com/ee/ci/
-## Bitbucket
+## GitBucket
 https://bitbucket.org  
 Bitbucket è un servizio di hosting web-based per progetti che usano i sistemi di controllo versione Mercurial o Git.
 
