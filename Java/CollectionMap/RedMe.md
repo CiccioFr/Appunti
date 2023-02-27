@@ -16,8 +16,8 @@ Entrambe sono *interfacce* che definiscono un'API per oggetti che contengono alt
 - `Map` è una versione più specifica che **ha una struttura Key : Value**. 
 - `Collection` è solo l'interfaccia che ha strutture di dati per l'archiviazione dei dati in Java.
 
+vedi [Collection](./Collection.md)  
 vedi [Map](./Map.md)  
-vedi [Collection](./Collection.md)
 
 ---
 [ArrayList](./ArrayList.md)  

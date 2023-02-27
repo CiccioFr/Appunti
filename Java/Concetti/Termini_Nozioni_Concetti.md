@@ -4,8 +4,8 @@
 classe derivata
 - `SuperClasse`: classe che viene estesa (padre)
 - `SottoClasse`: classe che estende (figlia)
-- Gli **attributi** sono le variabili della classe. Definiscono le **proprietà** della classe.
-- `modificatori` di accesso permettono di stabilire il livello di protezione package
+- Gli **attributi** sono le variabili della classe. Definiscono le **proprietà** dell'oggetto (istanza della classe).
+- `modificatori` di accesso permettono di stabilire il livello di protezione in riferimento al package
 
 ---
 ## Convenzioni
@@ -51,7 +51,6 @@ Tutto questo definisce la signature del metodo (la firma) il che significa che s
 metodi get (legge) e set (imposta)- necessari quando impostiamo su private una variabile (pg 251 libro)
 
 
-- variabile o Metodo - cammelCase (prima lettera minuscola)
-- variabile - deve iniziare con una lettera dell’alfabeto o underscore
-
-Il simbolo del dollaro è ammesso nel codice generato da programmi automatici.
+- variabile o metodo - cammelCase (prima lettera minuscola)
+- variabile - deve iniziare con una lettera dell’alfabeto o underscore (si potrebbe usare anche il `$`)  
+    Il simbolo del dollaro è ammesso nel codice generato da programmi automatici.

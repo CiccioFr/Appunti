@@ -135,7 +135,8 @@ Esempi di implementazioni di Queue sono:
 ## `HashSet` - Classe
 - implementa `Set`
 - necessita ridefinizione di `equals()` ed `hashCode()` per implementare la logica di uguaglianza.  
-In particolare il contratto previsto da equals() prevede che se per due oggetti A e B, A.equals(B) restituisca true. Allora il valore restituito da A.hashCode() deve essere ugualeal valore restituito da B.hashCode().In generale invece due oggetti possono restituire lo stesso valore attraversoil metodo hashCode() ma non essere uguali secondo equals(). Inoltre il contratto di equals() prevede che valgano le seguenti proprietà:
+In particolare il contratto previsto da equals() prevede che se per due oggetti A e B, A.equals(B) restituisca true, allora il valore restituito da A.hashCode() deve essere uguale al valore restituito da B.hashCode().  
+In generale invece due oggetti possono restituire lo stesso valore attraverso il metodo hashCode() ma non essere uguali secondo equals(). Inoltre il contratto di equals() prevede che valgano le seguenti proprietà:
 
 Proprietà |	Descrizione
 -- | --
