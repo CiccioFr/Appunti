@@ -1,7 +1,9 @@
-# Maven - Dipendenze
+# Maven
 
 Strumento di gestione di progetti software basati su Java e build automation. Per funzionalità è similare ad Apache Ant, ma basato su concetti differenti. Può essere usato anche in progetti scritti in C#, Ruby, Scala e altri linguaggi.  
 Dipendenze Maven da: [mvnrepository.com](https://mvnrepository.com)
+
+## [il File `pom.xml`](./FilePOM.xml.md)
 
 ---
 ### Posizione di Maven su IntelliJ

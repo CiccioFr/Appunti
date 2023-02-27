@@ -2,6 +2,8 @@
 
 Framework per il linguaggio di programmazione Java che si occupa della **gestione della persistenza dei dati di un DBMS relazionale**
 
+## [JPA Annotation](./JPA_Annotation.md)
+
 ## Driver
 [MariaDB Connector/J](https://mariadb.com/kb/en/about-mariadb-connector-j/)  
 Utilizzato per connettere applicazioni sviluppate in Java a database MariaDB e MySQL utilizzando l'API JDBC standard  
