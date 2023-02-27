@@ -3,7 +3,8 @@
 
 L'opzione `--amend` modifica l'ultimo commit generato
 
-`git commit --amend` modifica il commit più recente. Consente di unire le modifiche preparate per il commit al commit precedente. La correzione non altera solo il commit più recente, ma lo sostituisce completamente. In LOCALE Git lo interpreterà come un commit nuovo
+### `git commit --amend`
+Modifica il commit più recente. Consente di unire le modifiche preparate per il commit al commit precedente. La correzione non altera solo il commit più recente, ma lo sostituisce completamente. In LOCALE Git lo interpreterà come un commit nuovo
 
 `git commit --amend -m "an updated commit message"` modifica il messaggio di commit precedente senza modificarne la `snapshot`
 

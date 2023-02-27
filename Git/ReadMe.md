@@ -23,7 +23,6 @@ sito : https://git-scm.com/
 
 ---
 1. [Altri comandi](altroGit.md)
-1. [Vademecum](./GitHub%20Vademecum.txt) - File di Testo
 1. [appunti](./Appunti.md)
 
 ---
