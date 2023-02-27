@@ -50,5 +50,11 @@ Tip
 ---
 ---
 ## Switch in SQL
-SELECT  CASE  WHEN c.censored = false THEN c.comment  ELSE 'censored Comment'  END, 
+```sql
+SELECT
+  CASE  WHEN c.censored = false
+        THEN c.comment
+        ELSE 'censored Comment'
+        END,
 FROM Tabella;
+```
