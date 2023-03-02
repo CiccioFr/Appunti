@@ -61,8 +61,8 @@ linguaggio di marcatura / formattazione
 
 ---
 ## Altri Linguaggi e Tecnologie
-1. [RUST - youTube Camuso](https://www.youtube.com/watch?v=AEHpTZeIs30)
-1. [Kotlin](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/tutorial-kotlin/)
+1. [RUST](https://www.youtube.com/watch?v=AEHpTZeIs30)  - youTube Camuso
+1. [Kotlin](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/tutorial-kotlin/) - web link
 1. [WebSocket](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/che-cose-websocket/) - Web Link
 
 ---
@@ -97,6 +97,17 @@ Ambiente di Sviluppo Integrato
 1. [PowerShell](./Supporti/PowerShell/ReadMe.md) 
 1. [Browser](./Supporti/Browser/ReadMe.md)
 
+
+---
+# NetWorking
+- https://it.wikipedia.org/wiki/Algoritmo_di_Dijkstra
+- https://www.youtube.com/watch?v=WHEokVNPO4M
+- https://www.youtube.com/watch?v=vygtiFPS4ME
+- https://www.youtube.com/watch?v=tAliFKIzDB8 - variante
+- https://www.youtube.com/watch?v=ml36zAAbQ9E - Implementazione algoritmo di Dijkstra in C++
+- [L'algoritmo dei cammini minimi di Dijkstra](https://www.freecodecamp.org/italian/news/lalgoritmo-dei-cammini-minimi-di-dijkstra-una-dettagliata-introduzione-grafica/)
+- https://docs.qgis.org/3.16/it/docs/training_manual/vector_analysis/network_analysis.html
+
 ---
 ## Protocolli
 1. [HTTP](./Protocolli/HTTP.md)
@@ -122,6 +133,10 @@ Ambiente di Sviluppo Integrato
 ---
 
 ## [📰 Articoli](./Articoli/ReadMe.md)
+
+---
+## Colloqui di lavoro
+- [Java](./ColloquiLavoro/JavaDomande.md)
 
 ---
 Istanza – una determinata esecuzione di un processo
