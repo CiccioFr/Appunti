@@ -7,6 +7,8 @@
 ## Concetti
 1. [Termini - Nozioni - Concetti](./Concetti/Termini_Nozioni_Concetti.md)
 1. [OOP - Peculiarità](./../OOP/ReadMe.md)
+    - Ereditarietà, Polimorfismo, Incapsulamento, Astrazione
+    - Firma, Modificatori, Qualificatori, Parametri Formali ed Attuali
 1. [Ereditarietà vs Associazione (Aggregazione/Composizione)](./Avanzato/EreditarietaVsAssociazione.md)
 1. [Modificatori / Qualificatori di accesso e non](./Concetti/Qualificatori.md)
 1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
@@ -28,16 +30,16 @@
 1. [il Costruttore](./Classi/Costruttore.md)
 1. [Oggetti - Getter e Setter](./Classi/Oggetti.md)
 ---
-12. [Classi Predefinite di Java](./Classi/ClassiPredefinite.md)
-1. [Eccezioni](./Avanzato/Eccezioni.md)
-1. [Collection Framework](./CollectionMap/RedMe.md)
+12. [Eccezioni](./Avanzato/Eccezioni.md)
+1. [Pojo vs Bean](./PojoVsBean.md) - Tutti i JavaBean sono POJO, ma non viceversa
+1. [Collection Framework](./CollectionFramework/ReadMe.md)
+1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
 
 ## Avanzato
-1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
+1. [Interfacce e Classi del Codice Nativo](./CodiceNativo/ReadMe.md)
 1. [Blocchi di istruzioni](./Avanzato/Blocchi.md)
 1. [Espressioni Lambda](./Lambda.md)
 1. [Stream e Lambda Expression](./Stream.md)
-1. [Pojo vs Bean](./PojoVsBean.md) - Tutti i JavaBean sono POJO, ma non viceversa
 1. [Librerie Predefinite in Java](./Concetti/Librerie.md)
 ---
 6. [Asserzioni](./Avanzato/Asserzioni.md)
@@ -137,9 +139,12 @@
     JSP è una tecnologia alternativa rispetto a numerosi altri approcci alla generazione di pagine web dinamiche, per esempio PHP, o ASP, o CGI.
 - DAO vs Repository https://stackoverflow.com/questions/8550124/what-is-the-difference-between-dao-and-repository-patterns
 - http://gochev.blogspot.com/2009/08/hibernate-generic-dao.html
+
+---
 ### Esempi
 1. [Esempi](./Esempi/Esempi.md)
 
+---
 ### Dal Web
 - [Guide del web](./JavaWebLink.md)
 - https://docs.oracle.com/en/java/javase/index.html  
