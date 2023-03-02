@@ -8,15 +8,19 @@
 
 
 ## Tipi di Classi
-- Concreta
+- Interfaccia (diciamo normale)
+- Interfaccia Funzionale
 - Astratta
-- Interfaccia
-- Interne
-    - `inner` class" che è una cosa ben diversa da una 
-    - `nested` (nidificata) (static) class.  
+- Concreta
+- `inner` class // (non static) (interna)
+- `nested` class // (static) (nidificata).  
     https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html  
     https://www.developer.com/design/understanding-java-nested-classes-and-java-inner-classes/
 - Anonime
+- Record
+- Enum
+
+### semplice nomenclatura per l'ereditarietà
 - SuperClasse
 - SottoClasse
 
@@ -37,7 +41,6 @@
 ## Interfaccia Funzionale (functional interface)
 Interfacce che definiscono **un solo metodo astratto** (SAM, Single Abstract Method) e zero o più metodi di default o metodi statici. Grazie a questa particolarità **possono essere implementate tramite un'espressione lambda**.  
 Sono generalmente marcate con l’annotazione `@FunctionalInterface`, anche se non è obbligatorio.  
-Le lambda sono usate con le funcional interface.  
 - https://www.html.it/pag/68110/le-interfacce-funzionali-in-java/
 - https://italiancoders.it/java-8-parte-1-optional-interfacce-funzionali/
 
@@ -74,12 +77,23 @@ Tip: l'ereditarietà rappresenta una relazione di esistenza!
 [Link](https://ita.myservername.com/types-classes-java#Class_Types_In_Java_8211_Introduction)
 
 # Modificatori di Accesso delle Classi
-## `Static`
+
+## `Static` / nested
+Si usa (scrive) solo per le classi nested  
+e' una classe con metodi di servizio  
+Le normali classi (es. Math) hanno:
+- solo metodi static
+- un costruttore private e vuoto per impedirne l'istanza
+- il modificatore final
+
 ## `Final`
-- Classe che non può essere estesa/ereditata 
-## `Inner`
-## `POJO`
-## Classe interna
+Classe che non può essere estesa/ereditata 
+
+## `POJO` vs JavaBeans
+https://www.geeksforgeeks.org/pojo-vs-java-beans/
+
+## `Inner` class o Classe interna
+Classe interna NON statica
 - viene utilizzata per *migliorare l'incapsulamento*.  
 - è una classe racchiusa all'interno di un'altra classe.
 
