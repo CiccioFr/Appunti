@@ -1,15 +1,13 @@
 # I Qualificatori
 
-Per attributi e metodi
-
-Qualificatore | Descrizione
---- | --- 
-**`final`**       | 	Attributi e metodi non possono essere sovrascritti (overridden) o modificati. Le variabili saranno COSTANTI.
-**`static`**      | 	Attributi e metodi appartengono alla classe, piuttosto che a un oggetto (istanza della classe), essi saranno "condivisi" in caso di istanza, la modifica di un attributo si ripercuote sulgli altri oggetti
-**`abstract`**    | 	Può essere utilizzato solo in una classe astratta e può essere utilizzato solo su metodi. Il metodo non ha un corpo, ad esempio `abstract void run();`. Il corpo è fornito dalla sottoclasse (ereditato da).
-**`transient`**   | 	Attributi e metodi vengono ignorati durante la serializzazione dell'oggetto che li contiene
-**`synchronized`**    | 	È possibile accedere ai metodi solo da un thread alla volta
-**`volatile`**    | 	Il valore di un attributo non viene memorizzato nella cache del thread in locale e viene sempre letto dalla "memoria principale"
+Qualificatore | Classe | Metodi | Attributi
+--- | --- | - | -
+**`final`**       | Non potrà essere istanziata | non potranno essere sovrascritti (overridden). | definite come COSTANTI.
+**`static`**      | | appartengono alla classe, non potranno interagire con le variabili di istanza, ma solamente con quelle statiche. | | appartengono alla classe, piuttosto che a un oggetto (istanza della classe), essi saranno "condivisi" in caso di istanza, la modifica di un attributo si ripercuote sugli oggetti istanziati
+**`abstract`**    | Deve avere almeno un metodo astratto | Può essere utilizzato solo in una classe astratta e può essere utilizzato solo su metodi. Il metodo non ha un corpo, ad esempio `abstract void run();`. Dovrà essere implementato dalla Classe che estende
+**`transient`**   | | | Verranno ignorati durante la serializzazione dell'oggetto
+**`synchronized`** | | È possibile accedere ai metodi solo da un thread alla volta
+**`volatile`**    | | Il valore di un attributo non viene memorizzato nella cache del thread in locale e viene sempre letto dalla "memoria principale"
 
 ---
 
