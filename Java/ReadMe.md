@@ -8,9 +8,9 @@
 1. [Termini - Nozioni - Concetti](./Concetti/Termini_Nozioni_Concetti.md)
 1. [OOP - Peculiarità](./../OOP/ReadMe.md)
     - Ereditarietà, Polimorfismo, Incapsulamento, Astrazione
-    - Firma, Modificatori, Qualificatori, Parametri Formali ed Attuali
+    - Firma, Modificatori, Parametri Formali ed Attuali
 1. [Ereditarietà vs Associazione (Aggregazione/Composizione)](./Avanzato/EreditarietaVsAssociazione.md)
-1. [Modificatori / Qualificatori di accesso e non](./Concetti/Qualificatori.md)
+1. [Modificatori di accesso e non](./Concetti/Modificatori.md)
 1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
 1. [Heap e Stack](./Concetti/Heap_e_Stack.md)
 1. [JavaDoc](./JavaDoc.md)
@@ -36,11 +36,11 @@
 1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
 
 ## Avanzato
+1. [Librerie Java](./Concetti/Librerie.md)
 1. [Interfacce e Classi del Codice Nativo](./CodiceNativo/ReadMe.md)
 1. [Blocchi di istruzioni](./Avanzato/Blocchi.md)
 1. [Espressioni Lambda](./Lambda.md)
 1. [Stream e Lambda Expression](./Stream.md)
-1. [Librerie Predefinite in Java](./Concetti/Librerie.md)
 ---
 6. [Asserzioni](./Avanzato/Asserzioni.md)
 1. [Multi Thread](./MultiThread.md)
