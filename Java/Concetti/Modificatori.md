@@ -1,15 +1,15 @@
-# Modificatori / Qualificatori
+# Modificatori
 
-Modificatore | Classe | Costruttore | Attributo | Metodo
+Modificatore | Classe | Costruttore |  Metodo | Attributo
 --|--|--|--|--
 public | Si | Si | Si | Si
 protected | No | Si | Si | Si
 (default) | Si | Si | Si | Si
 private | No | Si | Si | Si
-abstract | Si | No | No | Si
+abstract | Si | No | Si | No
 final | Si | No | Si | Si
-static | Si | No | Si | Si
-strictfp* | Si | No | No | Si
+static | Nested | No | Si | Si
+strictfp* | Si | No | Si | No
 \* Deprecato
 
 ---
@@ -34,10 +34,10 @@ stabiliscono il livello di visibilità da altre classi
 ```java
 private transient String password;
 ```
-vedi [serializzazione/persistenza](./../../Termini_e_Concetti\Programmazione.md#serializzazione---persistenza-del-dato)  
+vedi [serializzazione/persistenza](../../Termini_e_Concetti%5CProgrammazione.md#serializzazione---persistenza-del-dato)  
 Note: - Per impostazione predefinita, tutte le variabili dell'oggetto vengono convertite in uno **stato persistente**.  
 
-<details><summary> Spoiler Codice esempio </summary>
+<details><summary> Snippet </summary>
 
 Gli oggetti che devono essere trasmessi attraverso la rete devono essere convertiti in byte. A tale scopo, in Java, ogni classe o interfaccia deve implementare l'interfaccia Serializable. È un'interfaccia marker senza alcun metodo.
 ```java
