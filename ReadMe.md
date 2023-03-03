@@ -14,7 +14,7 @@
 1. [Java](./Java/ReadMe.md/#Java)
 1. [C#](./C%23/ReadMe.md)
 1. [PHP](./PHP/ReadMe.md)
-1. [C/C++](./C%2B%2B/ReadMe.md)
+1. [C / C++](./C_e_C++/ReadMe.md)
 1. [NodeJs](./NodeJs/ReadMe.md)
 
 ---
