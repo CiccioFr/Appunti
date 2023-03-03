@@ -1,10 +1,23 @@
 # Garbage Collector
 
-da un lato fanno risparmiare tempo ed errori in fase di sviluppo dei programmi, dall'altro consumano memoria e tempo di CPU in fase di esecuzione del programma finito.  
+Il `Garbage Collector` (GC) **è il componente responsabile della gestione automatica della memoria**, ovvero della rimozione degli oggetti non più utilizzati per liberare spazio nella memoria heap.  
+Il Garbage Collector è un thread Daemon in esecuzione in background.
 
+La `Garbage Collection` (GC) **è il processo** attraverso il quale il GC analizza la memoria heap per individuare gli oggetti non più utilizzati e marcati per la rimozione, e poi procede alla loro eliminazione **per liberare spazio nella memoria**.
+
+### Più in dettaglio..
 Solleva lo sviluppatore dall'aritmetica dei puntatori, ovvero dall'onere della gestione della memoria, affidando al **`Gargbage Collection`** l'automatismo di allocare e rilasciare memoria a seconda delle esigenze del programma.  
 
-La JVM fornisce attualmente quattro diversi **Garbage Collector**, tutti generazionali, ciascuno progettato per soddisfare requisiti diversi. Java SE seleziona il Garbage Collector più appropriato in base alla classe del computer su cui viene eseguita l'applicazione.  
+La JVM fornisce attualmente quattro diversi **Garbage Collector**, tutti generazionali, ciascuno progettato per soddisfare requisiti diversi. **Java SE seleziona il Garbage Collector più appropriato in base alla classe del computer su cui viene eseguita l'applicazione**.  
+
+- `Serial GC`: utilizza un solo thread per eseguire le operazioni di garbage collection, quindi è adatto per applicazioni a basso carico.
+- `Parallel GC`: utilizza più thread per eseguire le operazioni di garbage collection, migliorando le prestazioni rispetto al Serial GC.
+- `CMS` (`Concurrent Mark and Sweep`) GC: esegue la maggior parte delle operazioni di garbage collection in modo concorrente, minimizzando il ritardo dell'applicazione.
+- `G1` (`Garbage-First`) GC: utilizza una strategia di allocazione della memoria a blocchi e divide la memoria in regioni. In questo modo, può gestire grandi quantità di memoria e distribuire il lavoro di garbage collection su più thread in modo efficiente.
+- `Z GC`: utilizza una tecnologia di accesso alla memoria diretto per migliorare le prestazioni e ridurre il ritardo durante la garbage collection.
+
+
+---
 Il **Garbage Collector** (**GC**) gestisce automaticamente le richieste di allocazione di memoria dinamica dell'applicazione. (è la tecnologia)  
 La **Garbage Collection** automatica **è un processo** di osservazione della memoria Heap, che identifica o meglio “marchia” (si parla infatti di marking process) gli oggetti irraggiungibili li distrugge e compatta la memoria liberata per un uso successivo più efficiente.  
 metodologia denominata Garbage Collection Generazionale.  
