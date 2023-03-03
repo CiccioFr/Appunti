@@ -47,8 +47,7 @@ capacità di un oggetto di nascondere la sua implementazione interna rispetto al
 
 ---
 ## La [Firma](./La_Firma.md) / Signature
-## i [Modificatori](./Modificatori.md)
-## [Qualificatori](./Qualificatori.md)
+## [Modificatori](./Modificatori.md)
 ## [Parametri Formali ed Attuali](./Parametri.md)
 ## gli [Oggetti](./Oggetti.md)
 
