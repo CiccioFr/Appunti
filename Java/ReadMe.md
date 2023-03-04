@@ -89,6 +89,7 @@
 1. [Excel](./Librerie-Dipendenze/Excel.md)
 1. [Mail](./Librerie-Dipendenze/Mail.md)
 1. [Schedulazione](./Librerie-Dipendenze/Schedulazione.md)
+1. [Web Scraping - `Apache HttpClient` e `JSoup`](./Librerie-Dipendenze/WebScraping.md)
 
 [Streaming API](http://losviluppatore.it/java-8-la-streaming-api/) - Web Link
 
@@ -143,6 +144,8 @@
 ---
 ### Esempi
 1. [Esempi](./Esempi/Esempi.md)
+
+---
 
 ---
 ### Dal Web
