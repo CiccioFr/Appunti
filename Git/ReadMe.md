@@ -1,5 +1,5 @@
-## Git e GitHub
-sito : https://git-scm.com/
+## Git - VCS (Version Control System)
+
 1. [Info: Git, GitHub, GitLab, GitBucket](./GitHub_info.md)
 1. [Config e Credential](./Config.md)
 1. [init, add, rm, commit - Comandi Base](./Comandi_Base.md)
@@ -56,7 +56,9 @@ git push -u origin main
 Visualizza, su browser, la guida sullo specidico comando
 
 ---
-https://git-scm.com/docs
-https://www.atlassian.com/it/git/tutorials/what-is-version-control  
-[git - la guida tascabile](https://rogerdudler.github.io/git-guide/index.it.html) - webLink  
-[Git la Guida di html.it](https://www.html.it/guide/git-la-guida/) - webLink  
+## Link utili:
+- [Download](https://git-scm.com/)
+- https://git-scm.com/docs
+- https://www.atlassian.com/it/git/tutorials/what-is-version-control
+- [git - la guida tascabile](https://rogerdudler.github.io/git-guide/index.it.html) - webLink
+- [Git la Guida di html.it](https://www.html.it/guide/git-la-guida/) - webLink
