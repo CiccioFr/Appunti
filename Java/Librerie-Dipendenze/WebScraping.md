@@ -42,21 +42,21 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class WikipediaTextScraper {
-    public static void main(String[] args) throws Exception {
-        String url = "https://it.wikipedia.org/wiki/Meccanica_quantistica";
+   public static void main(String[] args) throws Exception {
+      String url = "https://it.wikipedia.org/wiki/Meccanica_quantistica";
 
-        // Ottiene l'intero codice HTML della pagina web (tutto il codice HTML della pagina web, inclusi i tag HTML e il testo in essi contenuto)
-        Document doc = Jsoup.connect(url).get();
+      // Ottiene l'intero codice HTML della pagina web (tutto il codice HTML della pagina web, inclusi i tag HTML e il testo in essi contenuto)
+      Document doc = Jsoup.connect(url).get();
 
-        // Seleziona gli elementi HTML che contengono il testo del corpo dell'articolo
-        Elements articleElements = doc.select("#mw-content-text > div.mw-parser-output > p");
+      // Seleziona gli elementi HTML che contengono il testo del corpo dell'articolo
+      Elements articleElements = doc.select("#mw-content-text > div.mw-parser-output > p");
 
-        // Estrae il testo da ciascun elemento HTML e lo stampa sulla console
-        for (Element articleElement : articleElements) {
-            String articleText = articleElement.text();
-            System.out.println(articleText);
-        }
-    }
+      // Estrae il testo da ciascun elemento HTML e lo stampa sulla console
+      for (Element articleElement : articleElements) {
+         String articleText = articleElement.text();
+         System.out.println(articleText);
+      }
+   }
 }
 ```
 JSoup analizza il codice HTML restituito e quindi seleziona gli elementi HTML che contengono il testo desiderato.  
@@ -100,17 +100,71 @@ public class WikipediaScraper {
 
          // Esegue la richiesta GET e ottiene il codice HTML della risposta
          try (CloseableHttpResponse response = httpClient.execute(request)) {
-               String html = EntityUtils.toString(response.getEntity());
+            String html = EntityUtils.toString(response.getEntity());
 
-               // Analizza il codice HTML utilizzando JSoup e ottiene il titolo della pagina
-               Document doc = Jsoup.parse(html);
-               String title = doc.title();
-               System.out.println(title);
+            // Analizza il codice HTML utilizzando JSoup e ottiene il titolo della pagina
+            Document doc = Jsoup.parse(html);
+            String title = doc.title();
+            System.out.println(title);
          }
       }
    }
 }
 ```
+---
+## Estrarre "immagini"
+```java
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class WikipediaImageScraper {
+   public static void main(String[] args) throws Exception {
+      String url = "https://it.wikipedia.org/wiki/Meccanica_quantistica";
+
+      // Crea un client HTTP e una richiesta GET per l'URL fornito
+      try (CloseableHttpClient httpClient = HttpClients.createDefault()) {
+         HttpGet request = new HttpGet(url);
+
+         // Esegue la richiesta GET e ottiene il codice HTML della risposta
+         try (CloseableHttpResponse response = httpClient.execute(request)) {
+            String html = EntityUtils.toString(response.getEntity());
+
+            // Analizza il codice HTML utilizzando JSoup e ottiene gli elementi img della pagina
+            Document doc = Jsoup.parse(html);
+            Elements imgElements = doc.select("img");
+
+            // Crea una lista di URL delle immagini
+            List<String> imageUrls = new ArrayList<>();
+
+            // Scansiona gli elementi img e aggiunge gli URL delle prime 10 immagini alla lista
+            for (Element img : imgElements) {
+               String imageUrl = img.attr("abs:src");
+               if (imageUrl.endsWith(".jpg") || imageUrl.endsWith(".png")) {
+                  imageUrls.add(imageUrl);
+                  if (imageUrls.size() >= 10) {
+                        break;
+                  }
+               }
+            }
+
+            // Stampa gli URL delle immagini
+            for (String imageUrl : imageUrls) {
+               System.out.println(imageUrl);
+            }
+         }
+      }
+   }
+}
+```
+Il codice HTML viene analizzato con JSoup per cercare gli elementi img della pagina. Gli URL delle immagini vengono poi aggiunti ad una lista di stringhe solo se terminano con ".jpg" o ".png". In questo modo, si evitano gli URL di altri tipi di file, come ad esempio i file JavaScript.
 
 ---
 ## In sintesi, la scelta tra `HttpClient` e `JSoup` dipende dalle esigenze specifiche.
