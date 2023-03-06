@@ -82,7 +82,7 @@
 1. [Logging](./Application.md#logging)
 1. [Zipkin & Sleuth](./Librerie-Dipendenze/Zipkin_Sleuth.md)
 1. [Eureka](./Librerie-Dipendenze/Eureka.md)
-1. [Swagger UI](./Librerie-Dipendenze/Swagger_UI.md)
+1. [Swagger UI](./Librerie-Dipendenze/Swagger_UI.md) - Pg web Test API
 1. [LoadBalancer](./Librerie-Dipendenze/LoadBalancer.md)
 1. [OpenCSV](./Librerie-Dipendenze/OpenCSV.md)
 1. [PDF](./Librerie-Dipendenze/pdf)
