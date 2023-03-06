@@ -1,6 +1,8 @@
 # Circuit Breaker
 ## Servizio della Libreria `resilience4j`
 
+Circuit Breaker è una funzionalità particolarmente rilevante di Resilience4j in quanto permette di gestire efficacemente le situazioni di errore, evitando il rischio di sovraccarico dei servizi o di caduta del sistema. In pratica, il Circuit Breaker controlla lo stato di un servizio e, se rileva un elevato numero di errori o un tempo di risposta troppo elevato, interrompe temporaneamente le richieste verso tale servizio. Questa interruzione consente al sistema di ripristinare lo stato normale senza danneggiare ulteriormente il servizio. Quando il servizio torna disponibile, il Circuit Breaker ripristina automaticamente il flusso delle richieste. In questo modo, il Circuit Breaker garantisce la continuità del servizio anche in presenza di situazioni di errore o congestione.
+
 ![Alt text](../Asset/CIRCUIT-BREAKER.jpg)
 
 
