@@ -38,6 +38,11 @@ acronimo usato in progettazione, che sta per `Keep It Simple, Stupid`, ossia "`r
 Altre varianti dello stesso acronimo includono: `Keep It Sweet and Simple`, `Keep It Short and Simple` e `Keep It Simply Smart`. 
 [link wiki](https://it.wikipedia.org/wiki/KISS_(principio))
 
+## `Stack Trace`
+Letteralmente "traccia dello stack", è un resoconto di tutti i metodi o le funzioni attualmente in esecuzione nel programma, a partire dal metodo che ha generato l'eccezione e risalendo fino al metodo che ha invocato il metodo che ha generato l'eccezione.  
+- Viene utilizzato principalmente per il debug di un programma e viene generato automaticamente dal sistema operativo o dall'ambiente di sviluppo quando si verifica un'eccezione durante l'esecuzione del codice.  
+- Fornisce una traccia dettagliata degli errori di runtime e può essere utilizzato per identificare la causa dell'errore, individuare il punto esatto del codice che ha generato l'eccezione e quindi correggere il bug.  
+- Solitamente è stampato sull'output standard di errore (stderr) insieme al messaggio di errore dell'eccezione, in modo che possa essere letto dagli sviluppatori o dagli amministratori di sistema per la risoluzione dei problemi.
 
 ## `Extreme programming`
 Metodologia di sviluppo del software che enfatizza la scrittura di codice di qualità e la rapidità di risposta ai cambiamenti di requisiti.  
@@ -89,5 +94,5 @@ I costrutti di controllo di un linguaggio di programmazione strutturata sono que
     Costrutti di selezione in C, C++ e Java sono rappresentativi di quelli generalmente disponibili in qualsiasi linguaggio di programmazione di alto livello. Possiamo distinguere due tipi fondamentali di costrutto di selezione: 
     `if-else`, `switch`
 
-# algoritmo di ordinamento
+## Algoritmo di ordinamento
 giusto per citarne alcuni: Bubble sort, Heap sort, Merge sort, Quicksort, Shell sort 
