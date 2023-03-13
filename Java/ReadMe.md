@@ -18,41 +18,44 @@
 ## Le Basi
 1. [Operatori](./Basi/Operatori.md)
 1. [Tipi di Dati](./Basi/Tipi_di_Dati.md)
+1. [Classi Wrapper](./CodicePredefinito/ClassiWrapper.md#classi-wrapper)
 1. [Array e Arrays](./Basi/ArrayArrays.md)
 1. [Costrutti Condizionali e Iterativi](./Basi/CostruttiCondizionaliIterativi.md)
 ---
-5. [Metodi](./Classi/Metodi.md)
+6. [Metodi](./Classi/Metodi.md)
 1. [Signature - La Firma del metodo](./Signature.md)
 1. [Parametro Formale / Attuale](./Basi/Parametri.md)
 1. [VarArgs - Variable Arguments](Varargs-Variable_Arguments.md)
 ---
-9. [Classi in Java](./Classi/Classi.md)
+10. [Classi e Interfaccie in Java](./Classi/Classi.md)
 1. [il Costruttore](./Classi/Costruttore.md)
 1. [Oggetti - Getter e Setter](./Classi/Oggetti.md)
 ---
-12. [Eccezioni](./Avanzato/Eccezioni.md)
+13. [Eccezioni](./Avanzato/Eccezioni.md)
 1. [Pojo vs Bean](./PojoVsBean.md) - Tutti i JavaBean sono POJO, ma non viceversa
 1. [Collection Framework](./CollectionFramework/ReadMe.md)
 1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
 
 ## Avanzato
 1. [Librerie Java](./Concetti/Librerie.md)
-1. [Interfacce e Classi del Codice Nativo](./CodiceNativo/ReadMe.md)
+1. [Interfacce e Classi Predefinite](./CodicePredefinito/ReadMe.md)
 1. [Blocchi di istruzioni](./Avanzato/Blocchi.md)
+1. [Altri Costrutti](./Avanzato/CostruttiAvanzati.md)
 1. [Espressioni Lambda](./Lambda.md)
 1. [Stream e Lambda Expression](./Stream.md)
 ---
-6. [Asserzioni](./Avanzato/Asserzioni.md)
-1. [Multi Thread](./MultiThread.md)
+7. [Asserzioni](./Avanzato/Asserzioni.md)
+1. [Multi Thread](./Avanzato/MultiThread.md)
+1. [Generics](./Avanzato/Generics.md)
 1. [Reflection](./Avanzato/Reflection.md)
 1. [`:: ` Method References](./MethodReferences.md)
 1. static final boolean COMPACT_STRINGS => [Compact Strings in Java 9](https://www.baeldung.com/java-9-compact-string)
 
 ---
-11. [Class Loader](./Classi/Class_Loader.md)
-1. [Sicurezza](./../Java/Avanzato/Sicurezza.md)
-1. [Iterator](./Avanzato/Iterator.md)
-1. [Garbage Collector](./../Java/Avanzato/Garbage_Collector.md)  
+12. [Class Loader](./Classi/Class_Loader.md)
+1. [Socket](./Avanzato/Socket.md)
+1. [Sicurezza](./Avanzato/Sicurezza.md)
+1. [Garbage Collector](./Avanzato/Garbage_Collector.md)  
 [Garbage Collector Link losviluppatore.it](http://losviluppatore.it/java-la-garbage-collection)
 
 ---
@@ -109,6 +112,7 @@
 
 ---
 ## L'inizio del Codice
+1. [Gestione di File](./progetti/File/ReadMe.md)
 1. [Progetto Spring](./progetti/ProgettoSpring.md)
 1. [Progetto MVC](./Prog_MVC_Java.md)
 1. [Progetto Hibernate](./Maven/ProgettoHibernate.md)
