@@ -10,13 +10,13 @@
 ## Tipi di Classi
 - Interfaccia (diciamo normale)
 - Interfaccia Funzionale
-- Astratta
-- Concreta
+- Calssse Astratta
+- Classe Concreta
 - `inner` class // (non static) (interna)
 - `nested` class // (static) (nidificata).  
     https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html  
     https://www.developer.com/design/understanding-java-nested-classes-and-java-inner-classes/
-- Anonime
+- Classe Anonima
 - Record
 - Enum
 
@@ -75,6 +75,29 @@ class SottoClasse extends AbstractClass implements IInterface, IInterface2 {
 Tip: l'ereditarietà rappresenta una relazione di esistenza!
 
 [Link](https://ita.myservername.com/types-classes-java#Class_Types_In_Java_8211_Introduction)
+
+
+
+```java
+public interface MyInterface {
+   public void doSomething();
+}
+
+public class Main {
+   public static void main(String[] args) {
+      MyInterface myInterface = new MyInterface() {
+         @Override
+         public void doSomething() {
+            System.out.println("Questa è una classe anonima!");
+         }
+      };
+      myInterface.doSomething();
+   }
+}
+```
+
+
+
 
 # Modificatori di Accesso delle Classi
 
