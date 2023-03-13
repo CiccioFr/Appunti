@@ -33,3 +33,5 @@ finally {
    stmt.close();
 }
 ```
+
+## Vedere il costrutto [try-with-resources](./Try-with-resources.md)
