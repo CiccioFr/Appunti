@@ -1,17 +1,19 @@
 # Lambda Expression
 
-- introdotta dalla versione 8 di Java   
-**Un’espressione lambda è una funzione anonima**. collegate al concetto di funzione anonima (funzione non classe anonima), ossia una funzione che ha un corpo ma non un nome, definita nel punto in cui viene utilizzata.  
-E’ simile a un metodo: fornisce un elenco di parametri formali, un corpo (che può essere un'espressione o un blocco di codice) e un tipo di ritorno. Può essere passata come argomento di un metodo.
+Le lambda expression sono state introdotte in Java 8 per semplificare l'utilizzo di interfacce funzionali.  
+In matematica e informatica in generale, un’espressione lambda è una funzione. In Java, un’espressione lambda fornisce un modo per creare una funzione anonima,  introducendo di fatto un nuovo tipo Java: il tipo funzione anonima che può quindi essere passato come argomento o restituito in uscita nei metodi.  
+Ossia una funzione che ha un corpo ma non un nome, definita nel punto in cui viene utilizzata.  
+E’ simile a un metodo: fornisce un elenco di parametri formali, un corpo (che può essere un'espressione o un blocco di codice) e un tipo di ritorno.  
+Può essere passata come argomento ad un metodo che accetta come parametro un tipo "Interfaccia Funzionale", in questo caso, il tipo di Interfaccia F. sarà desunta!
 Risolvono il problema della verbosità delle classi interne permettendo una riduzione delle linee di codice da scrivere.  
 `(arg1, arg2) -> {body}`  
 In un’espressione lambda o nessuno dei tipi dei parametri è dichiarato oppure lo devono essere tutti.  
-Se c’è solamente un parametro, le parentesi tonde possono essere omesse,  
+Se c’è solamente un parametro, le parentesi tonde possono essere omesse.  
 Le lambda sono usate con le funcional interface.  
 
 Esempio:
 ```java
-// Anonymous Runnable
+// Classe Anonima per implementare il metodo di Runnable
 // Runnable è @FunctionalInterface
 Runnable r1 = new Runnable() {
     @Override
@@ -175,6 +177,12 @@ numbers.replaceAll(square);
 ### Snippet `BinaryOperator<T>`
 
 ---
-argomenti correlati:
+
+## Argomenti correlati:
 - [`:: Method References`](./MethodReferences.md)
 - [Interfaccia Funzionale](./Classi/Classi.md#interfaccia-funzionale-functional-interface)
+
+---
+
+## Link
+- https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
