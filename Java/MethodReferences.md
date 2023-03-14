@@ -43,7 +43,7 @@ public class MethodReference {
 
 ---
 argomenti correlati:
-- [Lambda](./Lambda.md)
+- [Lambda Expression](./LambdaExpression.md)
 - [Interfaccia Funzionale](./Classi/Classi.md#interfaccia-funzionale-functional-interface)
 
 ---

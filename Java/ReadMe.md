@@ -41,7 +41,7 @@
 1. [Interfacce e Classi Predefinite](./CodicePredefinito/ReadMe.md)
 1. [Blocchi di istruzioni](./Avanzato/Blocchi.md)
 1. [Altri Costrutti](./Avanzato/CostruttiAvanzati.md)
-1. [Espressioni Lambda](./Lambda.md)
+1. [Lambda Expression](./LambdaExpression.md)
 1. [Stream e Lambda Expression](./Stream.md)
 ---
 7. [Asserzioni](./Avanzato/Asserzioni.md)

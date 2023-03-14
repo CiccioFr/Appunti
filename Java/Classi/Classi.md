@@ -25,6 +25,7 @@
 - SottoClasse
 
 ---
+
 ## `Interfacia` - il contratto con lo Sviluppatore
 - utilizza i comportamenti e non l'esistenza  
     Un’interfaccia dovrebbe astrarre un comportamento che più classi potrebbero implementare, e un comportamento non si dovrebbe istanziare. Infatti non dovrebbero esistere oggetti che rappresentano un comportamento. Spesso infatti le interfacce hanno nomi che richiamano aggettivi e comportamenti (Pesabile, Comparable, Cloneable, etc.). Semmai dovrebbero esistere oggetti che implementano uno più comportamenti. Le interfacce dovrebbero astrarre comportamenti che oggetti diversi potrebbero implementare.
@@ -42,13 +43,19 @@
 ```
 
 ---
+
 ## Interfaccia Funzionale (functional interface)
 Interfacce che definiscono **un solo metodo astratto** (SAM, Single Abstract Method) e zero o più metodi di default o metodi statici. Grazie a questa particolarità **possono essere implementate tramite un'espressione lambda**.  
 Sono generalmente marcate con l’annotazione `@FunctionalInterface`, anche se non è obbligatorio.  
 - https://www.html.it/pag/68110/le-interfacce-funzionali-in-java/
 - https://italiancoders.it/java-8-parte-1-optional-interfacce-funzionali/
 
+argomenti correlati:
+- [`:: Method References`](../MethodReferences.md)
+- [Lambda Expression](../LambdaExpression.md#lambda-expression)
+
 ---
+
 ## Classe `Abstract`
 Le classi astratte dovrebbero astrarre oggetti troppo generici per poter essere istanziati.
 - Ha almeno un metodo astratto (e senza corpo)
@@ -64,6 +71,7 @@ abstract class AbstractClass extends Abstr implements Int1, Int2 {
 ```
 
 ---
+
 ## Classe `Concreta`
 ```java
 class SottoClasse extends AbstractClass implements IInterface, IInterface2 {
@@ -83,12 +91,15 @@ Tip: l'ereditarietà rappresenta una relazione di esistenza!
 [Link](https://ita.myservername.com/types-classes-java#Class_Types_In_Java_8211_Introduction)
 
 ---
+
 ## `inner` class // (non static) (interna)
 
 ---
+
 ## `nested` class // (static) (nidificata).  
 
 ---
+
 ## Classe Anonima
 ```java
 public interface MyInterface {
@@ -109,6 +120,7 @@ public class Main {
 ```
 
 ---
+
 ## Classe Record
 Progettata per implementare classi che rappresentano dati, ergo contenitori di **dati immutabili**.
 
@@ -136,6 +148,7 @@ public record Foto(String formato, boolean aColori) {
 ## Scheda [Classe Record](./ClasseRecord.md)
 
 ---
+
 ## Classe Enum
 possono implementare interfacce, ma non estendere classi, dato che in fase di compilazione vengono trasformate in classi che estendono la classe java.lang.Enum.
 
@@ -163,11 +176,14 @@ Classe interna NON statica
 - è una classe racchiusa all'interno di un'altra classe.
 
 ---
+
 - `native` (perché sfrutta la tecnologia JNI che rende Java dipendente dal sistema operativo).
 - `synchronized` (riguarda i processi in Java).
 - `transient` (riguarda i processi in Java).
 - `volatile` (riguarda i processi in Java).
+
 ---
+
 
 enumerazione è un tipo di dato
 
