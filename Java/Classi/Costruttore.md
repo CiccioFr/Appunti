@@ -1,5 +1,5 @@
 # I Costruttori in Java
-Il Costruttore è un metodo dichiarato all'interno di una classe.  
+Il Costruttore è un "metodo" particolare dichiarato all'interno di una classe.  
 Il Costruttore è eseguito automaticamente quando si istanzia una classe.  
 L'operatore **`new` invoca** il Costruttore, istanzia la classe, ed inizializza un oggetto.  
 L'oggetto è l'istanza della classe.  
@@ -19,7 +19,7 @@ Nota. I metodi degli oggetti di una classe sono collocati in un'area di memoria 
 [Fonte ed approfondimenti](https://www.andreaminini.com/java/i-costruttori-in-java)
 
 
- -- Costruttore     https://www.html.it/pag/51071/classi-oggetti-e-costruttori/  
+- Costruttore    
 con esso si determina il comportamento dell'oggetto, frutto dell'istanza della classe stessa.
 è spesso usato per effettuare le inizializzazioni dello stato delle nuove istanze.
 In Java possono esserci molteplici costruttori per una medesima classe (ognuno con parametri di diversi)
@@ -29,4 +29,5 @@ Costruttore è un particolare metodo che viene invocato.... (pg398 libro)
 Costruttore di default: Costruttore senza parametri
 UML puoi anche non metterlo, metilo se importante
 si può usare un metodo dentro Costruttore, ATENZIONE
-si può usare un Costruttore dentro un Costruttore.. SI
+si può usare un Costruttore dentro un Costruttore.. SI  
+https://www.html.it/pag/51071/classi-oggetti-e-costruttori/  

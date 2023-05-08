@@ -18,7 +18,7 @@
 - http://losviluppatore.it/category/java/
 - http://www.acosani.it/java/java001.html
 
-[JPA 2 e la persistenza in Java](https://www.html.it/articoli/jpa-2-e-la-persistenza-in-java/)
+[JPA 2 e la persistenza in Java](https://www.html.it/articoli/jpa-2-e-la-persistenza-in-java/) - WebLink
 
 
 ## [HTML.it](https://www.html.it/java/)

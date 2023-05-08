@@ -1,6 +1,6 @@
 # `JPA` (`Java Persistence API`)
 
-Framework per il linguaggio di programmazione Java che si occupa della **gestione della persistenza dei dati di un DBMS relazionale**
+Framework per il linguaggio di programmazione Java che si occupa della **gestione della [persistenza](../../Termini_e_Concetti/Programmazione.md#persistenza) dei dati di un DBMS relazionale**
 
 ## [JPA Annotation](./JPA_Annotation.md)
 

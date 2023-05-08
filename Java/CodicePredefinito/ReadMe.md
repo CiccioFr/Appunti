@@ -1,9 +1,7 @@
 # Codece Predefinito Java
 
 ## Interfacce
-- [Comparate](./Comparate.md)
 - [Comparable](./Comparable.md)
-- [Consumer](./Consumer.md)
 - [Serializable](./Serializable.md)
 - [Externalizable](./Externalizable.md)
 - [Iterator](./Iterator.md)
@@ -18,6 +16,12 @@
 - [Scrittura File](../progetti/File/ScritturaFile.md)
 - [InputStream](InputStream.md)
 - [Reader](Reader.md)
+
+## Interfacce Funzionali usate con [Lambda](../LambdaExpression.md#lambda-expression)
+- Runnable
+- Supplier - https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/A-simple-Java-Supplier-interface-example-for-those-new-to-Functional-programming
+- [Consumer](./Consumer.md)
+- [Comparate](./Comparate.md)
 
 ## Classi
 - [Classi Wrapper](./ClassiWrapper.md)

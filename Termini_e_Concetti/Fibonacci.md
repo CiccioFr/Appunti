@@ -1,9 +1,4 @@
-## Termini Concetti e Definizioni
-1. [Generali](./Definizioni_e_Concetti.md)
-1. [Programmazione](./Programmazione.md)
-1. [HardWare](./HardWare.md)
-1. [API](API.md)
-1. [hSicurezza informatica](Hacker.md)
+
 
 
 ### Numeri di Fibonacci

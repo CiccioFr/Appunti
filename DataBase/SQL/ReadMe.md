@@ -28,7 +28,7 @@ FROM tabella
 ```
 ---
 ## DAO - Data Access Object
-pattern architetturale per la gestione della persistenza:  
+pattern architetturale per la gestione della [persistenza](../../Termini_e_Concetti/Programmazione.md#persistenza):  
 Fondamentalmente una classe, con relativi metodi, che rappresenta un'entità tabellare di un RDBMS, usata principalmente in applicazioni web sia di tipo Java EE sia di tipo EJB, per stratificare e isolare l'accesso ad una tabella tramite query, poste all'interno dei metodi della classe, ovvero al data layer da parte della business logic creando un maggiore livello di astrazione ed una più facile manutenibilità. I metodi del DAO con le rispettive query dentro verranno così richiamati dalle classi della business logic.
 
 Il vantaggio relativo all'uso del DAO è dunque il mantenimento di una rigida separazione tra le componenti di un'applicazione, le quali potrebbero essere il "Modello" e il "Controllo" in un'applicazione basata sul paradigma MVC. 

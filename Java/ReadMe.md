@@ -11,13 +11,17 @@
     - Firma, Modificatori, Parametri Formali ed Attuali
 1. [Ereditarietà vs Associazione (Aggregazione/Composizione)](./Avanzato/EreditarietaVsAssociazione.md)
 1. [Modificatori di accesso e non](./Concetti/Modificatori.md)
-1. [Value e Reference Tipe](./Concetti/Value_e_Reference_Tipe.md)
+1. [Value e Reference Type](./Concetti/Value_e_Reference_Type.md)
 1. [Heap e Stack](./Concetti/Heap_e_Stack.md)
 1. [JavaDoc](./JavaDoc.md)
+1. [Maggiori feature introddotte in Java](./JavaNews.md)
+1. [JavaEE](./JavaEE.md)
 
 ## Le Basi
 1. [Operatori](./Basi/Operatori.md)
 1. [Tipi di Dati](./Basi/Tipi_di_Dati.md)
+    - primitivo, reference, nulltype e void
+    - Apparente ed Effetivo
 1. [Classi Wrapper](./CodicePredefinito/ClassiWrapper.md#classi-wrapper)
 1. [Array e Arrays](./Basi/ArrayArrays.md)
 1. [Costrutti Condizionali e Iterativi](./Basi/CostruttiCondizionaliIterativi.md)
@@ -26,18 +30,21 @@
 1. [Signature - La Firma del metodo](./Signature.md)
 1. [Parametro Formale / Attuale](./Basi/Parametri.md)
 1. [VarArgs - Variable Arguments](Varargs-Variable_Arguments.md)
----
-10. [Classi e Interfaccie in Java](./Classi/Classi.md)
+11. [Classi e Interfaccie in Java](./Classi/Classi.md)
 1. [il Costruttore](./Classi/Costruttore.md)
-1. [Oggetti - Getter e Setter](./Classi/Oggetti.md)
 ---
-13. [Eccezioni](./Avanzato/Eccezioni.md)
+12. [Oggetti - Getter e Setter](./Classi/Oggetti.md)
+1. [equals](./Basi/equals.md)
+1. [Comparable.compareTo();](./Basi/Comparable_compareTo.md)
+1. [Comparator.compare();](./Basi/Comparator_compare.md)
+---
+16. [Eccezioni](./Avanzato/Eccezioni.md)
 1. [Pojo vs Bean](./PojoVsBean.md) - Tutti i JavaBean sono POJO, ma non viceversa
 1. [Collection Framework](./CollectionFramework/ReadMe.md)
 1. [JavaDoc - Documentare il codice](./Concetti/JavaDoc.md)
 
 ## Avanzato
-1. [Librerie Java](./Concetti/Librerie.md)
+1. [Librerie Predefinite Java](./Concetti/LibreriePredefinite.md)
 1. [Interfacce e Classi Predefinite](./CodicePredefinito/ReadMe.md)
 1. [Blocchi di istruzioni](./Avanzato/Blocchi.md)
 1. [Altri Costrutti](./Avanzato/CostruttiAvanzati.md)
@@ -96,14 +103,10 @@
 1. [JSoup](./Librerie-Dipendenze/JSoup.md)
 1. [Web Scraping - `Apache HttpClient` e `JSoup`](./Librerie-Dipendenze/WebScraping.md)
 
-[Streaming API](http://losviluppatore.it/java-8-la-streaming-api/) - Web Link
-
----
-## Dipendenze
-
 ---
 ## Pattern in Java
-1. [MVC in Java](./Pattern/MVC_in_Java.md)
+1. [MVC in Java](./PatternJava/MVC_in_Java.md)
+1. [Singleton in Java](./PatternJava/Singleton_in_Java.md)
 
 ---
 
@@ -112,11 +115,11 @@
 
 ---
 ## L'inizio del Codice
+1. [Build System](./Intro/Build_System.md) - Sistemi per l'automazione del processo di build
 1. [Gestione di File](./progetti/File/ReadMe.md)
 1. [Progetto Spring](./progetti/ProgettoSpring.md)
 1. [Progetto MVC](./Prog_MVC_Java.md)
 1. [Progetto Hibernate](./Maven/ProgettoHibernate.md)
-1. [Build System](./Intro/Build_System.md)
 1. [Application.yaml & Application.properties](./Application.md)
     - server.port
 1. [Questione di EndPoint](./Questione_di_EndPoint.md)

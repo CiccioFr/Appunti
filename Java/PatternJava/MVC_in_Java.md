@@ -1,3 +1,5 @@
+# Pattern MVC in Java
+
 creare package
 model - controller - repository (mettiamo collegamento a DB - jdbc)
 > per html classico in resources/static | altre tecnologie proprio fuori java
@@ -15,7 +17,7 @@ passi:
 2. server
 3. html (fare fetch..)
 
-usando spring non dobbiamo preoccuparci di creare il Json (partendo dai dati estrapolati dal DB), altrimenti da fare a mno con delle librerie che convertono in json
+usando spring non dobbiamo preoccuparci di creare il Json (partendo dai dati estrapolati dal DB), altrimenti da fare a mano con delle librerie che convertono in json
 
 ---
 paylod: **modelli** che non corrispondono a tabelle del DB - **oggeti** che vogliamo restituire al frontend che non corrispondono al DB -> Algoritmo

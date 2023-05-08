@@ -1,7 +1,13 @@
 # Appunti informatici
 
-## [Termini e Concetti](./Termini_e_Concetti/ReadMe.md)
-
+## Termini Concetti e Definizioni
+1. [Fibonacci](./Termini_e_Concetti/Fibonacci.md)
+1. [Generali](./Termini_e_Concetti/Definizioni_e_Concetti.md)
+1. [Programmazione](./Termini_e_Concetti/Programmazione.md)
+1. [HardWare](./Termini_e_Concetti/HardWare.md)
+1. [API](./Termini_e_Concetti/API.md) - RESTful e SOAP
+1. [Rest / Restful e Codici di Stato](./Web%20API%20Rest.md)
+1. [Sicurezza informatica](./Termini_e_Concetti/Hacker.md)
 ---
 ## O.S.
 1. [Linux](./Linux/ReadMe.md)
@@ -70,6 +76,7 @@ linguaggio di marcatura / formattazione
 - [Logging](./Logging.md)
 
 ---
+
 # IDE - Integrated Development Environment
 Ambiente di Sviluppo Integrato
 
@@ -79,14 +86,17 @@ Ambiente di Sviluppo Integrato
 1. [Eclipse](./IDE/Eclipse/ReadMe.md)
 
 ---
+
 ## Editor di Codice Sorgente
-1. [VSCode](./IDE/VSCode/ReadMe.md)
+1. [V.S. Code](./IDE/VSCode/ReadMe.md)
 
 ---
+
 # Supporti alla Programmazione
 1. [Git](./Git/ReadMe.md) - VCS (Version Control System)
 1. [Maven](./Maven.md)
 1. [Docker](./Docker/ReadMe.md)
+1. [Kubernetes](./Kubernetes.md)
 1. [UML](./Supporti/UML/ReadMe.md)
 1. [Pattern](./Supporti/Pattern/ReadMe.md)
 1. [API (REST, SOAP e GraphQL) e EndPoint](./Termini_e_Concetti/API.md)
@@ -136,7 +146,7 @@ Ambiente di Sviluppo Integrato
 
 ---
 ## Colloqui di lavoro
-- [Java](./ColloquiLavoro/JavaDomande.md)
+- [Java](../Portfolio/ColloquioDiLavoro/JavaDomande.md)
 
 ---
 Istanza – una determinata esecuzione di un processo

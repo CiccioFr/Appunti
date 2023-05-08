@@ -2,7 +2,7 @@
 ## La Programmazione Orientata agli Oggetti
 ---
 
-## I Tre Pilastri:
+## I Tre Pilastri (Paradigmi):
 
 ### **`Ereditarietà`**
 attributi e metodi vengono ereditate dalle Classe figlie  
@@ -19,7 +19,7 @@ Approfondimento: [scheda](./Polimorfismo.md) - [link web](http://www.dacrema.com
 ### **`Incapsulamento`**
 Meccanismo atto a limitare l'accesso diretto agli elementi dell'oggetto;  
 capacità di un oggetto di nascondere la sua implementazione interna rispetto al resto del codice.  
-`Information Hiding` quando si settano a private le variabili - uso get set)  
+`Information Hiding` quando si settano a private le variabili (get set)  
 
 ---
 ## Caratteristiche:

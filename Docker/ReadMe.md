@@ -1,17 +1,44 @@
-# Docker
+# `Docker`
 
 Tecnologia per l'isolamento delle risorse  
+Piattaforma software open-source per eseguire processi informatici in ambienti isolabili, minimali e facilmente distribuibili chiamati `Container Linux` (o anche soltanto container), con l'obiettivo di semplificare i processi di deployment di applicazioni software.  
+[Link amazon](https://aws.amazon.com/it/docker/)  
+[Link ibm](https://www.ibm.com/it-it/cloud/learn/docker)  
+[Link microsoft](https://learn.microsoft.com/it-it/dotnet/architecture/microservices/container-docker-introduction/docker-defined)  
 
 Termini:  
 - Container
-    - I container sono pacchetti di software che contengono tutti gli elementi necessari per l'esecuzione in qualsiasi ambiente. In questo modo, i container virtualizzano il sistema operativo e sono eseguibili ovunque, da un data center privato al cloud pubblico o anche sul laptop di uno sviluppatore.
-- da Chroot a Kubernetes
-    - Kubernetes è un sistema open-source di orchestrazione e gestione di container. Inizialmente sviluppato da Google, adesso è mantenuto da Cloud Native Computing Foundation. Funziona con molti sistemi di containerizzazione, compreso Docker.
+    Pacchetti di software che contengono tutti gli elementi necessari per l'esecuzione in qualsiasi ambiente. In questo modo, i container virtualizzano il sistema operativo e sono eseguibili ovunque, da un data center privato al cloud pubblico o anche sul laptop di uno sviluppatore.
+- Chroot (contrazione di change e root)  
+    in informatica ed in particolare nei sistemi operativi Unix e Unix-like, indica un'operazione che consiste nel cambiare la directory di riferimento dei processi che sono in esecuzione corrente e per i processi generati da questi ultimi (cosiddetti processi figlio). 
 
 
 ![Docker](./docker_cheatsheet.png)
 
 ---
+
+### Container
+Pacchetti di software che contengono tutti gli elementi necessari (librerie, strumenti di sistema, codice e runtime) per l'esecuzione in qualsiasi ambiente. In questo modo, i container virtualizzano il sistema operativo e sono eseguibili ovunque, da un data center privato al cloud pubblico o anche sul laptop di uno sviluppatore.  
+[Link google](https://cloud.google.com/learn/what-are-containers?hl=it#section-3)
+- Creazione del Container:  
+    Da un'immagine (eseguendo il comando docker run) Docker eseguirà il download dell'immagine dal docker hub ed eseguirà un'istanza di redis.  
+    [Link thesolving](https://thesolving.com/it/containerizzazione/come-creare-un-container-con-docker/)
+- Immagini Docker:  
+    Raccolta di software da eseguire come container che contiene un set di istruzioni per la creazione di un container da eseguire sulla piattaforma Docker. Le immagini sono immutabili e le modifiche apportate a un'immagine richiedono la creazione di una nuova immagine.  
+    [Link oracle](https://www.oracle.com/it/cloud/cloud-native/container-registry/what-is-docker/)  
+- volumi in Docker  
+    Un volume di Docker permette di scambiare dati tra questi container o rendere persistenti dati provenienti da un container Docker.  
+    [Link ionos](https://www.ionos.it/digitalguide/server/know-how/volumi-dei-container-docker/)  
+- rimuovere contenitori, immagini, volumi e reti docker
+    tilizzare il comando docker container rm seguito dall'ID dei contenitori che si desidera rimuovere.  
+    [Link joecomp](https://it.joecomp.com/how-remove-docker-containers)  
+
+[YouTube](https://www.youtube.com/watch?v=0TBvInxREIk)  
+[Containerizzazione](https://thesolving.com/it/containerizzazione/)  
+Kubernetes?  
+
+---
+
 # Creare un Container
 Prerequisito:
 - MAVEN
@@ -83,12 +110,6 @@ FLUSH PRIVILEGES; // i privilegi vengono persistiti
 - il Sistema Operativo è quel VLS2..
 ---
 
-
-Cubernates è un orchestratore di Container
-- si assume la responsabilità che i ms siano up, che le chiamate funzionino: diano come esito 200/300, ecc
-- è una dashboard molto evoluta..
-
----
 ## Docker https://www.docker.com  
 ### Download
  - https://www.docker.com/products/docker-desktop/
@@ -99,3 +120,8 @@ Cubernates è un orchestratore di Container
 
 ---
 https://www.youtube.com/watch?v=k1A1CdD1yFc
+
+- Installazione Windows -> 
+    [Guida 1](https://www.ictpower.it/sistemi-operativi/installazione-e-gestione-dei-container-windows-e-linux-con-docker-desktop-in-windows-10-versione-1909.htm) / 
+    [Guida 2](https://thesolving.com/it/containerizzazione/come-installare-docker-mini-guida-pratica/) / 
+    [Download](https://hub.docker.com/editions/community/docker-ce-desktop-windows ) 

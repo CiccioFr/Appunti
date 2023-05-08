@@ -1,7 +1,5 @@
 # Comparate - Interfaccia
 
-// TODO credo che il titolo sia da cambiare..
-
 utilizzata per definire un ordinamento naturale degli oggetti di una classe.
 Implementando l'interfaccia `Comparable`, è possibile definire un criterio di ordinamento per gli oggetti di una classe e utilizzarlo per ordinare una lista di oggetti tramite il metodo `sort()` della classe Collections o della classe Arrays.
 

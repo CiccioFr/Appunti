@@ -5,22 +5,31 @@ Convenzione: iniziare i nomi dei metodi con un _carattere minuscolo_ e proseguir
 
 - deve iniziare con una lettera dell’alfabeto o _
 
-## il Metodo Main
-**`String[] args`** argomento del metodo main  
+### Finezze:
+- "**parametro**" si riferisce alla variabile definita nella firma del metodo
+- "**argomento**" si riferisce al valore passato al metodo durante la chiamata.
+## Struttura di un Metodo 
+```java
+[public|protected|private] [static] [final] Tipo nomeMetodo([Tipo1 parametro1, ..., TipoN parametroN])
+[throws Eccezione1, Eccezione2, ...] {
+    // blocco di codice appartenente al metodo
+return var; }
+```
+
+## il Metodo **main(String[] args)**
+**`String[] args`**: **argomento** del metodo main  
 parametro che viene inizializzato all'avvio del programma con ciò che viene inserito da terminale dopo "`java nomedelprogramma`".  
 
 ## super
-il metodo speciale che richiama il (metodo) costruttore della SuperClasse (padre)  
+La keyword richiama il costruttore della SuperClasse (padre)  
 
 ## tipi di metodi:
 - metodo di istanza (pg 337)
    - System.out.println("Ciao");
 - metodo di classe - static // chiamata di un metodo static
-- metodo di istanza - senza static // chiamata di un metodo NON static (prima devo fare inizializzare Scanner)
-     - Scanner tastiera = new Scanner(System.in);
-     - String a = tastiera.nextLine();
 
-## Metodo `toString()` -> ritorna una stringa che rappresenta un oggetto  
+## Metodo `toString()`
+- ritorna una stringa che rappresenta un oggetto  
 ## Metodo `equals()` -> 
 
 ## [`Metodo clone()`](http://informatica.abaluth.com/programmazione/java/java-metodo-clone/)  
@@ -70,7 +79,12 @@ La clausola throws nel metodo ridefinito può essere omessa perché viene assegn
 - Tipo di `ritorno covariante`  
    Il tipo di ritorno può essere una sottoclasse del tipo di ritorno del metodo originale; si parla di tipo di ritorno covariante.  
    Ciò è possibile a partire dalla versione 5.  
-   
-http://informatica.abaluth.com/programmazione/java/java-ereditarieta-sottoclassi-o-classi-derivate/
+   - https://www.apogeonline.com/articoli/covarianza-controvarianza-e-invarianza-in-java-pellegrino-principe/
+   - https://www.javascripto.com/18841/che-cose-un-tipo-di-ritorno-covariante.html
 
-## [Comparazione e ordinamento degli oggetti in Java](https://www.iprogrammatori.it/articoli/java/art_comparazione-e-ordinamento-degli-oggetti-in-java_1659.aspx)
+- http://informatica.abaluth.com/programmazione/java/java-ereditarieta-sottoclassi-o-classi-derivate/
+
+---
+
+## Link
+- [Comparazione e ordinamento degli oggetti in Java](https://www.iprogrammatori.it/articoli/java/art_comparazione-e-ordinamento-degli-oggetti-in-java_1659.aspx)

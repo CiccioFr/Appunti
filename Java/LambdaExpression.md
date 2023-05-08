@@ -11,6 +11,8 @@ In un’espressione lambda o nessuno dei tipi dei parametri è dichiarato oppure
 Se c’è solamente un parametro, le parentesi tonde possono essere omesse.  
 Le lambda sono usate con le funcional interface.  
 
+## Interfaccia Funzionale `Runnable`
+### Override del metodo `Runnable.run()`
 Esempio:
 ```java
 // Classe Anonima per implementare il metodo di Runnable
@@ -22,7 +24,8 @@ Runnable r1 = new Runnable() {
     }
 };
 
-// Lambda Runnable
+// od anche:
+// Lambda Runnable - definizione di una lambda expression
 Runnable r2 = () -> System.out.println("Hello world with Lambda!");
 ```
 
@@ -84,7 +87,6 @@ public class Test {
     }
 }
 ```
-
 
 ## Lambda Expression memorizzate in una variabile
 

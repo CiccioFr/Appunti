@@ -1,7 +1,16 @@
 # [Class Loader](http://www.di-srv.unisa.it/~ads/corso-security/www/CORSO-9900/java/mirror/mokabyte/clasload.htm)  
 ## Caricamento dinamico delle classi in Java
+Messo a disposizione da Java per personalizzare il caricamento dell classi a run time
 
-messo a disposizione da Java per personalizzare il caricamento dell classi a run time
+l Class Loader (caricatore di classi) è una componente fondamentale del runtime environment (ambiente di esecuzione) che ha il compito di caricare dinamicamente le classi all'interno della JVM (Java Virtual Machine) durante l'esecuzione del programma.
+
+Il Class Loader riceve le richieste di caricamento delle classi dal codice sorgente e le ricerca all'interno dei percorsi specificati dal CLASSPATH, ovvero i percorsi in cui sono presenti i file delle classi. Una volta trovate le classi richieste, il Class Loader le converte in un formato eseguibile all'interno della JVM e le rende disponibili per l'utilizzo da parte del programma.
+
+Il Class Loader utilizza una gerarchia di classi, in cui ogni classe caricata ha un genitore (parent) e un figlio (child). Il Class Loader padre è responsabile del caricamento delle classi utilizzate dal Class Loader figlio, fino a raggiungere la classe di base della JVM (bootstrap class loader).
+
+Esistono diversi tipi di Class Loader, ognuno dei quali è responsabile del caricamento di classi specifiche. Ad esempio, il Class Loader di sistema (system class loader) si occupa di caricare le classi del sistema, mentre i Class Loader personalizzati possono essere utilizzati per caricare classi specifiche del programma.
+
+----
 
 Java permette di costruire applicazioni estendibili dinamicamente, nel senso che un'applicazione è in grado di caricare, a tempo di esecuzione, nuovo codice e di eseguirlo, incluso del codice che nemmeno esisteva quando l'applicazione è stata scritta.
 

@@ -14,9 +14,15 @@
 
 L'utilizzo di questa gerarchia di classi e interfacce permette di separare l'implementazione della lettura del file dalla logica del programma che lo utilizza, facilitando la manutenzione e il testing del codice.
 
-## Ci sono varie alternative per la lettura di file in Java:
 ---
+
+## Le alternative per la lettura di file in Java:
+
+------------------------------------------------
+
 ## Classi `FileReader` e `BufferedReader`:
+<details><summary> Snippet </summary>
+
 ```java
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -42,15 +48,22 @@ public class FileReadingExample {
 }
 
 ```
-La classe `FileReader` apre il file e restituire un oggetto. 
+---
+</details>
+
+### Le istruzioni:
+- La classe `FileReader` apre il file e restituire un oggetto.  
     (`FileReader` estende InputStreamReader che estende Reader)  
-La classe `BufferedReader` legge il contenuto del file. 
+- La classe `BufferedReader` legge il contenuto del file.  
     (Il Costruttore `BufferedReader` accetta oggetto Reader, quindi anche FileReader stesso)  
-Il metodo `readLine()` legge una riga alla volta finché non raggiunge la fine del file (il valore restituito sarà null).  
+- Il metodo `readLine()` legge una riga alla volta finché non raggiunge la fine del file.  
+(il valore restituito sarà null)
 
 In caso di eventuali errori durante la lettura del file, viene gestita l'eccezione di tipo `IOException`, stampando l'output dello [`stack trace`](../../../Termini_e_Concetti/Programmazione.md#stack-trace) sull'output standard di errore. (Ma dubito che chiuda il file, difatti dopo...)
 
-### Snippet con un blocco finally
+### Con un `blocco finally`
+<details><summary> Snippet </summary>
+
 ```java
 // in alteernativa alla chiusura nel try { .. 
         try { // come sopra
@@ -72,7 +85,12 @@ In caso di eventuali errori durante la lettura del file, viene gestita l'eccezio
 ```
 utilizziamo un blocco finally per chiudere il reader, in modo da rilasciare le risorse utilizzate dal nostro programma e garantire che il file sia correttamente chiuso anche in caso di eccezioni.
 
-### Snippet con costrutto `try-with-resources`:
+---
+</details>
+
+### Con costrutto `try-with-resources`:
+<details><summary> Snippet </summary>
+
 ```java
     String filePath = "path/to/file.txt";
     try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
@@ -87,11 +105,16 @@ utilizziamo un blocco finally per chiudere il reader, in modo da rilasciare le r
 Il costrutto [`try-with-resources`](../../Avanzato/Try-with-resources.md) viene utilizzato per gestire automaticamente la chiusura del BufferedReader alla fine del blocco try, anche in caso di eccezione.
 
 ---
+</details>
 
-## classi `File` e `FileReader`:
+------------------------------------------------
+
+## Classi `File` e `FileReader`:
 un'alternativa comune per la lettura di file in Java è l'utilizzo della classe `FileReader`. Ma:
 - legge il contenuto di un file carattere per carattere.  
 - a differenza di `Scanner` e `BufferedReader`, la classe `FileReader` **non dispone di metodi di lettura avanzati**, come la lettura di una linea intera o di un'intera sequenza di caratteri.
+
+<details><summary> Snippet </summary>
 
 ```java
 try {
@@ -113,8 +136,13 @@ Viene creato un oggetto di tipo `File` che rappresenta il file.
 La lettura del file avviene attraverso un ciclo while che ne legge carattere per carattere il contenuto. La lettura del file si interrompe quando il metodo read() restituisce -1, che indica la fine del file.
 
 ---
+</details>
+
+------------------------------------------------
 
 ## Classi `File` e `Scanner`:
+<details><summary> Snippet </summary>
+
 ```java
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -146,7 +174,12 @@ Il metodo `hasNextLine()` restituisce true se c'è ancora una riga da leggere, n
 L'oggetto scanner viene chiuso dopo aver letto tutto il contenuto del file.  
 In caso di errore, viene gestita l'eccezione di tipo `FileNotFoundException`, stampando l'output dello [`stack trace`](../../../Termini_e_Concetti/Programmazione.md#stack-trace) sull'output standard di errore (viene stampato un messaggio di errore con la traccia dello stack).
 
+---
+</details>
+
 ### Snippet con costrutto `try-with-resources`:
+<details><summary> Snippet </summary>
+
 ```java
     File file = new File("C:/Users/Utente/Documents/file.txt");
 
@@ -163,8 +196,13 @@ In caso di errore, viene gestita l'eccezione di tipo `FileNotFoundException`, st
 Utilizzando il costrutto [`try-with-resources`](../../Avanzato/Try-with-resources.md), è possibile evitare di dover chiudere manualmente le risorse utilizzate e garantire che vengano chiuse correttamente anche in caso di eccezioni.
 
 ---
+</details>
 
-## Classi `Path` e `Files` con `List`: 
+------------------------------------------------
+
+## Classi `Path` e `Files` con `List`:
+<details><summary> Snippet </summary>
+
 ```java
 import java.io.IOException;
 import java.nio.file.Files;
@@ -185,10 +223,14 @@ public class LetturaFile {
     }
 }
 ```
-
 ---
+</details>
 
-## Classi `Paths` e `Files` e `Charset` / `StandardCharsets` con `List`: 
+------------------------------------------------
+
+## Classi `Paths` e `Files` e `Charset` / `StandardCharsets` con `List`:
+<details><summary> Snippet </summary>
+
 ```java
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -223,3 +265,6 @@ Questo metodo accetta come parametri il percorso del file ed opzionalmente l'enc
 Una volta ottenuta la lista di righe lette, possiamo iterarla..
 
 ---
+</details>
+
+------------------------------------------------

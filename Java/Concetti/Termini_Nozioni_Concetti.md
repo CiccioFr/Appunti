@@ -25,18 +25,19 @@ Le variabili in Java possono avere uno dei seguenti tre ambiti:
 - nome metodi e variabili con iniziale minuscola
 - uso dell'underscore "_" per variabili.. (di sistema??)
 
-**`Easy Evaluation`** - Valutazione pigra: "primo && secondo" valuta il primo, se falso non considera il secondo, ecc..
+## `Lazy Evaluation` (valutazione pigra o tardiva)
+Tecnica di valutazione utilizzata in programmazione per ritardare l'esecuzione di un'espressione fino al momento in cui il suo valore è effettivamente necessario. In altre parole, con la "lazy evaluation", l'espressione non viene valutata immediatamente, ma solo quando il suo valore viene richiesto esplicitamente durante l'esecuzione del programma.
+"primo && secondo" valuta il primo, se falso non considera il secondo, ecc..
+
+## `Lazy Inizialization`  
+Istanziazione ritardata (pigra), in contrapposizione a eager o early.  
 
 tracciare le iterazioni: mettere System.out.print() ogni tanto
 
-- Metodo: Funzioni dichiarate all'interno di una classe  
-```java
-[public|protected|private] [static] [final] Tipo nomeMetodo([Tipo1 parametro1, ..., TipoN parametroN])
-[throws Eccezione1, Eccezione2, ...] {
-    // blocco di codice appartenente al metodo
-return var; }
-```
-- variabili formali: parametro1, ..., parametroN
+## `Metodo`
+Funzioni dichiarate all'interno di una classe  
+
+## Parametro formale: parametro1, ..., parametroN
 - parametri attuali (alias valori attuali): I valori che inseriamo al momento della chiamata del metodo:
     - valori attuali: es. String txt = Classe.metodo("valore attuale");
 
@@ -50,20 +51,40 @@ return var; }
 
 - `continue`
 
-- Overloading
-un metodo piò avere diversi overload
-È importante notare che in Java un metodo è univocamente determinato (oltre che dalla classe a cui appartiene
-naturalmente) dal suo identificatore e dalla lista dei tipi dei parametri che riceve in input.
-Tutto questo definisce la signature del metodo (la firma) il che significa che siamo liberi di ridefinire il medesimo metodo più volte a patto che ogni definizione abbia una lista di parametri diversa (tipi dei parametri, i nomi non contano, non conta nemmeno il tipo di ritorno).
+## `Overloading`
+<details><summary>un metodo piò avere diversi overload</summary>  
 
+In Java un metodo è univocamente determinato (oltre che dalla classe a cui appartiene naturalmente) dal suo identificatore e dalla lista dei tipi dei parametri che riceve in input.
+Tutto questo definisce la signature del metodo (la firma) il che significa che siamo liberi di ridefinire il medesimo metodo più volte a patto che ogni definizione abbia una lista di parametri diversa (tipi dei parametri e posizione degli stessi, i nomi non contano, non conta nemmeno il tipo di ritorno).
+</details>
+
+## `Wild Card`
+è un tipo di sintassi che consente di dichiarare un parametro di tipo generico senza specificare il tipo esatto. Utilizzata come segnaposto, sarà sostituito con qualsiasi tipo di oggetto al momento dell'uso.  
+Ad esempio, si può dichiarare un'ArrayList di oggetti generici utilizzando la seguente sintassi:  
+`ArrayList<?> listaGenerica = new ArrayList<>();`  
+Le wild card possono essere utilizzate in diverse situazioni, ad esempio nella definizione di metodi generici, nell'utilizzo di collezioni di oggetti generici e nella definizione di tipi di dati parametrici. Grazie alle wild card è possibile creare codice più flessibile e riutilizzabile, che può adattarsi a diverse situazioni e tipi di dati.
+
+## `Wildcard delimitati`
+Utilizzati per specificare vincoli sul tipo di oggetti che possono essere utilizzati in un'istanza di una classe generica.
+-  `<? extends T>` specifica un tipo di wildcard **delimitato superiore**  
+    I tipi di oggetti che possono essere utilizzati devono essere una **sottoclasse** di T o T stesso.
+-  `<? super T>` specifica un tipo di wildcard **delimitato inferiore**  
+    I tipi di oggetti che possono essere utilizzati devono essere una **superclasse** di T o T stesso.
+
+[Covarianza, controvarianza e invarianza in Java](https://www.apogeonline.com/articoli/covarianza-controvarianza-e-invarianza-in-java-pellegrino-principe/)
 ---
 
 [Codice Boilerplate](./CodiceBoilerplate.md)
 
-[Serializzazione](./Serializzazione.md)
+[Serializzazione](./Serializzazione.md)  
+[Serializzazione](../../Termini_e_Concetti/Programmazione.md#serializzazione---persistenza-del-dato)
 
 metodi get (legge) e set (imposta)- necessari quando impostiamo su private una variabile (pg 251 libro)
 
+## `Thread Safe`
+Si riferisce alla capacità di un programma o di una libreria di gestire correttamente l'accesso concorrente a risorse condivise da parte di più thread.  
+In Java, un'istanza di una classe viene considerata "Thread Safe" se può essere utilizzata da più thread contemporaneamente senza incorrere in condizioni di race condition o di inconsistenze nel suo stato interno. Ciò significa che, se un thread sta eseguendo un metodo su un'istanza "Thread Safe" di una classe, un altro thread può eseguire simultaneamente un altro metodo sulla stessa istanza senza causare problemi di sincronizzazione o conflitti.  
+Per garantire la "Thread Safety" di un'istanza di classe in Java, è possibile utilizzare tecniche come il blocco sincronizzato o l'utilizzo di classi di utilità di sincronizzazione come java.util.concurrent.locks.Lock. Inoltre, è importante evitare l'uso di variabili globali o statiche che possono essere condivise tra più thread, in quanto ciò può causare problemi di sincronizzazione.
 
 - variabile o metodo - cammelCase (prima lettera minuscola)
 - variabile - deve iniziare con una lettera dell’alfabeto o underscore (si potrebbe usare anche il `$`)  

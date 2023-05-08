@@ -31,19 +31,19 @@ la classe File fornisce diversi costruttori che accettano parametri per creare u
 
 Costruttore con parametro stringa:
 ```java
-File file = new File("percorso/del/file");
+File file = new File("percorso/del/file.txt");
 ```
 
 Costruttore con parametro URI:
 ```java
-URI uri = new URI("file:///percorso/del/file");
+URI uri = new URI("file:///percorso/del/file.txt");
 File file = new File(uri);
 ```
 
 Costruttore con parametro oggetto File:
 ```java
 File file1 = new File("percorso/della/directory");
-File file2 = new File(file1, "nomefile.txt");
+File file2 = new File(file1, "file.txt");
 ```
 
 In generale, i parametri accettati dai costruttori della classe File dipendono dal tipo di percorso o di oggetto che si desidera utilizzare per creare l'oggetto File.

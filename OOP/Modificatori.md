@@ -28,9 +28,10 @@ https://www.html.it/pag/50140/metodi-statici-static-e-metodi-di-istanza/
 ```java
 // static nella variabile
 public class Classe {
+    private static int nextId = 0;
     private String nome;
     private int id;
-    private static int nextId = 0;
+
     public Persona(String nome){
         this.nome = nome;
         this.cognome = cognome;

@@ -1,15 +1,18 @@
 # `API` - `Application Programming Interface`
-- Insieme di procedure atte a risolvere uno specifico problema di comunicazione tra diversi computer o tra diversi software o tra diversi componenti di software
-- è un set di strumenti, definizioni e protocolli che serve a integrare software e servizi applicativi e che consente ai tuoi prodotti e ai servizi di comunicare con altri prodotti e servizi, eliminando la necessità di creare ogni volta nuove infrastrutture per connetterli.
+
+- Insieme di procedure atte a risolvere uno specifico problema di comunicazione tra diversi computer o tra diversi software o tra diversi componenti di software  
+(permettono lo scambio di informazioni tra due componenti software)
+- Facilita lo sviluppo software fornendo dei componenti che possono essere impiegati dai programmatori
+- è un set di strumenti, definizioni e protocolli che serve a integrare software e servizi applicativi e che consente a prodotti e servizi di comunicare con altri prodotti e servizi, eliminando la necessità di creare ogni volta nuove infrastrutture per connetterli.
 
 ## `RESTful` e `SOAP`
 hanno consentito di semplificare la progettazione delle `API` e di facilitarne l'implementazione.  
 
-## `SOAP` (`Simple Object Access Protocol`)  
+## `SOAP` (`Simple Object Access Protocol`)
 **specifica di protocollo** Ha lo scopo di uniformare le richieste e i formati dei messaggi, agevola la comunicazione tra app di diversi ambienti o scritte con linguaggi differenti.  
 Le API progettate con il protocollo SOAP usano il linguaggio XML come formato del messaggio e ricevono le richieste tramite HTTP o SMTP.  
 
-## `REST` (`Representational State Transfer`)  
+## `REST` (`Representational State Transfer`)
 è un **tipo di architettura** fondato su **sei linee guida** che risultano più semplici da seguire rispetto a un protocollo prescritto. Ciò implica l'assenza di uno standard ufficiale per le API web RESTful.  
 Questo influisce sulla maggiore frequenza d'uso delle `API RESTful` rispetto ai metodi `SOAP`.  
 Le API web che rispettano i vincoli architetturali REST vengono definite API RESTful

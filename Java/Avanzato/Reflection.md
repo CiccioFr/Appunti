@@ -18,6 +18,22 @@ La reflection si basa sull'uso di classi speciali fornite dalla libreria standar
 - `java.lang.reflect.ParameterizedType`: rappresenta un tipo generico parametrizzato, e fornisce met
 
 ---
+
+## Ottenere un oggetto Class
+
+```java
+Class t = Class.forName("java.lang.Thread")
+```
+viene utilizzata per ottenere un oggetto Class che rappresenta la classe java.lang.Thread.
+L'istruzione carica dinamicamente la classe in memoria e restituisce un oggetto Class che rappresenta tale classe, consentendo di accedere ai suoi metodi, campi e altre proprietà tramite la riflessione.
+
+La classe Class in Java è una classe speciale che rappresenta un'entità di tipo classe, ovvero un'astrazione del concetto di una classe Java. Ogni classe in Java ha un oggetto Class associato ad essa, che può essere ottenuto tramite la riflessione.  
+Il metodo statico forName della classe Class viene utilizzato per caricare dinamicamente la classe specificata come parametro (in questo caso, "java.lang.Thread") durante l'esecuzione del programma.   
+Questo significa che la classe java.lang.Thread non viene caricata in memoria finché non viene eseguita l'istruzione Class.forName("java.lang.Thread").
+
+
+---
+
 ### Esempio d'uso del metodo invoke();
 ```java
 import java.lang.reflect.Method;

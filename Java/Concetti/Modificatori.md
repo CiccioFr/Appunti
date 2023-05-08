@@ -1,4 +1,4 @@
-# Modificatori
+# Modificatori di accesso e non
 
 Modificatore | Classe | Costruttore |  Metodo | Attributo
 --|--|--|--|--
@@ -58,6 +58,34 @@ public class TransientExample{
 ```
 fonte [stackoverflow.com](https://stackoverflow.com/questions/910374/why-does-java-have-transient-fields)
 </details>
+
+
+---
+
+# Modificatori di Accesso delle Classi
+
+## `Static` / nested
+Si usa solo per le classi nested  
+e' una classe con metodi di servizio  
+Le normali classi (es. Math) hanno:
+- solo metodi static
+- un costruttore private e vuoto per impedirne l'istanza
+- il modificatore final
+
+## `Final`
+Classe che non può essere estesa/ereditata 
+
+## `Inner` class o Classe interna
+Classe interna NON statica
+- viene utilizzata per *migliorare l'incapsulamento*.  
+- è una classe racchiusa all'interno di un'altra classe.
+
+---
+
+- `native` (perché sfrutta la tecnologia JNI che rende Java dipendente dal sistema operativo).
+- `synchronized` (riguarda i processi in Java).
+- `transient` (riguarda i processi in Java).
+- `volatile` (riguarda i processi in Java).
 
 ---
 https://www.youtube.com/watch?v=yqgSaRE9egk

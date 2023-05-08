@@ -24,15 +24,15 @@ I dati possono essere memorizzati in un file in formato:
 
 Per la lettura di un file di testo, si può utilizzare la classe `FileReader` per ottenere un flusso di input di caratteri (letti uno ad uno) dal file, e poi avvolgerlo con un oggetto `BufferedReader` per leggere le linee di testo in modo efficiente. - Link -> [Difference Between Scanner and BufferedReader Class](https://www.geeksforgeeks.org/difference-between-scanner-and-bufferreader-class-in-java/)
 
-- ### `java.io.File` - Importanti caratteristiche ! !
+- ### [`java.io.File`](../../CodicePredefinito/File.md) - Importanti caratteristiche ! !
 La classe File è una rappresentazione astratta di un file o di una directory. Permette di lavorare a livello più alto, come ad esempio creare un file vuoto, eliminarlo, ricercarlo o rinominarlo.
 
-- ### [java.util.Reader](../../CodicePredefinito/Reader.md)
+- ### [`java.util.Reader`](../../CodicePredefinito/Reader.md)
 
-- ### [java.io.FileReader](../../CodicePredefinito/FileReader.md)
+- ### [`java.io.FileReader`](../../CodicePredefinito/FileReader.md)
 La classe FileReader permette di leggere, uno alla volta, i caratteri contenuti in un file di testo.
 
-- ### [java.io.BufferedReader](../../CodicePredefinito/BufferedReader.md)
+- ### [`java.io.BufferedReader`](../../CodicePredefinito/BufferedReader.md)
 La classe BufferedReader è simile alla classe FileReader ma **permette di leggere i caratteri presenti nel file in blocchi**.  
 I caratteri letti vengono memorizzati in un buffer temporaneo. Quando i dati vengono richiesti, vengono letti dal buffer, quindi le prestazioni migliorano notevolmente non dovendo ogni volta avere l'ok del sistema operativo per accedere al file system.
 
